@@ -1,0 +1,23 @@
+<!-- Source for the social share image. Export to assets/og-image.png at 1200×630. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#F6F4EF"/>
+  <circle cx="1050" cy="120" r="360" fill="#E1F5EE"/>
+  <g transform="translate(96,150)">
+    <g transform="translate(0,0)">
+      <circle cx="15" cy="15" r="15" fill="#0F6E56"/>
+      <text x="42" y="27" font-family="'SF Pro Rounded',system-ui,sans-serif" font-size="40" font-weight="800" fill="#1B2A29">Goutly</text>
+    </g>
+    <text x="0" y="150" font-family="'SF Pro Rounded',system-ui,sans-serif" font-size="72" font-weight="800" fill="#1B2A29" letter-spacing="-2">Stay on your meds.</text>
+    <text x="0" y="230" font-family="'SF Pro Rounded',system-ui,sans-serif" font-size="72" font-weight="800" fill="#0F6E56" letter-spacing="-2">Reach your target.</text>
+    <text x="0" y="300" font-family="system-ui,sans-serif" font-size="30" fill="#6B7A78">On-device · No account · Nothing leaves your phone.</text>
+    <g transform="translate(0,340)">
+      <rect x="0" y="0" width="260" height="58" rx="12" fill="#1B2A29"/>
+      <text x="130" y="37" text-anchor="middle" font-family="'SF Pro Rounded',system-ui,sans-serif" font-size="26" font-weight="700" fill="#fff">App Store</text>
+    </g>
+  </g>
+  <g transform="translate(720,300)">
+    <line x1="0" y1="150" x2="360" y2="150" stroke="#E0912F" stroke-width="3" stroke-dasharray="6 8"/>
+    <path d="M0,20 L90,60 L180,90 L270,120 L360,145" fill="none" stroke="#0F6E56" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="360" cy="145" r="11" fill="#0F6E56"/>
+  </g>
+</svg>
