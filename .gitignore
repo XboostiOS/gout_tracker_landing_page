@@ -1,6 +1,15 @@
 .DS_Store
 
-# content/: only publish the two public feeds; keep schemas/docs local
+# content/: publish only the public feeds + their images.
+# Keep schemas, docs (FEED_SCHEMA.md), the generation prompt (GEN_PROMPT.md),
+# and the verification report local — never push them.
 content/*
 !content/feed-knowledge.json
 !content/feed-news.json
+!content/img/
+content/img/*
+!content/img/*.jpg
+!content/img/*.jpeg
+!content/img/*.png
+!content/img/*.svg
+!content/img/*.webp

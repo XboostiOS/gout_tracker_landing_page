@@ -1,45 +1,110 @@
 {
   "version": 4,
-  "updatedAt": "2026-07-22",
+  "updatedAt": "2026-07-31",
   "items": [
+    {
+      "id": "k-what-is-gout",
+      "type": "knowledge",
+      "publishDate": "2026-01-10",
+      "locale": "en",
+      "title": "What gout is and why it flares",
+      "summary": "Gout is a form of inflammatory arthritis that develops when uric acid builds up in the blood and forms tiny crystals in and around joints. When the immune system reacts to these crystals, a joint can turn suddenly hot, swollen, and painful, most often at the base of the big toe. The crystals form gradually when uric acid stays high over time.",
+      "whyItMatters": "Understanding that flares come from urate crystals explains why long-term treatment targets uric acid, not just the pain of an attack.",
+      "tags": ["gout", "uric-acid", "flare", "basics"],
+      "evidence": "review",
+      "sourceName": "NHS",
+      "sourceUrl": "https://www.nhs.uk/conditions/gout/",
+      "reviewed": false,
+      "category": "general",
+      "readMinutes": 2,
+      "sections": [
+        {
+          "id": "crystals",
+          "icon": "drop.fill",
+          "title": "Crystals in the joint",
+          "body": "When uric acid stays high, it can form sharp microscopic crystals in and around joints. The immune system reacts to these crystals, which is what makes a flare so sudden and painful."
+        },
+        {
+          "id": "where",
+          "icon": "target",
+          "title": "A common first spot",
+          "body": "The big toe is the classic site of a first attack, though gout can also affect the ankle, knee, midfoot, and other joints."
+        },
+        {
+          "id": "long-view",
+          "icon": "calendar",
+          "title": "A long-term condition",
+          "body": "Gout tends to come and go, and without lowering uric acid over time, flares can grow more frequent and crystal deposits can build up."
+        }
+      ]
+    },
     {
       "id": "k-treat-to-target",
       "type": "knowledge",
       "publishDate": "2026-01-15",
       "locale": "en",
       "title": "Lowering uric acid to a target",
-      "summary": "Major rheumatology guidelines describe a \"treat-to-target\" approach for gout, using urate-lowering therapy to bring serum uric acid below a set level and keep it there. A common target is under 6 mg/dL, and lower for people with visible tophi. The aim is to gradually dissolve the urate crystals that trigger flares.",
-      "whyItMatters": "Keeping uric acid under the target your doctor sets is what actually reduces flares over time.",
-      "tags": [
-        "treatment",
-        "target",
-        "ult"
-      ],
+      "summary": "Rheumatology guidelines describe a treat-to-target approach for gout, in which urate-lowering therapy is adjusted until blood uric acid falls below a set level and stays there. A frequently cited target is under 6 mg/dL, with a lower goal for people who have visible crystal deposits called tophi. Keeping urate low over time gradually dissolves the crystals that set off flares.",
+      "whyItMatters": "Reaching and holding the target your doctor sets is what reduces flares over the long run, rather than treating each attack on its own.",
+      "tags": ["target", "ult", "treatment"],
       "evidence": "guideline",
-      "sourceName": "ACR Gout Guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
       "reviewed": false,
       "category": "guideline",
-      "readMinutes": 1
+      "readMinutes": 2,
+      "sections": [
+        {
+          "id": "the-number",
+          "icon": "target",
+          "title": "A number to aim for",
+          "body": "Guidelines commonly describe a serum urate goal under 6 mg/dL, and a lower goal when crystal deposits are present."
+        },
+        {
+          "id": "measuring",
+          "icon": "gauge.with.dots.needle.bottom.50percent",
+          "title": "Followed with blood tests",
+          "body": "Uric acid is checked with periodic blood tests so the dose can be adjusted until the target is reached and then maintained."
+        },
+        {
+          "id": "why-it-works",
+          "icon": "drop.fill",
+          "title": "Dissolving the crystals",
+          "body": "Once urate stays below the target, existing crystals slowly dissolve, and over months this tends to mean fewer flares."
+        }
+      ]
+    },
+    {
+      "id": "k-allopurinol-first-line",
+      "type": "knowledge",
+      "publishDate": "2026-01-20",
+      "locale": "en",
+      "title": "Why allopurinol is usually the first choice",
+      "summary": "Guidelines generally recommend allopurinol as the preferred first medicine for lowering uric acid, including for many people with reduced kidney function. It is well studied, taken by mouth, and its dose can be adjusted to reach the urate target. Other urate-lowering medicines are options when allopurinol is not suitable.",
+      "whyItMatters": "Knowing allopurinol is the usual starting point helps explain the plan a doctor is most likely to suggest first.",
+      "tags": ["ult", "medication", "allopurinol"],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "therapy",
+      "readMinutes": 1,
+      "imageUrl": "https://goutly.xboostapp.io/img/k-allopurinol-first-line.jpg"
     },
     {
       "id": "k-start-low-go-slow",
       "type": "knowledge",
-      "publishDate": "2026-01-15",
+      "publishDate": "2026-01-22",
       "locale": "en",
       "title": "Starting urate-lowering therapy gradually",
-      "summary": "Guidelines recommend beginning allopurinol at a low dose and increasing it slowly under a doctor's supervision, checking uric acid along the way. This gradual approach is linked to fewer side effects and fewer flares as treatment starts.",
-      "whyItMatters": "Understanding the slow start helps you stay patient through the first months instead of stopping early.",
-      "tags": [
-        "medication",
-        "ult",
-        "newUlt"
-      ],
+      "summary": "Guidelines suggest beginning allopurinol at a low dose and raising it slowly under medical supervision, rechecking uric acid along the way. This start-low, go-slow approach is linked to fewer side effects and a smoother start to treatment. The dose is guided by the urate target rather than a single fixed amount.",
+      "whyItMatters": "Understanding the slow build-up makes it easier to stay patient through the early months instead of stopping treatment.",
+      "tags": ["ult", "medication", "safety"],
       "evidence": "guideline",
-      "sourceName": "ACR Gout Guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
       "reviewed": false,
-      "category": "guideline",
+      "category": "therapy",
       "readMinutes": 1
     },
     {
@@ -47,21 +112,16 @@
       "type": "knowledge",
       "publishDate": "2026-02-01",
       "locale": "en",
-      "title": "Why flares can increase when treatment begins",
-      "summary": "As uric acid drops, crystals that built up over years begin to dissolve, and this can temporarily trigger more flares in the first months. Guidelines describe using anti-inflammatory prophylaxis during this period. Research found that continuing therapy through this phase leads to fewer flares later.",
-      "whyItMatters": "Knowing early flares are expected makes it easier not to abandon treatment when it seems to get worse first.",
-      "tags": [
-        "flare",
-        "medication",
-        "newUlt",
-        "firstFlare"
-      ],
+      "title": "Why flares can rise when treatment starts",
+      "summary": "As uric acid falls, crystals that built up over years begin to dissolve, and this can briefly trigger more flares during the first months of treatment. To cushion this period, guidelines describe adding an anti-inflammatory medicine for a stretch of months alongside the urate-lowering therapy. The extra flares tend to settle as the crystals clear.",
+      "whyItMatters": "Expecting a bumpy start makes it less alarming if flares increase soon after treatment begins.",
+      "tags": ["flare", "ult", "medication"],
       "evidence": "guideline",
-      "sourceName": "EULAR Recommendations",
-      "sourceUrl": "https://ard.bmj.com/content/76/1/29",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
       "reviewed": false,
       "category": "guideline",
-      "readMinutes": 1
+      "readMinutes": 2
     },
     {
       "id": "k-dont-stop-during-flare",
@@ -69,38 +129,47 @@
       "publishDate": "2026-02-10",
       "locale": "en",
       "title": "Continuing therapy during a flare",
-      "summary": "Guidelines note that ongoing urate-lowering therapy is generally not stopped just because a flare occurs. Starting and stopping can cause uric acid to swing, which research links to more flares.",
-      "whyItMatters": "Staying consistent through a flare, as your doctor advises, keeps uric acid steady.",
-      "tags": [
-        "flare",
-        "ult",
-        "firstFlare"
-      ],
+      "summary": "Guidelines generally advise not stopping ongoing urate-lowering therapy just because a flare happens. Starting and stopping can make uric acid swing up and down, which is associated with more flares. The flare itself is usually treated separately while the urate-lowering medicine continues.",
+      "whyItMatters": "Staying consistent through a flare, as your doctor advises, keeps uric acid steady instead of bouncing around.",
+      "tags": ["flare", "ult"],
       "evidence": "guideline",
-      "sourceName": "ACR Gout Guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
       "reviewed": false,
       "category": "guideline",
       "readMinutes": 1
     },
     {
+      "id": "k-hlab5801",
+      "type": "knowledge",
+      "publishDate": "2026-02-18",
+      "locale": "en",
+      "title": "A genetic test before allopurinol for some people",
+      "summary": "For people from backgrounds where a gene variant called HLA-B*58:01 is more common, including some of Han Chinese, Korean, and Thai descent, guidelines suggest testing for it before starting allopurinol. Carrying the variant is linked to a higher risk of a rare but serious skin reaction. The test helps flag who might be guided toward a different medicine.",
+      "whyItMatters": "This explains why a doctor might order a specific blood test before prescribing allopurinol for certain patients.",
+      "tags": ["safety", "ult", "medication"],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "guideline",
+      "readMinutes": 2
+    },
+    {
       "id": "k-adherence",
       "type": "knowledge",
       "publishDate": "2026-03-01",
       "locale": "en",
-      "title": "Sticking with treatment long-term",
-      "summary": "Reviews found that many people stop urate-lowering therapy within the first year, often once flares settle. Studies link staying on therapy to better uric acid control and fewer flares over the years that follow.",
-      "whyItMatters": "Gout treatment usually works only while it continues, so consistency is a large part of the benefit.",
-      "tags": [
-        "adherence",
-        "ult"
-      ],
+      "title": "Staying on treatment for the long run",
+      "summary": "A systematic review found that adherence to urate-lowering therapy is often low, with many people taking less than prescribed and some stopping within the first year. Studies link staying on therapy to steadier control of uric acid over time. Gout treatment tends to keep working mainly while it continues.",
+      "whyItMatters": "Because the benefit depends on continuing, consistency is a large part of what makes urate-lowering therapy work.",
+      "tags": ["adherence", "ult"],
       "evidence": "review",
-      "sourceName": "Rheumatology review",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/28122759/",
+      "sourceName": "Arthritis Care & Research (systematic review)",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/24692321/",
       "reviewed": false,
       "category": "research",
-      "readMinutes": 1
+      "readMinutes": 2
     },
     {
       "id": "k-diet-role",
@@ -108,18 +177,15 @@
       "publishDate": "2026-03-05",
       "locale": "en",
       "title": "How much diet changes uric acid",
-      "summary": "Reviews of dietary studies found that food changes alone usually lower uric acid modestly compared with medication. Diet can support treatment, but for most people with gout the medication does the heavy lifting.",
-      "whyItMatters": "Setting realistic expectations for diet keeps the focus on the treatment that moves uric acid most.",
-      "tags": [
-        "diet",
-        "lifestyle"
-      ],
+      "summary": "A review of diet and gout found that eating changes on their own usually lower uric acid only modestly compared with medication. Approaches like the DASH diet or cutting back on high-purine foods can help a little and support overall health, but for most people urate-lowering therapy does the heavy lifting. Diet is described as a helpful addition rather than a replacement.",
+      "whyItMatters": "Setting realistic expectations for diet keeps attention on the treatment that moves uric acid the most.",
+      "tags": ["diet", "lifestyle"],
       "evidence": "review",
-      "sourceName": "Arthritis Research review",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/28734655/",
+      "sourceName": "Best Practice & Research Clinical Rheumatology (review)",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8678356/",
       "reviewed": false,
-      "category": "research",
-      "readMinutes": 1
+      "category": "lifestyle",
+      "readMinutes": 2
     },
     {
       "id": "k-ckd-urate",
@@ -127,79 +193,31 @@
       "publishDate": "2026-03-20",
       "locale": "en",
       "title": "Gout and kidney function",
-      "summary": "Gout and reduced kidney function often occur together, and kidney function can affect how urate-lowering medicines are dosed. Guidelines note that allopurinol can still be used in chronic kidney disease with appropriate, doctor-managed dosing.",
-      "whyItMatters": "If you have kidney concerns, this is why your doctor may adjust the dose or monitoring for your treatment.",
-      "tags": [
-        "ckd",
-        "kidney",
-        "medication"
-      ],
-      "evidence": "review",
-      "sourceName": "Kidney International review",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/31133203/",
+      "summary": "Gout and reduced kidney function often occur together, and kidney function influences how urate-lowering medicines are dosed. Guidelines note that allopurinol can still be used when kidney function is reduced, with the dose and monitoring managed by a doctor. Lowering uric acid remains the goal even when the kidneys are affected.",
+      "whyItMatters": "If you have kidney concerns, this is why a doctor may adjust the dose or the monitoring for your treatment.",
+      "tags": ["ckd", "kidney", "medication"],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
       "reviewed": false,
-      "category": "research",
+      "category": "guideline",
       "readMinutes": 1
     },
     {
-      "id": "k-hlab5801",
+      "id": "k-comorbidities",
       "type": "knowledge",
       "publishDate": "2026-04-02",
       "locale": "en",
-      "title": "Genetic testing before allopurinol in some groups",
-      "summary": "Guidelines suggest testing for the HLA-B*58:01 gene variant before starting allopurinol in populations where it is more common, including some people of Han Chinese, Korean, and Thai descent. The variant is linked to a higher risk of a serious skin reaction.",
-      "whyItMatters": "This explains why your doctor might order a blood test before prescribing allopurinol.",
-      "tags": [
-        "medication",
-        "safety",
-        "ult"
-      ],
-      "evidence": "guideline",
-      "sourceName": "ACR Gout Guideline",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "title": "Conditions that often come with gout",
+      "summary": "A narrative review describes gout and high uric acid as frequently overlapping with other conditions, including high blood pressure, type 2 diabetes, obesity, cardiovascular disease, and chronic kidney disease. The review frames gout as part of a broader metabolic picture rather than a joint problem alone. This overlap is one reason gout care often looks beyond the joints.",
+      "whyItMatters": "Seeing gout as connected to heart and metabolic health explains why doctors often check more than the joints alone.",
+      "tags": ["comorbidities", "kidney", "lifestyle"],
+      "evidence": "review",
+      "sourceName": "Journal of Clinical Medicine (narrative review)",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11678569/",
       "reviewed": false,
-      "category": "guideline",
-      "readMinutes": 1
-    },
-    {
-      "id": "k-treat-to-target-vi",
-      "type": "knowledge",
-      "publishDate": "2026-01-15",
-      "locale": "vi",
-      "title": "Đưa axit uric về mức mục tiêu",
-      "summary": "Các hướng dẫn về gout mô tả cách tiếp cận \"điều trị theo mục tiêu\", dùng thuốc hạ urat để đưa axit uric máu xuống dưới một mức nhất định và duy trì ở đó. Mục tiêu phổ biến là dưới 6 mg/dL. Mục đích là dần dần làm tan các tinh thể urat gây ra cơn cấp.",
-      "whyItMatters": "Giữ axit uric dưới mức mục tiêu bác sĩ đặt ra là điều thực sự giúp giảm cơn cấp theo thời gian.",
-      "tags": [
-        "treatment",
-        "target",
-        "ult"
-      ],
-      "evidence": "guideline",
-      "sourceName": "ACR Gout Guideline",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
-      "reviewed": false,
-      "category": "guideline",
-      "readMinutes": 1
-    },
-    {
-      "id": "k-dont-stop-during-flare-vi",
-      "type": "knowledge",
-      "publishDate": "2026-02-10",
-      "locale": "vi",
-      "title": "Tiếp tục dùng thuốc trong cơn gout cấp",
-      "summary": "Các hướng dẫn lưu ý rằng thuốc hạ urat thường không bị ngừng chỉ vì xuất hiện một cơn cấp. Việc dùng rồi ngừng có thể khiến axit uric dao động, điều mà nghiên cứu cho thấy có liên quan đến nhiều cơn cấp hơn.",
-      "whyItMatters": "Duy trì đều đặn trong cơn cấp, theo lời khuyên của bác sĩ, giúp giữ axit uric ổn định.",
-      "tags": [
-        "flare",
-        "ult",
-        "firstFlare"
-      ],
-      "evidence": "guideline",
-      "sourceName": "ACR Gout Guideline",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
-      "reviewed": false,
-      "category": "guideline",
-      "readMinutes": 1
+      "category": "research",
+      "readMinutes": 2
     }
   ]
 }
