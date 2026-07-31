@@ -1,0 +1,102 @@
+{
+  "version": 4,
+  "updatedAt": "2026-07-22",
+  "items": [
+    {
+      "id": "n-fast-cv-safety",
+      "type": "update",
+      "publishDate": "2026-07-08",
+      "locale": "en",
+      "title": "Long-term look at febuxostat heart safety",
+      "summary": "A large randomized trial comparing febuxostat and allopurinol in people with gout reported no higher risk of heart-related events with febuxostat over long-term follow-up. The findings add reassurance alongside earlier mixed results.",
+      "whyItMatters": "If your doctor prescribes febuxostat, this trial is part of the safety picture behind that choice.",
+      "tags": [
+        "medication",
+        "safety"
+      ],
+      "evidence": "rct",
+      "sourceName": "Lancet (FAST trial)",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/33181081/",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 1
+    },
+    {
+      "id": "n-low-dose-colchicine",
+      "type": "update",
+      "publishDate": "2026-07-02",
+      "locale": "en",
+      "title": "Low-dose colchicine for flares",
+      "summary": "A randomized trial found that a lower dose of colchicine for an acute gout flare worked about as well as a higher dose, while causing fewer digestive side effects. Guidelines now reflect the lower-dose approach.",
+      "whyItMatters": "This is the evidence behind the smaller colchicine doses many doctors now prescribe for flares.",
+      "tags": [
+        "flare",
+        "medication"
+      ],
+      "evidence": "rct",
+      "sourceName": "Arthritis & Rheumatism (AGREE)",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/20131255/",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 1
+    },
+    {
+      "id": "n-eular-update",
+      "type": "update",
+      "publishDate": "2026-06-26",
+      "locale": "en",
+      "title": "European recommendations on managing gout",
+      "summary": "European rheumatology recommendations reaffirm treating to a serum uric acid target and educating patients as central to long-term gout care. They emphasize early, well-explained urate-lowering therapy.",
+      "whyItMatters": "These recommendations shape how many clinicians in Europe plan your ongoing treatment.",
+      "tags": [
+        "treatment",
+        "guideline",
+        "ult"
+      ],
+      "evidence": "guideline",
+      "sourceName": "Annals of the Rheumatic Diseases",
+      "sourceUrl": "https://ard.bmj.com/content/76/1/29",
+      "reviewed": false,
+      "category": "guideline",
+      "readMinutes": 1
+    },
+    {
+      "id": "n-cardio-cares",
+      "type": "update",
+      "publishDate": "2026-05-18",
+      "locale": "en",
+      "title": "Earlier trial on febuxostat and heart events",
+      "summary": "An earlier large trial reported a higher rate of heart-related deaths with febuxostat compared with allopurinol in patients who also had heart disease. This finding prompted closer review, and later trials such as FAST added a fuller picture.",
+      "whyItMatters": "It explains why heart history can influence which urate-lowering medicine your doctor chooses.",
+      "tags": [
+        "medication",
+        "safety"
+      ],
+      "evidence": "rct",
+      "sourceName": "New England Journal of Medicine (CARES)",
+      "sourceUrl": "https://www.nejm.org/doi/full/10.1056/NEJMoa1710895",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 1
+    },
+    {
+      "id": "n-fast-cv-safety-vi",
+      "type": "update",
+      "publishDate": "2026-07-08",
+      "locale": "vi",
+      "title": "Nghiên cứu dài hạn về an toàn tim mạch của febuxostat",
+      "summary": "Một thử nghiệm ngẫu nhiên lớn so sánh febuxostat và allopurinol ở người bị gout cho thấy febuxostat không làm tăng nguy cơ biến cố tim mạch trong theo dõi dài hạn. Kết quả này bổ sung thêm dữ liệu bên cạnh các nghiên cứu trước đó.",
+      "whyItMatters": "Nếu bác sĩ kê febuxostat, thử nghiệm này là một phần cơ sở an toàn cho lựa chọn đó.",
+      "tags": [
+        "medication",
+        "safety"
+      ],
+      "evidence": "rct",
+      "sourceName": "Lancet (FAST trial)",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/33181081/",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 1
+    }
+  ]
+}

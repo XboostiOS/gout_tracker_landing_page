@@ -1,1 +1,6 @@
 .DS_Store
+
+# content/: only publish the two public feeds; keep schemas/docs local
+content/*
+!content/feed-knowledge.json
+!content/feed-news.json
