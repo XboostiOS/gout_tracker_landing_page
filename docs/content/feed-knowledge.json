@@ -516,7 +516,7 @@
       "evidence": "review",
       "sourceName": "Frontiers in Medicine (review)",
       "sourceUrl": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2018.00160/full",
-      "reviewed": false,
+      "reviewed": true,
       "category": "general",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-how-crystals-form.png"
@@ -537,7 +537,7 @@
       "evidence": "review",
       "sourceName": "Frontiers in Medicine (review)",
       "sourceUrl": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2018.00160/full",
-      "reviewed": false,
+      "reviewed": true,
       "category": "general",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-kidney-urate.png"
@@ -558,7 +558,7 @@
       "evidence": "guideline",
       "sourceName": "ACR 2020 Gout Guideline",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
-      "reviewed": false,
+      "reviewed": true,
       "category": "guideline",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-hyperuricemia-not-gout.png"
@@ -579,7 +579,7 @@
       "evidence": "review",
       "sourceName": "Frontiers in Medicine (review)",
       "sourceUrl": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2018.00160/full",
-      "reviewed": false,
+      "reviewed": true,
       "category": "therapy",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-lowering-options.png"
@@ -600,7 +600,7 @@
       "evidence": "review",
       "sourceName": "MedlinePlus (NIH)",
       "sourceUrl": "https://medlineplus.gov/druginfo/meds/a682395.html",
-      "reviewed": false,
+      "reviewed": true,
       "category": "therapy",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-uricosurics.png"
@@ -621,7 +621,7 @@
       "evidence": "rct",
       "sourceName": "JAMA (pegloticase RCT)",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/21846852/",
-      "reviewed": false,
+      "reviewed": true,
       "category": "therapy",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-pegloticase.png"
@@ -641,7 +641,7 @@
       "evidence": "review",
       "sourceName": "The Lancet Rheumatology (GBD 2021)",
       "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11263476/",
-      "reviewed": false,
+      "reviewed": true,
       "category": "research",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-gout-epidemiology.png"
@@ -662,7 +662,7 @@
       "evidence": "review",
       "sourceName": "Rheumatology review (Roddy & Doherty)",
       "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3226107/",
-      "reviewed": false,
+      "reviewed": true,
       "category": "research",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-who-gets-gout.png"
@@ -683,7 +683,7 @@
       "evidence": "review",
       "sourceName": "Arthritis Foundation",
       "sourceUrl": "https://www.arthritis.org/diseases/more-about/stages-of-gout",
-      "reviewed": false,
+      "reviewed": true,
       "category": "general",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-stages.png"
@@ -704,7 +704,7 @@
       "evidence": "review",
       "sourceName": "Journal of Foot and Ankle Research (review)",
       "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3117776/",
-      "reviewed": false,
+      "reviewed": true,
       "category": "general",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-why-big-toe.png"
@@ -2219,7 +2219,7 @@
       "evidence": "review",
       "sourceName": "Frontiers in Medicine (review)",
       "sourceUrl": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2018.00160/full",
-      "reviewed": false,
+      "reviewed": true,
       "category": "general",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-how-crystals-form.png"
@@ -2240,7 +2240,7 @@
       "evidence": "review",
       "sourceName": "Frontiers in Medicine (review)",
       "sourceUrl": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2018.00160/full",
-      "reviewed": false,
+      "reviewed": true,
       "category": "general",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-kidney-urate.png"
@@ -2261,7 +2261,7 @@
       "evidence": "guideline",
       "sourceName": "ACR 2020 Gout Guideline",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
-      "reviewed": false,
+      "reviewed": true,
       "category": "guideline",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-hyperuricemia-not-gout.png"
@@ -2282,7 +2282,7 @@
       "evidence": "review",
       "sourceName": "Frontiers in Medicine (review)",
       "sourceUrl": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2018.00160/full",
-      "reviewed": false,
+      "reviewed": true,
       "category": "therapy",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-lowering-options.png"
@@ -2303,7 +2303,7 @@
       "evidence": "review",
       "sourceName": "MedlinePlus (NIH)",
       "sourceUrl": "https://medlineplus.gov/druginfo/meds/a682395.html",
-      "reviewed": false,
+      "reviewed": true,
       "category": "therapy",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-uricosurics.png"
@@ -2324,7 +2324,7 @@
       "evidence": "rct",
       "sourceName": "JAMA (pegloticase RCT)",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/21846852/",
-      "reviewed": false,
+      "reviewed": true,
       "category": "therapy",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-pegloticase.png"
@@ -2344,7 +2344,7 @@
       "evidence": "review",
       "sourceName": "The Lancet Rheumatology (GBD 2021)",
       "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11263476/",
-      "reviewed": false,
+      "reviewed": true,
       "category": "research",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-gout-epidemiology.png"
@@ -2365,7 +2365,7 @@
       "evidence": "review",
       "sourceName": "Rheumatology review (Roddy & Doherty)",
       "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3226107/",
-      "reviewed": false,
+      "reviewed": true,
       "category": "research",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-who-gets-gout.png"
@@ -2386,7 +2386,7 @@
       "evidence": "review",
       "sourceName": "Arthritis Foundation",
       "sourceUrl": "https://www.arthritis.org/diseases/more-about/stages-of-gout",
-      "reviewed": false,
+      "reviewed": true,
       "category": "general",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-stages.png"
@@ -2407,7 +2407,7 @@
       "evidence": "review",
       "sourceName": "Journal of Foot and Ankle Research (review)",
       "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3117776/",
-      "reviewed": false,
+      "reviewed": true,
       "category": "general",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-why-big-toe.png"
@@ -2428,7 +2428,7 @@
       "evidence": "review",
       "sourceName": "Frontiers in Medicine (review)",
       "sourceUrl": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2018.00160/full",
-      "reviewed": false,
+      "reviewed": true,
       "category": "general",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-how-crystals-form.png"
@@ -2449,7 +2449,7 @@
       "evidence": "review",
       "sourceName": "Frontiers in Medicine (review)",
       "sourceUrl": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2018.00160/full",
-      "reviewed": false,
+      "reviewed": true,
       "category": "general",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-kidney-urate.png"
@@ -2470,7 +2470,7 @@
       "evidence": "guideline",
       "sourceName": "ACR 2020 Gout Guideline",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
-      "reviewed": false,
+      "reviewed": true,
       "category": "guideline",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-hyperuricemia-not-gout.png"
@@ -2491,7 +2491,7 @@
       "evidence": "review",
       "sourceName": "Frontiers in Medicine (review)",
       "sourceUrl": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2018.00160/full",
-      "reviewed": false,
+      "reviewed": true,
       "category": "therapy",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-lowering-options.png"
@@ -2512,7 +2512,7 @@
       "evidence": "review",
       "sourceName": "MedlinePlus (NIH)",
       "sourceUrl": "https://medlineplus.gov/druginfo/meds/a682395.html",
-      "reviewed": false,
+      "reviewed": true,
       "category": "therapy",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-uricosurics.png"
@@ -2533,7 +2533,7 @@
       "evidence": "rct",
       "sourceName": "JAMA (pegloticase RCT)",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/21846852/",
-      "reviewed": false,
+      "reviewed": true,
       "category": "therapy",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-pegloticase.png"
@@ -2553,7 +2553,7 @@
       "evidence": "review",
       "sourceName": "The Lancet Rheumatology (GBD 2021)",
       "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11263476/",
-      "reviewed": false,
+      "reviewed": true,
       "category": "research",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-gout-epidemiology.png"
@@ -2574,7 +2574,7 @@
       "evidence": "review",
       "sourceName": "Rheumatology review (Roddy & Doherty)",
       "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3226107/",
-      "reviewed": false,
+      "reviewed": true,
       "category": "research",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-who-gets-gout.png"
@@ -2595,7 +2595,7 @@
       "evidence": "review",
       "sourceName": "Arthritis Foundation",
       "sourceUrl": "https://www.arthritis.org/diseases/more-about/stages-of-gout",
-      "reviewed": false,
+      "reviewed": true,
       "category": "general",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-stages.png"
@@ -2616,7 +2616,7 @@
       "evidence": "review",
       "sourceName": "Journal of Foot and Ankle Research (review)",
       "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3117776/",
-      "reviewed": false,
+      "reviewed": true,
       "category": "general",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-why-big-toe.png"
@@ -2637,7 +2637,7 @@
       "evidence": "review",
       "sourceName": "Frontiers in Medicine (review)",
       "sourceUrl": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2018.00160/full",
-      "reviewed": false,
+      "reviewed": true,
       "category": "general",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-how-crystals-form.png"
@@ -2648,7 +2648,7 @@
       "publishDate": "2026-04-22",
       "locale": "zh-Hans",
       "title": "肾如何清除尿酸",
-      "summary": "肾处理体内大部分尿酸，约三分之二通过尿液排出。在许多痛风患者身上，主要问题是肾排出的尿酸太少，而不是身体生成得太多。肾中的专门转运蛋白控制着尿酸被保留还是被排出的比例。",
+      "summary": "肾处理体内大部分尿酸，约三分之二通过尿液排出。在许多痛风患者中，主要问题是肾排出的尿酸太少，而不是身体生成得太多。肾中的专门转运蛋白控制着尿酸被保留还是被排出的比例。",
       "whyItMatters": "由于排泄减少往往是主因，这就解释了为何有些药物是通过帮助肾排出更多尿酸来起作用的。",
       "tags": [
         "kidney",
@@ -2658,7 +2658,7 @@
       "evidence": "review",
       "sourceName": "Frontiers in Medicine (review)",
       "sourceUrl": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2018.00160/full",
-      "reviewed": false,
+      "reviewed": true,
       "category": "general",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-kidney-urate.png"
@@ -2679,7 +2679,7 @@
       "evidence": "guideline",
       "sourceName": "ACR 2020 Gout Guideline",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
-      "reviewed": false,
+      "reviewed": true,
       "category": "guideline",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-hyperuricemia-not-gout.png"
@@ -2700,7 +2700,7 @@
       "evidence": "review",
       "sourceName": "Frontiers in Medicine (review)",
       "sourceUrl": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2018.00160/full",
-      "reviewed": false,
+      "reviewed": true,
       "category": "therapy",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-lowering-options.png"
@@ -2711,7 +2711,7 @@
       "publishDate": "2026-04-28",
       "locale": "zh-Hans",
       "title": "帮助肾清除尿酸盐的药物",
-      "summary": "促尿酸排泄药，如 probenecid，通过促使肾把更多尿酸排入尿液来降低尿酸。当更常用的抑制生成类药物效果不够或不适合时，它们是一种选择。由于它们让更多尿酸经过肾，通常在有肾结石的人身上避免使用，并鼓励多喝水。",
+      "summary": "促尿酸排泄药，如 probenecid，通过促使肾把更多尿酸排入尿液来降低尿酸。当更常用的抑制生成类药物效果不够或不适合时，它们是一种选择。由于它们让更多尿酸经过肾，通常会避免用于有肾结石的人，并鼓励多喝水。",
       "whyItMatters": "这就解释了为何医生可能会加用或换用一种通过肾起作用、而非抑制生成的药物。",
       "tags": [
         "ult",
@@ -2721,7 +2721,7 @@
       "evidence": "review",
       "sourceName": "MedlinePlus (NIH)",
       "sourceUrl": "https://medlineplus.gov/druginfo/meds/a682395.html",
-      "reviewed": false,
+      "reviewed": true,
       "category": "therapy",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-uricosurics.png"
@@ -2742,7 +2742,7 @@
       "evidence": "rct",
       "sourceName": "JAMA (pegloticase RCT)",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/21846852/",
-      "reviewed": false,
+      "reviewed": true,
       "category": "therapy",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-pegloticase.png"
@@ -2762,7 +2762,7 @@
       "evidence": "review",
       "sourceName": "The Lancet Rheumatology (GBD 2021)",
       "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11263476/",
-      "reviewed": false,
+      "reviewed": true,
       "category": "research",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-gout-epidemiology.png"
@@ -2783,7 +2783,7 @@
       "evidence": "review",
       "sourceName": "Rheumatology review (Roddy & Doherty)",
       "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3226107/",
-      "reviewed": false,
+      "reviewed": true,
       "category": "research",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-who-gets-gout.png"
@@ -2804,7 +2804,7 @@
       "evidence": "review",
       "sourceName": "Arthritis Foundation",
       "sourceUrl": "https://www.arthritis.org/diseases/more-about/stages-of-gout",
-      "reviewed": false,
+      "reviewed": true,
       "category": "general",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-stages.png"
@@ -2815,7 +2815,7 @@
       "publishDate": "2026-05-08",
       "locale": "zh-Hans",
       "title": "痛风为何常从大脚趾开始",
-      "summary": "痛风的首次发作很常见于大脚趾根部的关节。原因之一是温度：身体较凉、较远端的关节让尿酸更容易结晶，而大脚趾属于最凉的部位之一。这就是为什么这个关节是典型的首发部位，尽管痛风也可能累及其他关节。",
+      "summary": "痛风的首次发作往往发生在大脚趾根部的关节。原因之一是温度：身体较凉、较远端的关节让尿酸更容易结晶，而大脚趾属于最凉的部位之一。这就是为什么这个关节是典型的首发部位，尽管痛风也可能累及其他关节。",
       "whyItMatters": "理解大脚趾的这一角色，能让首次发作在这个部位时不那么令人费解。",
       "tags": [
         "basics",
@@ -2825,7 +2825,7 @@
       "evidence": "review",
       "sourceName": "Journal of Foot and Ankle Research (review)",
       "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3117776/",
-      "reviewed": false,
+      "reviewed": true,
       "category": "general",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/k-why-big-toe.png"
