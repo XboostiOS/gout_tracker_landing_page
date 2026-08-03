@@ -89,7 +89,12 @@ items. (Do the translation directly — no separate tool.)
    ```
 2. **HTTP-check every `sourceUrl`** returns 200 and is the primary source.
 3. **Images:** only PD/CC0 (no attribution UI). Spot-check the licence, download to
-   `docs/content/img/<id>.<ext>`, drop `imageUrl` otherwise.
+   `docs/content/img/<id>.<ext>`. **If no PD/CC0 image fits, generate one** with the
+   local FLUX tool `/Users/andrew/Works/Tools /genImg/genimg_cf.py` (run via
+   `python3.12`); use a clean text-free subject (macro object / crystals / plain
+   tablet / droplet / molecule — avoid labels, packaging, graduated tubes, documents;
+   FLUX writes gibberish text on those), save to `docs/content/img/<id>.png`, and
+   eyeball each output for stray text. All four locales of a topic share the one image.
 4. **`reviewed` stays `false`** until a clinician/editor reviews the medical copy.
    Only a human flips it to `true`.
 

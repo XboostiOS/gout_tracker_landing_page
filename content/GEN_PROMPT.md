@@ -118,6 +118,15 @@ support.
 >    - Prefer openly-licensed repositories (Wikimedia Commons, Openverse, CDC PHIL,
 >      NIH, NCI) over news/journal article photos, which are almost always
 >      copyrighted.
+>    - **No suitable PD/CC0 image? Generate one** with the local tool `genimg_cf.py`
+>      (Cloudflare Workers AI / FLUX; run on python3.10+, e.g. `python3.12`). Self-host
+>      the output at `docs/content/img/<id>.png` and set `imageUrl`. Prompt tips: a
+>      clean **text-free** subject (macro crystals, a plain tablet/capsule, a water
+>      droplet, a molecule, a dartboard); AVOID anything with labels / packaging / pill
+>      organizers / graduated tubes / documents — FLUX renders gibberish text on those.
+>      Append "no text, no words, no labels, no numbers" and eyeball every result for
+>      stray text. All four locales of a topic **share the one image** (keyed by the
+>      English id).
 > 8. **Schema-clean.** Emit only the fields in the spec — **no extra keys** inside the
 >    JSON (strict validation rejects unknown fields).
 > 9. **Localize into all four locales (do this as part of generation, not later).**

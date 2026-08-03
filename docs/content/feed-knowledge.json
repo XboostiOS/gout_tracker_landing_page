@@ -41,7 +41,8 @@
           "title": "A long-term condition",
           "body": "Gout tends to come and go, and without lowering uric acid over time, flares can grow more frequent and crystal deposits can build up."
         }
-      ]
+      ],
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-what-is-gout.png"
     },
     {
       "id": "k-where-uric-acid",
@@ -102,7 +103,8 @@
           "title": "Dissolving the crystals",
           "body": "Once urate stays below the target, existing crystals slowly dissolve, and over months this tends to mean fewer flares."
         }
-      ]
+      ],
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-treat-to-target.png"
     },
     {
       "id": "k-allopurinol-first-line",
@@ -143,7 +145,8 @@
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
       "reviewed": true,
       "category": "therapy",
-      "readMinutes": 1
+      "readMinutes": 1,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-start-low-go-slow.png"
     },
     {
       "id": "k-flare-prophylaxis",
@@ -163,7 +166,8 @@
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
       "reviewed": true,
       "category": "guideline",
-      "readMinutes": 2
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-flare-prophylaxis.png"
     },
     {
       "id": "k-dont-stop-during-flare",
@@ -182,7 +186,8 @@
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
       "reviewed": true,
       "category": "guideline",
-      "readMinutes": 1
+      "readMinutes": 1,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-dont-stop-during-flare.png"
     },
     {
       "id": "k-colchicine",
@@ -223,7 +228,8 @@
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/16339094/",
       "reviewed": true,
       "category": "therapy",
-      "readMinutes": 2
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-febuxostat-alt.png"
     },
     {
       "id": "k-hlab5801",
@@ -243,7 +249,8 @@
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
       "reviewed": true,
       "category": "guideline",
-      "readMinutes": 2
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-hlab5801.png"
     },
     {
       "id": "k-adherence",
@@ -262,7 +269,8 @@
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/24692321/",
       "reviewed": true,
       "category": "research",
-      "readMinutes": 2
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-adherence.png"
     },
     {
       "id": "k-diet-role",
@@ -323,7 +331,8 @@
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
       "reviewed": true,
       "category": "lifestyle",
-      "readMinutes": 2
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-alcohol.png"
     },
     {
       "id": "k-fructose-sugar",
@@ -467,7 +476,8 @@
       "sourceUrl": "https://www.niams.nih.gov/health-topics/gout",
       "reviewed": true,
       "category": "general",
-      "readMinutes": 1
+      "readMinutes": 1,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-what-are-tophi.png"
     },
     {
       "id": "k-pseudogout",
@@ -529,7 +539,8 @@
           "title": "Một bệnh lý lâu dài",
           "body": "Gút thường đến rồi đi, và nếu không hạ axit uric theo thời gian, các đợt bùng phát có thể trở nên thường xuyên hơn và tinh thể có thể tích tụ nhiều lên."
         }
-      ]
+      ],
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-what-is-gout.png"
     },
     {
       "id": "k-where-uric-acid-vi",
@@ -590,7 +601,8 @@
           "title": "Hòa tan các tinh thể",
           "body": "Một khi urat duy trì dưới mức mục tiêu, các tinh thể hiện có sẽ dần hòa tan, và sau nhiều tháng điều này thường đồng nghĩa với ít đợt bùng phát hơn."
         }
-      ]
+      ],
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-treat-to-target.png"
     },
     {
       "id": "k-allopurinol-first-line-vi",
@@ -631,7 +643,8 @@
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
       "reviewed": true,
       "category": "therapy",
-      "readMinutes": 1
+      "readMinutes": 1,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-start-low-go-slow.png"
     },
     {
       "id": "k-flare-prophylaxis-vi",
@@ -651,7 +664,8 @@
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
       "reviewed": true,
       "category": "guideline",
-      "readMinutes": 2
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-flare-prophylaxis.png"
     },
     {
       "id": "k-dont-stop-during-flare-vi",
@@ -670,7 +684,8 @@
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
       "reviewed": true,
       "category": "guideline",
-      "readMinutes": 1
+      "readMinutes": 1,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-dont-stop-during-flare.png"
     },
     {
       "id": "k-colchicine-vi",
@@ -711,7 +726,8 @@
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/16339094/",
       "reviewed": true,
       "category": "therapy",
-      "readMinutes": 2
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-febuxostat-alt.png"
     },
     {
       "id": "k-hlab5801-vi",
@@ -731,7 +747,8 @@
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
       "reviewed": true,
       "category": "guideline",
-      "readMinutes": 2
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-hlab5801.png"
     },
     {
       "id": "k-adherence-vi",
@@ -750,7 +767,8 @@
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/24692321/",
       "reviewed": true,
       "category": "research",
-      "readMinutes": 2
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-adherence.png"
     },
     {
       "id": "k-diet-role-vi",
@@ -811,7 +829,8 @@
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
       "reviewed": true,
       "category": "lifestyle",
-      "readMinutes": 2
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-alcohol.png"
     },
     {
       "id": "k-fructose-sugar-vi",
@@ -955,7 +974,8 @@
       "sourceUrl": "https://www.niams.nih.gov/health-topics/gout",
       "reviewed": true,
       "category": "general",
-      "readMinutes": 1
+      "readMinutes": 1,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-what-are-tophi.png"
     },
     {
       "id": "k-pseudogout-vi",
@@ -1017,7 +1037,8 @@
           "title": "長く付き合う病気",
           "body": "痛風は現れたり治まったりを繰り返しやすく、時間をかけて尿酸を下げないでいると、発作がより頻繁になり、結晶の沈着がたまっていくことがあります。"
         }
-      ]
+      ],
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-what-is-gout.png"
     },
     {
       "id": "k-where-uric-acid-ja",
@@ -1078,7 +1099,8 @@
           "title": "結晶を溶かす",
           "body": "尿酸が目標を下回った状態を保つと、すでにある結晶がゆっくり溶けていき、数か月かけて発作が減っていく傾向があります。"
         }
-      ]
+      ],
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-treat-to-target.png"
     },
     {
       "id": "k-allopurinol-first-line-ja",
@@ -1119,7 +1141,8 @@
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
       "reviewed": true,
       "category": "therapy",
-      "readMinutes": 1
+      "readMinutes": 1,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-start-low-go-slow.png"
     },
     {
       "id": "k-flare-prophylaxis-ja",
@@ -1139,7 +1162,8 @@
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
       "reviewed": true,
       "category": "guideline",
-      "readMinutes": 2
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-flare-prophylaxis.png"
     },
     {
       "id": "k-dont-stop-during-flare-ja",
@@ -1158,7 +1182,8 @@
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
       "reviewed": true,
       "category": "guideline",
-      "readMinutes": 1
+      "readMinutes": 1,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-dont-stop-during-flare.png"
     },
     {
       "id": "k-colchicine-ja",
@@ -1199,7 +1224,8 @@
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/16339094/",
       "reviewed": true,
       "category": "therapy",
-      "readMinutes": 2
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-febuxostat-alt.png"
     },
     {
       "id": "k-hlab5801-ja",
@@ -1219,7 +1245,8 @@
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
       "reviewed": true,
       "category": "guideline",
-      "readMinutes": 2
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-hlab5801.png"
     },
     {
       "id": "k-adherence-ja",
@@ -1238,7 +1265,8 @@
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/24692321/",
       "reviewed": true,
       "category": "research",
-      "readMinutes": 2
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-adherence.png"
     },
     {
       "id": "k-diet-role-ja",
@@ -1299,7 +1327,8 @@
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
       "reviewed": true,
       "category": "lifestyle",
-      "readMinutes": 2
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-alcohol.png"
     },
     {
       "id": "k-fructose-sugar-ja",
@@ -1443,7 +1472,8 @@
       "sourceUrl": "https://www.niams.nih.gov/health-topics/gout",
       "reviewed": true,
       "category": "general",
-      "readMinutes": 1
+      "readMinutes": 1,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-what-are-tophi.png"
     },
     {
       "id": "k-pseudogout-ja",
@@ -1505,7 +1535,8 @@
           "title": "一种长期疾病",
           "body": "痛风往往时好时坏，如果不随着时间推移把尿酸降下来，发作可能会越来越频繁，结晶沉积也会不断积累。"
         }
-      ]
+      ],
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-what-is-gout.png"
     },
     {
       "id": "k-where-uric-acid-zh",
@@ -1566,7 +1597,8 @@
           "title": "溶解结晶",
           "body": "一旦尿酸持续保持在目标值以下，已有的结晶就会慢慢溶解，经过数月，这往往意味着发作次数减少。"
         }
-      ]
+      ],
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-treat-to-target.png"
     },
     {
       "id": "k-allopurinol-first-line-zh",
@@ -1607,7 +1639,8 @@
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
       "reviewed": true,
       "category": "therapy",
-      "readMinutes": 1
+      "readMinutes": 1,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-start-low-go-slow.png"
     },
     {
       "id": "k-flare-prophylaxis-zh",
@@ -1627,7 +1660,8 @@
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
       "reviewed": true,
       "category": "guideline",
-      "readMinutes": 2
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-flare-prophylaxis.png"
     },
     {
       "id": "k-dont-stop-during-flare-zh",
@@ -1646,7 +1680,8 @@
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
       "reviewed": true,
       "category": "guideline",
-      "readMinutes": 1
+      "readMinutes": 1,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-dont-stop-during-flare.png"
     },
     {
       "id": "k-colchicine-zh",
@@ -1687,7 +1722,8 @@
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/16339094/",
       "reviewed": true,
       "category": "therapy",
-      "readMinutes": 2
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-febuxostat-alt.png"
     },
     {
       "id": "k-hlab5801-zh",
@@ -1707,7 +1743,8 @@
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
       "reviewed": true,
       "category": "guideline",
-      "readMinutes": 2
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-hlab5801.png"
     },
     {
       "id": "k-adherence-zh",
@@ -1726,7 +1763,8 @@
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/24692321/",
       "reviewed": true,
       "category": "research",
-      "readMinutes": 2
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-adherence.png"
     },
     {
       "id": "k-diet-role-zh",
@@ -1787,7 +1825,8 @@
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
       "reviewed": true,
       "category": "lifestyle",
-      "readMinutes": 2
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-alcohol.png"
     },
     {
       "id": "k-fructose-sugar-zh",
@@ -1931,7 +1970,8 @@
       "sourceUrl": "https://www.niams.nih.gov/health-topics/gout",
       "reviewed": true,
       "category": "general",
-      "readMinutes": 1
+      "readMinutes": 1,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-what-are-tophi.png"
     },
     {
       "id": "k-pseudogout-zh",
