@@ -10,7 +10,12 @@
       "title": "What gout is and why it flares",
       "summary": "Gout is a form of inflammatory arthritis that develops when uric acid builds up in the blood and forms tiny crystals in and around joints. When the immune system reacts to these crystals, a joint can turn suddenly hot, swollen, and painful, most often at the base of the big toe. The crystals form gradually when uric acid stays high over time.",
       "whyItMatters": "Understanding that flares come from urate crystals explains why long-term treatment targets uric acid, not just the pain of an attack.",
-      "tags": ["gout", "uric-acid", "flare", "basics"],
+      "tags": [
+        "gout",
+        "uric-acid",
+        "flare",
+        "basics"
+      ],
       "evidence": "review",
       "sourceName": "NHS",
       "sourceUrl": "https://www.nhs.uk/conditions/gout/",
@@ -46,7 +51,11 @@
       "title": "Where uric acid comes from",
       "summary": "Uric acid is the end product when the body breaks down substances called purines. Most of it is made inside the body, and a portion comes from food. Blood levels rise when the body makes too much or the kidneys clear too little, and in gout reduced clearance by the kidneys is usually the bigger factor.",
       "whyItMatters": "Knowing the body makes most uric acid itself explains why diet alone rarely controls it and why medicines target its production or removal.",
-      "tags": ["uric-acid", "basics", "kidney"],
+      "tags": [
+        "uric-acid",
+        "basics",
+        "kidney"
+      ],
       "evidence": "review",
       "sourceName": "Frontiers in Medicine (review)",
       "sourceUrl": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2018.00160/full",
@@ -63,7 +72,11 @@
       "title": "Lowering uric acid to a target",
       "summary": "Rheumatology guidelines describe a treat-to-target approach for gout, in which urate-lowering therapy is adjusted until blood uric acid falls below a set level and stays there. A frequently cited target is under 6 mg/dL, with a lower goal for people who have visible crystal deposits called tophi. Keeping urate low over time gradually dissolves the crystals that set off flares.",
       "whyItMatters": "Reaching and holding the target your doctor sets is what reduces flares over the long run, rather than treating each attack on its own.",
-      "tags": ["target", "ult", "treatment"],
+      "tags": [
+        "target",
+        "ult",
+        "treatment"
+      ],
       "evidence": "guideline",
       "sourceName": "ACR 2020 Gout Guideline",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
@@ -99,7 +112,11 @@
       "title": "Why allopurinol is usually the first choice",
       "summary": "Guidelines generally recommend allopurinol as the preferred first medicine for lowering uric acid, including for many people with reduced kidney function. It is well studied, taken by mouth, and its dose can be adjusted to reach the urate target. Other urate-lowering medicines are options when allopurinol is not suitable.",
       "whyItMatters": "Knowing allopurinol is the usual starting point helps explain the plan a doctor is most likely to suggest first.",
-      "tags": ["ult", "medication", "allopurinol"],
+      "tags": [
+        "ult",
+        "medication",
+        "allopurinol"
+      ],
       "evidence": "guideline",
       "sourceName": "ACR 2020 Gout Guideline",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
@@ -116,7 +133,11 @@
       "title": "Starting urate-lowering therapy gradually",
       "summary": "Guidelines suggest beginning allopurinol at a low dose and raising it slowly under medical supervision, rechecking uric acid along the way. This start-low, go-slow approach is linked to fewer side effects and a smoother start to treatment. The dose is guided by the urate target rather than a single fixed amount.",
       "whyItMatters": "Understanding the slow build-up makes it easier to stay patient through the early months instead of stopping treatment.",
-      "tags": ["ult", "medication", "safety"],
+      "tags": [
+        "ult",
+        "medication",
+        "safety"
+      ],
       "evidence": "guideline",
       "sourceName": "ACR 2020 Gout Guideline",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
@@ -132,7 +153,11 @@
       "title": "Why flares can rise when treatment starts",
       "summary": "As uric acid falls, crystals that built up over years begin to dissolve, and this can briefly trigger more flares during the first months of treatment. To cushion this period, guidelines describe adding an anti-inflammatory medicine for a stretch of months alongside the urate-lowering therapy. The extra flares tend to settle as the crystals clear.",
       "whyItMatters": "Expecting a bumpy start makes it less alarming if flares increase soon after treatment begins.",
-      "tags": ["flare", "ult", "medication"],
+      "tags": [
+        "flare",
+        "ult",
+        "medication"
+      ],
       "evidence": "guideline",
       "sourceName": "ACR 2020 Gout Guideline",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
@@ -148,7 +173,10 @@
       "title": "Continuing therapy during a flare",
       "summary": "Guidelines generally advise not stopping ongoing urate-lowering therapy just because a flare happens. Starting and stopping can make uric acid swing up and down, which is associated with more flares. The flare itself is usually treated separately while the urate-lowering medicine continues.",
       "whyItMatters": "Staying consistent through a flare, as your doctor advises, keeps uric acid steady instead of bouncing around.",
-      "tags": ["flare", "ult"],
+      "tags": [
+        "flare",
+        "ult"
+      ],
       "evidence": "guideline",
       "sourceName": "ACR 2020 Gout Guideline",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
@@ -164,7 +192,11 @@
       "title": "Colchicine's two roles in gout",
       "summary": "Colchicine is an anti-inflammatory medicine used in gout in two ways: to calm an acute flare and, at a low dose, to help prevent flares during the first months of urate-lowering therapy. Guidelines list it alongside anti-inflammatory drugs and steroids as an option for flares. It works on inflammation and does not lower uric acid itself.",
       "whyItMatters": "Understanding colchicine treats the inflammation, not the urate, clarifies why it is often used together with a urate-lowering drug.",
-      "tags": ["flare", "medication", "colchicine"],
+      "tags": [
+        "flare",
+        "medication",
+        "colchicine"
+      ],
       "evidence": "guideline",
       "sourceName": "ACR 2020 Gout Guideline",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
@@ -181,7 +213,11 @@
       "title": "Febuxostat as an alternative",
       "summary": "Febuxostat is another medicine that lowers uric acid by reducing how much the body makes, similar in aim to allopurinol. In a randomized trial it lowered urate at least as effectively as a fixed allopurinol dose. It is often considered when allopurinol is not tolerated or suitable, with heart history taken into account.",
       "whyItMatters": "It helps to know a well-studied alternative exists if allopurinol does not work out for you.",
-      "tags": ["ult", "medication", "febuxostat"],
+      "tags": [
+        "ult",
+        "medication",
+        "febuxostat"
+      ],
       "evidence": "rct",
       "sourceName": "New England Journal of Medicine",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/16339094/",
@@ -197,7 +233,11 @@
       "title": "A genetic test before allopurinol for some people",
       "summary": "For people from backgrounds where a gene variant called HLA-B*58:01 is more common, including some of Han Chinese, Korean, and Thai descent, guidelines suggest testing for it before starting allopurinol. Carrying the variant is linked to a higher risk of a rare but serious skin reaction. The test helps flag who might be guided toward a different medicine.",
       "whyItMatters": "This explains why a doctor might order a specific blood test before prescribing allopurinol for certain patients.",
-      "tags": ["safety", "ult", "medication"],
+      "tags": [
+        "safety",
+        "ult",
+        "medication"
+      ],
       "evidence": "guideline",
       "sourceName": "ACR 2020 Gout Guideline",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
@@ -213,7 +253,10 @@
       "title": "Staying on treatment for the long run",
       "summary": "A systematic review found that adherence to urate-lowering therapy is often low, with many people taking less than prescribed and some stopping within the first year. Studies link staying on therapy to steadier control of uric acid over time. Gout treatment tends to keep working mainly while it continues.",
       "whyItMatters": "Because the benefit depends on continuing, consistency is a large part of what makes urate-lowering therapy work.",
-      "tags": ["adherence", "ult"],
+      "tags": [
+        "adherence",
+        "ult"
+      ],
       "evidence": "review",
       "sourceName": "Arthritis Care & Research (systematic review)",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/24692321/",
@@ -229,7 +272,10 @@
       "title": "How much diet changes uric acid",
       "summary": "A review of diet and gout found that eating changes on their own usually lower uric acid only modestly compared with medication. Approaches like the DASH diet or cutting back on high-purine foods can help a little and support overall health, but for most people urate-lowering therapy does the heavy lifting. Diet is described as a helpful addition rather than a replacement.",
       "whyItMatters": "Setting realistic expectations for diet keeps attention on the treatment that moves uric acid the most.",
-      "tags": ["diet", "lifestyle"],
+      "tags": [
+        "diet",
+        "lifestyle"
+      ],
       "evidence": "review",
       "sourceName": "Best Practice & Research Clinical Rheumatology (review)",
       "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8678356/",
@@ -246,7 +292,11 @@
       "title": "Purine-rich foods and gout",
       "summary": "Foods high in purines, such as red meat, organ meats, and some seafood, are linked to higher uric acid and a greater chance of flares. Guidelines include limiting these foods among the lifestyle measures that can support treatment. The effect of food is modest next to medication, but it can still play a supporting role.",
       "whyItMatters": "It helps to know which foods are most associated with flares so the choices are informed rather than guesswork.",
-      "tags": ["diet", "lifestyle", "purines"],
+      "tags": [
+        "diet",
+        "lifestyle",
+        "purines"
+      ],
       "evidence": "guideline",
       "sourceName": "ACR 2020 Gout Guideline",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
@@ -263,7 +313,11 @@
       "title": "Alcohol and gout flares",
       "summary": "Alcohol, particularly beer, is associated with higher uric acid and a greater risk of gout flares, and guidelines include limiting alcohol among supportive lifestyle measures. Beer carries extra purines on top of the alcohol itself. Wine appears less strongly linked in studies, though moderation is still the general theme.",
       "whyItMatters": "Recognising alcohol as a common flare trigger lets you weigh it against how your own gout behaves.",
-      "tags": ["alcohol", "lifestyle", "flare"],
+      "tags": [
+        "alcohol",
+        "lifestyle",
+        "flare"
+      ],
       "evidence": "guideline",
       "sourceName": "ACR 2020 Gout Guideline",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
@@ -279,7 +333,11 @@
       "title": "Sugary drinks and fructose",
       "summary": "Sugar-sweetened drinks and fructose are associated with higher uric acid and a greater risk of gout, and guidelines suggest limiting high-fructose corn syrup among lifestyle measures. The body produces more urate as it processes fructose. Cutting back on sugary drinks is a change that can support treatment.",
       "whyItMatters": "It clarifies why sweet drinks, not just alcohol and meat, come up in conversations about gout.",
-      "tags": ["diet", "lifestyle", "fructose"],
+      "tags": [
+        "diet",
+        "lifestyle",
+        "fructose"
+      ],
       "evidence": "guideline",
       "sourceName": "ACR 2020 Gout Guideline",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
@@ -296,7 +354,10 @@
       "title": "Body weight and gout",
       "summary": "Carrying excess weight is associated with a higher risk of gout, and guidelines conditionally recommend weight loss for people with gout who are overweight. Losing weight is linked to lower uric acid in studies, though the quality of that evidence is moderate. Any change is usually gradual and part of overall health.",
       "whyItMatters": "It explains why a doctor may raise weight as one lever among several for managing gout.",
-      "tags": ["weight", "lifestyle"],
+      "tags": [
+        "weight",
+        "lifestyle"
+      ],
       "evidence": "guideline",
       "sourceName": "ACR 2020 Gout Guideline",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
@@ -313,7 +374,11 @@
       "title": "Vitamin C and cherries: modest at best",
       "summary": "A meta-analysis of trials found vitamin C supplements lower uric acid only slightly, an effect too small to treat gout. Some observational studies link cherry intake to fewer flares, but that evidence is limited and cannot prove benefit. Both are sometimes discussed as extras, not substitutes for treatment.",
       "whyItMatters": "Setting realistic expectations for popular remedies keeps the focus on measures with stronger evidence.",
-      "tags": ["diet", "lifestyle", "supplements"],
+      "tags": [
+        "diet",
+        "lifestyle",
+        "supplements"
+      ],
       "evidence": "review",
       "sourceName": "Arthritis Care & Research (meta-analysis)",
       "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3169708/",
@@ -330,7 +395,11 @@
       "title": "Gout and kidney function",
       "summary": "Gout and reduced kidney function often occur together, and kidney function influences how urate-lowering medicines are dosed. Guidelines note that allopurinol can still be used when kidney function is reduced, with the dose and monitoring managed by a doctor. Lowering uric acid remains the goal even when the kidneys are affected.",
       "whyItMatters": "If you have kidney concerns, this is why a doctor may adjust the dose or the monitoring for your treatment.",
-      "tags": ["ckd", "kidney", "medication"],
+      "tags": [
+        "ckd",
+        "kidney",
+        "medication"
+      ],
       "evidence": "guideline",
       "sourceName": "ACR 2020 Gout Guideline",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
@@ -347,7 +416,11 @@
       "title": "Conditions that often come with gout",
       "summary": "Guidelines advise looking beyond the joints, because gout often overlaps with high blood pressure, type 2 diabetes, obesity, cardiovascular disease, and chronic kidney disease. European recommendations call for screening people with gout for these related conditions. Managing them is described as part of overall gout care.",
       "whyItMatters": "Seeing gout as connected to heart and metabolic health explains why doctors often check more than the joints alone.",
-      "tags": ["comorbidities", "kidney", "lifestyle"],
+      "tags": [
+        "comorbidities",
+        "kidney",
+        "lifestyle"
+      ],
       "evidence": "guideline",
       "sourceName": "EULAR 2016 Recommendations",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/27457514/",
@@ -364,7 +437,10 @@
       "title": "How a flare usually unfolds",
       "summary": "A gout flare typically comes on fast, reaching its worst within about a day, and then settles on its own over one to two weeks even without treatment. Treatment aims to ease the pain and shorten the attack. Flares can return, especially while uric acid stays high.",
       "whyItMatters": "Knowing the usual arc of a flare can make the sudden pain less frightening and set expectations for recovery.",
-      "tags": ["flare", "basics"],
+      "tags": [
+        "flare",
+        "basics"
+      ],
       "evidence": "review",
       "sourceName": "NIAMS (NIH)",
       "sourceUrl": "https://www.niams.nih.gov/health-topics/gout",
@@ -381,7 +457,11 @@
       "title": "What tophi are",
       "summary": "Tophi are firm lumps that form when urate crystals build up under the skin and around joints in long-standing, poorly controlled gout. They can damage nearby bone and tissue over time. Bringing uric acid down and keeping it low can gradually shrink them.",
       "whyItMatters": "Recognising tophi as a sign of built-up crystals underlines why steady, long-term urate control matters.",
-      "tags": ["tophi", "uric-acid", "basics"],
+      "tags": [
+        "tophi",
+        "uric-acid",
+        "basics"
+      ],
       "evidence": "review",
       "sourceName": "NIAMS (NIH)",
       "sourceUrl": "https://www.niams.nih.gov/health-topics/gout",
@@ -397,7 +477,1475 @@
       "title": "Pseudogout is a different condition",
       "summary": "Pseudogout, or calcium pyrophosphate deposition, is a separate kind of crystal arthritis that can look like gout but involves a different crystal, calcium pyrophosphate rather than urate. It often affects the knee. Because the crystals differ, doctors may examine joint fluid to tell the two apart.",
       "whyItMatters": "Knowing gout is not the only crystal arthritis explains why a doctor may test joint fluid rather than assume.",
-      "tags": ["pseudogout", "basics", "diagnosis"],
+      "tags": [
+        "pseudogout",
+        "basics",
+        "diagnosis"
+      ],
+      "evidence": "review",
+      "sourceName": "Arthritis Foundation",
+      "sourceUrl": "https://www.arthritis.org/diseases/calcium-pyrophosphate-deposition",
+      "reviewed": false,
+      "category": "general",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-pseudogout.png"
+    },
+    {
+      "id": "k-what-is-gout-vi",
+      "type": "knowledge",
+      "publishDate": "2026-01-10",
+      "locale": "vi",
+      "title": "Bệnh gút là gì và vì sao nó bùng phát",
+      "summary": "Gút là một dạng viêm khớp xảy ra khi axit uric tích tụ trong máu và tạo thành những tinh thể nhỏ trong và quanh khớp. Khi hệ miễn dịch phản ứng với những tinh thể này, một khớp có thể đột nhiên nóng, sưng và đau, thường gặp nhất ở gốc ngón chân cái. Các tinh thể hình thành dần dần khi axit uric duy trì ở mức cao trong thời gian dài.",
+      "whyItMatters": "Hiểu rằng các đợt bùng phát bắt nguồn từ tinh thể urat giải thích vì sao việc điều trị lâu dài nhắm vào axit uric, chứ không chỉ giảm đau trong cơn cấp.",
+      "tags": [
+        "gout",
+        "uric-acid",
+        "flare",
+        "basics"
+      ],
+      "evidence": "review",
+      "sourceName": "NHS",
+      "sourceUrl": "https://www.nhs.uk/conditions/gout/",
+      "reviewed": false,
+      "category": "general",
+      "readMinutes": 2,
+      "sections": [
+        {
+          "id": "crystals",
+          "icon": "drop.fill",
+          "title": "Tinh thể trong khớp",
+          "body": "Khi axit uric duy trì ở mức cao, nó có thể tạo thành những tinh thể sắc nhọn cực nhỏ trong và quanh khớp. Hệ miễn dịch phản ứng với những tinh thể này, đó là lý do khiến cơn bùng phát đến đột ngột và đau đến vậy."
+        },
+        {
+          "id": "where",
+          "icon": "target",
+          "title": "Một vị trí khởi phát thường gặp",
+          "body": "Ngón chân cái là vị trí điển hình của cơn đầu tiên, dù gút cũng có thể ảnh hưởng đến mắt cá chân, đầu gối, giữa bàn chân và các khớp khác."
+        },
+        {
+          "id": "long-view",
+          "icon": "calendar",
+          "title": "Một bệnh lý lâu dài",
+          "body": "Gút thường đến rồi đi, và nếu không hạ axit uric theo thời gian, các đợt bùng phát có thể trở nên thường xuyên hơn và tinh thể có thể tích tụ nhiều lên."
+        }
+      ]
+    },
+    {
+      "id": "k-where-uric-acid-vi",
+      "type": "knowledge",
+      "publishDate": "2026-01-12",
+      "locale": "vi",
+      "title": "Axit uric đến từ đâu",
+      "summary": "Axit uric là sản phẩm cuối cùng khi cơ thể phân hủy các chất gọi là purin. Phần lớn axit uric được tạo ra bên trong cơ thể, một phần đến từ thức ăn. Nồng độ trong máu tăng lên khi cơ thể sản xuất quá nhiều hoặc thận đào thải quá ít, và trong bệnh gút, khả năng đào thải của thận giảm thường là yếu tố lớn hơn.",
+      "whyItMatters": "Biết rằng cơ thể tự tạo ra phần lớn axit uric giúp giải thích vì sao chỉ riêng chế độ ăn hiếm khi kiểm soát được nó và vì sao thuốc nhắm vào việc sản xuất hoặc đào thải axit uric.",
+      "tags": [
+        "uric-acid",
+        "basics",
+        "kidney"
+      ],
+      "evidence": "review",
+      "sourceName": "Frontiers in Medicine (review)",
+      "sourceUrl": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2018.00160/full",
+      "reviewed": false,
+      "category": "general",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-where-uric-acid.png"
+    },
+    {
+      "id": "k-treat-to-target-vi",
+      "type": "knowledge",
+      "publishDate": "2026-01-15",
+      "locale": "vi",
+      "title": "Hạ axit uric xuống một mức mục tiêu",
+      "summary": "Các hướng dẫn thấp khớp học mô tả cách tiếp cận điều trị theo mục tiêu cho bệnh gút: liệu pháp hạ urat được điều chỉnh cho đến khi axit uric trong máu giảm xuống dưới một mức nhất định và duy trì ở đó. Mục tiêu thường gặp là dưới 6 mg/dL, thấp hơn với người có tinh thể tích tụ gọi là hạt tophi. Giữ urat thấp theo thời gian sẽ dần hòa tan các tinh thể gây ra đợt bùng phát.",
+      "whyItMatters": "Đạt và duy trì mức mục tiêu mà bác sĩ đặt ra chính là điều làm giảm các đợt bùng phát về lâu dài, thay vì điều trị từng cơn riêng lẻ.",
+      "tags": [
+        "target",
+        "ult",
+        "treatment"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "guideline",
+      "readMinutes": 2,
+      "sections": [
+        {
+          "id": "the-number",
+          "icon": "target",
+          "title": "Một con số để hướng tới",
+          "body": "Các hướng dẫn thường mô tả mục tiêu urat huyết thanh dưới 6 mg/dL, và mục tiêu thấp hơn khi có tinh thể tích tụ."
+        },
+        {
+          "id": "measuring",
+          "icon": "gauge.with.dots.needle.bottom.50percent",
+          "title": "Theo dõi bằng xét nghiệm máu",
+          "body": "Axit uric được kiểm tra bằng các xét nghiệm máu định kỳ để có thể điều chỉnh liều cho đến khi đạt mục tiêu rồi duy trì."
+        },
+        {
+          "id": "why-it-works",
+          "icon": "drop.fill",
+          "title": "Hòa tan các tinh thể",
+          "body": "Một khi urat duy trì dưới mức mục tiêu, các tinh thể hiện có sẽ dần hòa tan, và sau nhiều tháng điều này thường đồng nghĩa với ít đợt bùng phát hơn."
+        }
+      ]
+    },
+    {
+      "id": "k-allopurinol-first-line-vi",
+      "type": "knowledge",
+      "publishDate": "2026-01-20",
+      "locale": "vi",
+      "title": "Vì sao allopurinol thường là lựa chọn đầu tiên",
+      "summary": "Các hướng dẫn nhìn chung khuyến nghị allopurinol là thuốc ưu tiên đầu tiên để hạ axit uric, bao gồm cả cho nhiều người có chức năng thận giảm. Thuốc được nghiên cứu kỹ, dùng đường uống, và có thể điều chỉnh liều để đạt mục tiêu urat. Các thuốc hạ urat khác là lựa chọn khi allopurinol không phù hợp.",
+      "whyItMatters": "Biết rằng allopurinol thường là điểm khởi đầu giúp hiểu được kế hoạch mà bác sĩ có nhiều khả năng đề xuất trước tiên.",
+      "tags": [
+        "ult",
+        "medication",
+        "allopurinol"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "therapy",
+      "readMinutes": 1,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-allopurinol-first-line.jpg"
+    },
+    {
+      "id": "k-start-low-go-slow-vi",
+      "type": "knowledge",
+      "publishDate": "2026-01-22",
+      "locale": "vi",
+      "title": "Bắt đầu liệu pháp hạ urat một cách từ từ",
+      "summary": "Các hướng dẫn gợi ý bắt đầu allopurinol ở liều thấp và tăng dần dưới sự giám sát y tế, kiểm tra lại axit uric trong quá trình đó. Cách tiếp cận bắt đầu thấp, tăng chậm này gắn với ít tác dụng phụ hơn và một khởi đầu điều trị suôn sẻ hơn. Liều được điều chỉnh theo mục tiêu urat chứ không phải theo một lượng cố định duy nhất.",
+      "whyItMatters": "Hiểu về việc tăng liều từ từ giúp bạn dễ kiên nhẫn hơn trong những tháng đầu thay vì ngừng điều trị.",
+      "tags": [
+        "ult",
+        "medication",
+        "safety"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "therapy",
+      "readMinutes": 1
+    },
+    {
+      "id": "k-flare-prophylaxis-vi",
+      "type": "knowledge",
+      "publishDate": "2026-02-01",
+      "locale": "vi",
+      "title": "Vì sao các đợt bùng phát có thể tăng khi bắt đầu điều trị",
+      "summary": "Khi axit uric giảm, những tinh thể đã tích tụ qua nhiều năm bắt đầu hòa tan, và điều này có thể tạm thời gây ra nhiều đợt bùng phát hơn trong những tháng đầu điều trị. Để giảm nhẹ giai đoạn này, các hướng dẫn mô tả việc thêm một thuốc chống viêm trong vài tháng bên cạnh liệu pháp hạ urat. Các đợt bùng phát tăng thêm thường lắng dịu khi các tinh thể được làm sạch.",
+      "whyItMatters": "Chuẩn bị tinh thần cho một khởi đầu gập ghềnh sẽ khiến bạn bớt lo lắng nếu các đợt bùng phát tăng lên ngay sau khi bắt đầu điều trị.",
+      "tags": [
+        "flare",
+        "ult",
+        "medication"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "guideline",
+      "readMinutes": 2
+    },
+    {
+      "id": "k-dont-stop-during-flare-vi",
+      "type": "knowledge",
+      "publishDate": "2026-02-10",
+      "locale": "vi",
+      "title": "Tiếp tục điều trị trong một đợt bùng phát",
+      "summary": "Các hướng dẫn nhìn chung khuyên không nên ngừng liệu pháp hạ urat đang dùng chỉ vì có một đợt bùng phát. Bắt đầu rồi ngừng có thể khiến axit uric dao động lên xuống, điều này gắn với nhiều đợt bùng phát hơn. Bản thân đợt bùng phát thường được điều trị riêng trong khi thuốc hạ urat vẫn tiếp tục.",
+      "whyItMatters": "Giữ đều đặn suốt một đợt bùng phát, theo lời khuyên của bác sĩ, giúp axit uric ổn định thay vì lên xuống thất thường.",
+      "tags": [
+        "flare",
+        "ult"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "guideline",
+      "readMinutes": 1
+    },
+    {
+      "id": "k-colchicine-vi",
+      "type": "knowledge",
+      "publishDate": "2026-02-14",
+      "locale": "vi",
+      "title": "Hai vai trò của colchicine trong bệnh gút",
+      "summary": "Colchicine là một thuốc chống viêm được dùng trong bệnh gút theo hai cách: để làm dịu một đợt bùng phát cấp và, ở liều thấp, để giúp ngăn ngừa các đợt bùng phát trong những tháng đầu của liệu pháp hạ urat. Các hướng dẫn liệt kê nó cùng với các thuốc chống viêm và corticoid như một lựa chọn cho các đợt bùng phát. Nó tác động lên tình trạng viêm và bản thân không hạ axit uric.",
+      "whyItMatters": "Hiểu rằng colchicine điều trị tình trạng viêm chứ không phải urat làm rõ vì sao nó thường được dùng cùng với một thuốc hạ urat.",
+      "tags": [
+        "flare",
+        "medication",
+        "colchicine"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "therapy",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-colchicine.jpg"
+    },
+    {
+      "id": "k-febuxostat-alt-vi",
+      "type": "knowledge",
+      "publishDate": "2026-02-16",
+      "locale": "vi",
+      "title": "Febuxostat như một lựa chọn thay thế",
+      "summary": "Febuxostat là một thuốc khác hạ axit uric bằng cách giảm lượng cơ thể tạo ra, mục tiêu tương tự allopurinol. Trong một thử nghiệm ngẫu nhiên, nó hạ urat hiệu quả ít nhất bằng một liều allopurinol cố định. Thuốc thường được cân nhắc khi allopurinol không dung nạp được hoặc không phù hợp, có tính đến tiền sử tim mạch.",
+      "whyItMatters": "Sẽ hữu ích khi biết rằng có một lựa chọn thay thế đã được nghiên cứu kỹ nếu allopurinol không phù hợp với bạn.",
+      "tags": [
+        "ult",
+        "medication",
+        "febuxostat"
+      ],
+      "evidence": "rct",
+      "sourceName": "New England Journal of Medicine",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/16339094/",
+      "reviewed": false,
+      "category": "therapy",
+      "readMinutes": 2
+    },
+    {
+      "id": "k-hlab5801-vi",
+      "type": "knowledge",
+      "publishDate": "2026-02-18",
+      "locale": "vi",
+      "title": "Một xét nghiệm di truyền trước khi dùng allopurinol cho một số người",
+      "summary": "Đối với những người thuộc các nhóm dân cư nơi biến thể gen gọi là HLA-B*58:01 phổ biến hơn, bao gồm một số người gốc Hán, Hàn Quốc và Thái Lan, các hướng dẫn gợi ý xét nghiệm biến thể này trước khi bắt đầu allopurinol. Mang biến thể này gắn với nguy cơ cao hơn của một phản ứng da hiếm gặp nhưng nghiêm trọng. Xét nghiệm giúp nhận diện ai có thể được hướng tới một thuốc khác.",
+      "whyItMatters": "Điều này giải thích vì sao bác sĩ có thể chỉ định một xét nghiệm máu cụ thể trước khi kê allopurinol cho một số bệnh nhân.",
+      "tags": [
+        "safety",
+        "ult",
+        "medication"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "guideline",
+      "readMinutes": 2
+    },
+    {
+      "id": "k-adherence-vi",
+      "type": "knowledge",
+      "publishDate": "2026-03-01",
+      "locale": "vi",
+      "title": "Duy trì điều trị về lâu dài",
+      "summary": "Một tổng quan hệ thống cho thấy mức độ tuân thủ liệu pháp hạ urat thường thấp, với nhiều người dùng ít hơn liều được kê và một số ngừng trong năm đầu tiên. Các nghiên cứu cho thấy việc duy trì liệu pháp gắn với sự kiểm soát axit uric ổn định hơn theo thời gian. Điều trị gút có xu hướng chỉ tiếp tục hiệu quả chủ yếu trong khi còn dùng thuốc.",
+      "whyItMatters": "Vì lợi ích phụ thuộc vào việc tiếp tục điều trị, tính đều đặn là một phần lớn tạo nên hiệu quả của liệu pháp hạ urat.",
+      "tags": [
+        "adherence",
+        "ult"
+      ],
+      "evidence": "review",
+      "sourceName": "Arthritis Care & Research (systematic review)",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/24692321/",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "k-diet-role-vi",
+      "type": "knowledge",
+      "publishDate": "2026-03-05",
+      "locale": "vi",
+      "title": "Chế độ ăn thay đổi axit uric được bao nhiêu",
+      "summary": "Một tổng quan về chế độ ăn và bệnh gút cho thấy việc thay đổi ăn uống đơn thuần thường chỉ hạ axit uric ở mức khiêm tốn so với thuốc. Những cách như chế độ ăn DASH hay giảm bớt thực phẩm giàu purin có thể giúp một chút và hỗ trợ sức khỏe tổng thể, nhưng với hầu hết mọi người, liệu pháp hạ urat mới là yếu tố chủ đạo. Chế độ ăn được mô tả như một sự bổ trợ hữu ích chứ không phải thay thế.",
+      "whyItMatters": "Đặt kỳ vọng thực tế cho chế độ ăn giúp giữ sự chú ý vào biện pháp điều trị có tác động lớn nhất đến axit uric.",
+      "tags": [
+        "diet",
+        "lifestyle"
+      ],
+      "evidence": "review",
+      "sourceName": "Best Practice & Research Clinical Rheumatology (review)",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8678356/",
+      "reviewed": false,
+      "category": "lifestyle",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-diet-role.jpg"
+    },
+    {
+      "id": "k-purine-foods-vi",
+      "type": "knowledge",
+      "publishDate": "2026-03-08",
+      "locale": "vi",
+      "title": "Thực phẩm giàu purin và bệnh gút",
+      "summary": "Các thực phẩm giàu purin, như thịt đỏ, nội tạng động vật và một số hải sản, gắn với axit uric cao hơn và khả năng bùng phát lớn hơn. Các hướng dẫn đưa việc hạn chế những thực phẩm này vào trong các biện pháp lối sống có thể hỗ trợ điều trị. Tác động của thức ăn là khiêm tốn so với thuốc, nhưng nó vẫn có thể đóng một vai trò hỗ trợ.",
+      "whyItMatters": "Sẽ hữu ích khi biết những thực phẩm nào liên quan nhiều nhất đến các đợt bùng phát để lựa chọn dựa trên hiểu biết thay vì phỏng đoán.",
+      "tags": [
+        "diet",
+        "lifestyle",
+        "purines"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "lifestyle",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-purine-foods.jpg"
+    },
+    {
+      "id": "k-alcohol-vi",
+      "type": "knowledge",
+      "publishDate": "2026-03-10",
+      "locale": "vi",
+      "title": "Rượu bia và các đợt bùng phát gút",
+      "summary": "Rượu bia, đặc biệt là bia, gắn với axit uric cao hơn và nguy cơ bùng phát gút lớn hơn, và các hướng dẫn đưa việc hạn chế rượu bia vào các biện pháp lối sống hỗ trợ. Bia mang thêm purin bên cạnh bản thân cồn. Rượu vang có vẻ liên quan yếu hơn trong các nghiên cứu, dù điều độ vẫn là chủ đề chung.",
+      "whyItMatters": "Nhận ra rượu bia là một yếu tố kích hoạt bùng phát thường gặp cho phép bạn cân nhắc nó dựa trên cách bệnh gút của chính bạn diễn tiến.",
+      "tags": [
+        "alcohol",
+        "lifestyle",
+        "flare"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "lifestyle",
+      "readMinutes": 2
+    },
+    {
+      "id": "k-fructose-sugar-vi",
+      "type": "knowledge",
+      "publishDate": "2026-03-12",
+      "locale": "vi",
+      "title": "Đồ uống có đường và fructose",
+      "summary": "Đồ uống có đường và fructose gắn với axit uric cao hơn và nguy cơ mắc gút lớn hơn, và các hướng dẫn gợi ý hạn chế sirô ngô giàu fructose trong các biện pháp lối sống. Cơ thể tạo ra nhiều urat hơn khi xử lý fructose. Giảm bớt đồ uống có đường là một thay đổi có thể hỗ trợ điều trị.",
+      "whyItMatters": "Điều này làm rõ vì sao đồ uống ngọt, chứ không chỉ rượu bia và thịt, được nhắc đến trong các cuộc trò chuyện về bệnh gút.",
+      "tags": [
+        "diet",
+        "lifestyle",
+        "fructose"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "lifestyle",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-fructose-sugar.jpg"
+    },
+    {
+      "id": "k-weight-vi",
+      "type": "knowledge",
+      "publishDate": "2026-03-15",
+      "locale": "vi",
+      "title": "Cân nặng cơ thể và bệnh gút",
+      "summary": "Mang cân nặng dư thừa gắn với nguy cơ mắc gút cao hơn, và các hướng dẫn khuyến nghị có điều kiện việc giảm cân cho người bị gút có thừa cân. Giảm cân gắn với axit uric thấp hơn trong các nghiên cứu, dù chất lượng của bằng chứng đó ở mức trung bình. Bất kỳ thay đổi nào thường diễn ra từ từ và là một phần của sức khỏe tổng thể.",
+      "whyItMatters": "Điều này giải thích vì sao bác sĩ có thể đề cập đến cân nặng như một trong nhiều đòn bẩy để quản lý bệnh gút.",
+      "tags": [
+        "weight",
+        "lifestyle"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "lifestyle",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-weight.jpg"
+    },
+    {
+      "id": "k-vitamin-c-cherries-vi",
+      "type": "knowledge",
+      "publishDate": "2026-03-18",
+      "locale": "vi",
+      "title": "Vitamin C và quả anh đào: tốt nhất cũng chỉ khiêm tốn",
+      "summary": "Một phân tích gộp các thử nghiệm cho thấy thực phẩm bổ sung vitamin C chỉ hạ axit uric rất ít, một tác động quá nhỏ để điều trị bệnh gút. Một số nghiên cứu quan sát liên hệ việc ăn quả anh đào với ít đợt bùng phát hơn, nhưng bằng chứng đó còn hạn chế và không thể chứng minh lợi ích. Cả hai đôi khi được bàn đến như những thứ bổ sung, không phải thay thế cho điều trị.",
+      "whyItMatters": "Đặt kỳ vọng thực tế cho những phương thuốc phổ biến giúp giữ sự tập trung vào các biện pháp có bằng chứng mạnh hơn.",
+      "tags": [
+        "diet",
+        "lifestyle",
+        "supplements"
+      ],
+      "evidence": "review",
+      "sourceName": "Arthritis Care & Research (meta-analysis)",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3169708/",
+      "reviewed": false,
+      "category": "lifestyle",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-vitamin-c-cherries.jpg"
+    },
+    {
+      "id": "k-ckd-urate-vi",
+      "type": "knowledge",
+      "publishDate": "2026-03-20",
+      "locale": "vi",
+      "title": "Bệnh gút và chức năng thận",
+      "summary": "Bệnh gút và chức năng thận giảm thường xảy ra cùng nhau, và chức năng thận ảnh hưởng đến cách chỉnh liều các thuốc hạ urat. Các hướng dẫn lưu ý rằng allopurinol vẫn có thể được dùng khi chức năng thận giảm, với liều và việc theo dõi do bác sĩ quản lý. Hạ axit uric vẫn là mục tiêu ngay cả khi thận bị ảnh hưởng.",
+      "whyItMatters": "Nếu bạn có vấn đề về thận, đây là lý do bác sĩ có thể điều chỉnh liều hoặc cách theo dõi cho việc điều trị của bạn.",
+      "tags": [
+        "ckd",
+        "kidney",
+        "medication"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "guideline",
+      "readMinutes": 1,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-ckd-urate.jpg"
+    },
+    {
+      "id": "k-comorbidities-vi",
+      "type": "knowledge",
+      "publishDate": "2026-04-02",
+      "locale": "vi",
+      "title": "Những bệnh lý thường đi kèm với gút",
+      "summary": "Các hướng dẫn khuyên nhìn xa hơn các khớp, bởi vì gút thường đi kèm với tăng huyết áp, đái tháo đường type 2, béo phì, bệnh tim mạch và bệnh thận mạn. Các khuyến nghị của châu Âu kêu gọi sàng lọc những bệnh lý liên quan này ở người bị gút. Quản lý chúng được mô tả như một phần của việc chăm sóc gút tổng thể.",
+      "whyItMatters": "Nhìn nhận gút như một bệnh liên quan đến sức khỏe tim mạch và chuyển hóa giải thích vì sao bác sĩ thường kiểm tra nhiều hơn là chỉ các khớp.",
+      "tags": [
+        "comorbidities",
+        "kidney",
+        "lifestyle"
+      ],
+      "evidence": "guideline",
+      "sourceName": "EULAR 2016 Recommendations",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/27457514/",
+      "reviewed": false,
+      "category": "guideline",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-comorbidities.jpg"
+    },
+    {
+      "id": "k-flare-course-vi",
+      "type": "knowledge",
+      "publishDate": "2026-04-06",
+      "locale": "vi",
+      "title": "Một đợt bùng phát thường diễn ra như thế nào",
+      "summary": "Một đợt bùng phát gút thường đến nhanh, đạt đỉnh trong khoảng một ngày, rồi tự lắng dịu trong một đến hai tuần ngay cả khi không điều trị. Điều trị nhằm giảm đau và rút ngắn cơn cấp. Các đợt bùng phát có thể tái diễn, đặc biệt khi axit uric còn cao.",
+      "whyItMatters": "Biết diễn tiến thông thường của một đợt bùng phát có thể khiến cơn đau đột ngột bớt đáng sợ và giúp đặt kỳ vọng cho quá trình hồi phục.",
+      "tags": [
+        "flare",
+        "basics"
+      ],
+      "evidence": "review",
+      "sourceName": "NIAMS (NIH)",
+      "sourceUrl": "https://www.niams.nih.gov/health-topics/gout",
+      "reviewed": false,
+      "category": "general",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-flare-course.png"
+    },
+    {
+      "id": "k-what-are-tophi-vi",
+      "type": "knowledge",
+      "publishDate": "2026-04-10",
+      "locale": "vi",
+      "title": "Hạt tophi là gì",
+      "summary": "Hạt tophi là những cục cứng hình thành khi tinh thể urat tích tụ dưới da và quanh các khớp trong bệnh gút kéo dài, kiểm soát kém. Chúng có thể làm tổn thương xương và mô lân cận theo thời gian. Hạ axit uric xuống và giữ nó ở mức thấp có thể dần làm chúng nhỏ lại.",
+      "whyItMatters": "Nhận ra hạt tophi là một dấu hiệu của tinh thể tích tụ nhấn mạnh vì sao việc kiểm soát urat ổn định, lâu dài lại quan trọng.",
+      "tags": [
+        "tophi",
+        "uric-acid",
+        "basics"
+      ],
+      "evidence": "review",
+      "sourceName": "NIAMS (NIH)",
+      "sourceUrl": "https://www.niams.nih.gov/health-topics/gout",
+      "reviewed": false,
+      "category": "general",
+      "readMinutes": 1
+    },
+    {
+      "id": "k-pseudogout-vi",
+      "type": "knowledge",
+      "publishDate": "2026-04-14",
+      "locale": "vi",
+      "title": "Giả gút là một bệnh khác",
+      "summary": "Giả gút, hay bệnh lắng đọng calci pyrophosphat, là một loại viêm khớp do tinh thể riêng biệt có thể trông giống gút nhưng liên quan đến một loại tinh thể khác, calci pyrophosphat chứ không phải urat. Nó thường ảnh hưởng đến đầu gối. Vì tinh thể khác nhau, bác sĩ có thể xét nghiệm dịch khớp để phân biệt hai bệnh.",
+      "whyItMatters": "Biết rằng gút không phải là loại viêm khớp do tinh thể duy nhất giải thích vì sao bác sĩ có thể xét nghiệm dịch khớp thay vì phỏng đoán.",
+      "tags": [
+        "pseudogout",
+        "basics",
+        "diagnosis"
+      ],
+      "evidence": "review",
+      "sourceName": "Arthritis Foundation",
+      "sourceUrl": "https://www.arthritis.org/diseases/calcium-pyrophosphate-deposition",
+      "reviewed": false,
+      "category": "general",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-pseudogout.png"
+    },
+    {
+      "id": "k-what-is-gout-ja",
+      "type": "knowledge",
+      "publishDate": "2026-01-10",
+      "locale": "ja",
+      "title": "痛風とは何か、なぜ発作が起こるのか",
+      "summary": "痛風は、血液中に尿酸がたまり、関節やその周囲に小さな結晶ができることで生じる炎症性の関節炎の一種です。免疫系がこれらの結晶に反応すると、関節が突然、熱を持って腫れ、痛みを伴うことがあり、多くは足の親指の付け根に起こります。結晶は、尿酸が高い状態が長く続くうちに少しずつできていきます。",
+      "whyItMatters": "発作が尿酸の結晶から起こると理解すると、長期の治療がなぜ発作の痛みだけでなく尿酸そのものを目標にするのかがわかります。",
+      "tags": [
+        "gout",
+        "uric-acid",
+        "flare",
+        "basics"
+      ],
+      "evidence": "review",
+      "sourceName": "NHS",
+      "sourceUrl": "https://www.nhs.uk/conditions/gout/",
+      "reviewed": false,
+      "category": "general",
+      "readMinutes": 2,
+      "sections": [
+        {
+          "id": "crystals",
+          "icon": "drop.fill",
+          "title": "関節にできる結晶",
+          "body": "尿酸が高い状態が続くと、関節やその周囲に鋭い顕微鏡レベルの結晶ができることがあります。免疫系がこれらの結晶に反応し、それが発作を突然で痛みの強いものにしています。"
+        },
+        {
+          "id": "where",
+          "icon": "target",
+          "title": "最初に多く起こる場所",
+          "body": "足の親指は最初の発作が起こる典型的な場所ですが、痛風は足首、膝、足の甲、そのほかの関節にも起こることがあります。"
+        },
+        {
+          "id": "long-view",
+          "icon": "calendar",
+          "title": "長く付き合う病気",
+          "body": "痛風は現れたり治まったりを繰り返しやすく、時間をかけて尿酸を下げないでいると、発作がより頻繁になり、結晶の沈着がたまっていくことがあります。"
+        }
+      ]
+    },
+    {
+      "id": "k-where-uric-acid-ja",
+      "type": "knowledge",
+      "publishDate": "2026-01-12",
+      "locale": "ja",
+      "title": "尿酸はどこから来るのか",
+      "summary": "尿酸は、体がプリン体と呼ばれる物質を分解したときにできる最終産物です。その大部分は体の中で作られ、一部は食べ物から来ます。体が作りすぎたり、腎臓が排出する量が少なすぎたりすると血中の値が上がり、痛風では通常、腎臓による排出の低下のほうが大きな要因です。",
+      "whyItMatters": "尿酸の大部分を体自身が作っていると知ると、なぜ食事だけではコントロールしにくく、薬がその産生や排出を目標にするのかがわかります。",
+      "tags": [
+        "uric-acid",
+        "basics",
+        "kidney"
+      ],
+      "evidence": "review",
+      "sourceName": "Frontiers in Medicine (review)",
+      "sourceUrl": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2018.00160/full",
+      "reviewed": false,
+      "category": "general",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-where-uric-acid.png"
+    },
+    {
+      "id": "k-treat-to-target-ja",
+      "type": "knowledge",
+      "publishDate": "2026-01-15",
+      "locale": "ja",
+      "title": "尿酸を目標値まで下げる",
+      "summary": "リウマチ学のガイドラインでは、痛風に対して治療目標(treat-to-target)という考え方が示されており、血中尿酸が一定の値より下がってそこを保つまで尿酸降下療法を調整します。よく引用される目標は 6 mg/dL 未満で、痛風結節(tophi)と呼ばれる目に見える結晶の沈着がある人にはより低い目標が設定されます。尿酸を長期にわたって低く保つことで、発作を引き起こす結晶が少しずつ溶けていきます。",
+      "whyItMatters": "医師が設定した目標に到達してそれを保つことが、一つひとつの発作をその都度治療するのではなく、長い目で見て発作を減らすことにつながります。",
+      "tags": [
+        "target",
+        "ult",
+        "treatment"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "guideline",
+      "readMinutes": 2,
+      "sections": [
+        {
+          "id": "the-number",
+          "icon": "target",
+          "title": "目指すべき数値",
+          "body": "ガイドラインでは一般に血清尿酸の目標を 6 mg/dL 未満とし、結晶の沈着がある場合にはより低い目標が示されます。"
+        },
+        {
+          "id": "measuring",
+          "icon": "gauge.with.dots.needle.bottom.50percent",
+          "title": "血液検査で経過を追う",
+          "body": "尿酸は定期的な血液検査で確認され、目標に到達するまで用量を調整し、その後は維持します。"
+        },
+        {
+          "id": "why-it-works",
+          "icon": "drop.fill",
+          "title": "結晶を溶かす",
+          "body": "尿酸が目標を下回った状態を保つと、すでにある結晶がゆっくり溶けていき、数か月かけて発作が減っていく傾向があります。"
+        }
+      ]
+    },
+    {
+      "id": "k-allopurinol-first-line-ja",
+      "type": "knowledge",
+      "publishDate": "2026-01-20",
+      "locale": "ja",
+      "title": "なぜ allopurinol が通常は最初の選択肢なのか",
+      "summary": "ガイドラインでは一般に、腎機能が低下している多くの人を含め、尿酸を下げる最初の薬として allopurinol が推奨されています。よく研究されており、経口で服用でき、尿酸の目標に到達するよう用量を調整できます。allopurinol が適さない場合には、ほかの尿酸降下薬が選択肢になります。",
+      "whyItMatters": "allopurinol が通常の出発点だと知っておくと、医師が最初に提案する可能性が高い治療方針を理解しやすくなります。",
+      "tags": [
+        "ult",
+        "medication",
+        "allopurinol"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "therapy",
+      "readMinutes": 1,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-allopurinol-first-line.jpg"
+    },
+    {
+      "id": "k-start-low-go-slow-ja",
+      "type": "knowledge",
+      "publishDate": "2026-01-22",
+      "locale": "ja",
+      "title": "尿酸降下療法を少しずつ始める",
+      "summary": "ガイドラインでは、allopurinol を低用量から始め、医師の管理のもとで途中で尿酸を再検査しながらゆっくり増やしていくことが勧められています。この「少なく始めてゆっくり進める」やり方は、副作用が少なく、治療の始まりがなだらかになることと関連しています。用量は、一つの決まった量ではなく尿酸の目標に沿って決められます。",
+      "whyItMatters": "ゆっくり増やしていくことを理解しておくと、治療を途中でやめてしまわず、最初の数か月を落ち着いて過ごしやすくなります。",
+      "tags": [
+        "ult",
+        "medication",
+        "safety"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "therapy",
+      "readMinutes": 1
+    },
+    {
+      "id": "k-flare-prophylaxis-ja",
+      "type": "knowledge",
+      "publishDate": "2026-02-01",
+      "locale": "ja",
+      "title": "治療を始めると発作が増えることがあるのはなぜか",
+      "summary": "尿酸が下がると、何年もかけてたまってきた結晶が溶け始め、治療開始からの最初の数か月にかえって発作が増えることがあります。この時期を和らげるため、ガイドラインでは尿酸降下療法とあわせて抗炎症薬を数か月間追加することが示されています。増えた発作は、結晶が減っていくにつれて落ち着いていく傾向があります。",
+      "whyItMatters": "始まりに波があると見込んでおくと、治療開始後まもなく発作が増えても慌てずにすみます。",
+      "tags": [
+        "flare",
+        "ult",
+        "medication"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "guideline",
+      "readMinutes": 2
+    },
+    {
+      "id": "k-dont-stop-during-flare-ja",
+      "type": "knowledge",
+      "publishDate": "2026-02-10",
+      "locale": "ja",
+      "title": "発作中も治療を続ける",
+      "summary": "ガイドラインでは一般に、発作が起きたというだけで続けている尿酸降下療法をやめないよう勧めています。始めたりやめたりすると尿酸が上下に揺れ、それが発作の増加と関連します。発作そのものは通常、尿酸降下薬を続けたまま別に治療します。",
+      "whyItMatters": "医師の指示に従って発作中も一貫して続けることで、尿酸が大きく揺れ動くのではなく安定した状態に保たれます。",
+      "tags": [
+        "flare",
+        "ult"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "guideline",
+      "readMinutes": 1
+    },
+    {
+      "id": "k-colchicine-ja",
+      "type": "knowledge",
+      "publishDate": "2026-02-14",
+      "locale": "ja",
+      "title": "痛風における colchicine の二つの役割",
+      "summary": "colchicine は痛風で二通りに使われる抗炎症薬です。急性発作を鎮めるためと、低用量で尿酸降下療法の最初の数か月に発作を予防するのを助けるためです。ガイドラインでは、発作に対する選択肢として抗炎症薬やステロイドと並べて挙げられています。炎症に作用するもので、それ自体が尿酸を下げるわけではありません。",
+      "whyItMatters": "colchicine が尿酸ではなく炎症を治療すると理解すると、なぜ尿酸降下薬と一緒に使われることが多いのかがわかります。",
+      "tags": [
+        "flare",
+        "medication",
+        "colchicine"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "therapy",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-colchicine.jpg"
+    },
+    {
+      "id": "k-febuxostat-alt-ja",
+      "type": "knowledge",
+      "publishDate": "2026-02-16",
+      "locale": "ja",
+      "title": "代替薬としての febuxostat",
+      "summary": "febuxostat は、体が作る量を減らすことで尿酸を下げる別の薬で、狙いは allopurinol と似ています。あるランダム化試験では、一定用量の allopurinol と少なくとも同程度に効果的に尿酸を下げました。allopurinol が合わない、または適さない場合に、心臓の既往を考慮したうえで検討されることが多い薬です。",
+      "whyItMatters": "allopurinol が自分に合わなかった場合に、よく研究された代替薬があると知っておくと役立ちます。",
+      "tags": [
+        "ult",
+        "medication",
+        "febuxostat"
+      ],
+      "evidence": "rct",
+      "sourceName": "New England Journal of Medicine",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/16339094/",
+      "reviewed": false,
+      "category": "therapy",
+      "readMinutes": 2
+    },
+    {
+      "id": "k-hlab5801-ja",
+      "type": "knowledge",
+      "publishDate": "2026-02-18",
+      "locale": "ja",
+      "title": "一部の人には allopurinol の前に遺伝子検査を",
+      "summary": "HLA-B*58:01 と呼ばれる遺伝子の型がより多く見られる背景を持つ人、たとえば漢民族、韓国系、タイ系の一部の人については、ガイドラインで allopurinol を始める前にこの検査を行うことが勧められています。この型を持っていると、まれではあるものの重い皮膚反応のリスクが高まることと関連します。この検査は、別の薬へ導いたほうがよい人を見分けるのに役立ちます。",
+      "whyItMatters": "これは、特定の患者に allopurinol を処方する前に医師がなぜ特定の血液検査を指示することがあるのかを説明しています。",
+      "tags": [
+        "safety",
+        "ult",
+        "medication"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "guideline",
+      "readMinutes": 2
+    },
+    {
+      "id": "k-adherence-ja",
+      "type": "knowledge",
+      "publishDate": "2026-03-01",
+      "locale": "ja",
+      "title": "長く治療を続ける",
+      "summary": "あるシステマティックレビューでは、尿酸降下療法の服薬継続率はしばしば低く、多くの人が処方より少なく服用し、一部は最初の1年以内にやめてしまうことがわかりました。研究では、治療を続けることが尿酸をより安定してコントロールすることと関連づけられています。痛風の治療は、主に続けている間に効果を保つ傾向があります。",
+      "whyItMatters": "効果が続けることにかかっているため、一貫性こそが尿酸降下療法を効かせる大きな要素です。",
+      "tags": [
+        "adherence",
+        "ult"
+      ],
+      "evidence": "review",
+      "sourceName": "Arthritis Care & Research (systematic review)",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/24692321/",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "k-diet-role-ja",
+      "type": "knowledge",
+      "publishDate": "2026-03-05",
+      "locale": "ja",
+      "title": "食事は尿酸をどのくらい変えるか",
+      "summary": "食事と痛風に関するあるレビューでは、食事の変更だけでは、薬に比べて尿酸をわずかにしか下げないのが通常だとわかりました。DASH ダイエットのような方法やプリン体の多い食品を控えることは少しは役立ち、全体的な健康を支えますが、多くの人にとっては尿酸降下療法が主役を担います。食事は、代わりになるものではなく、役立つ補助として位置づけられています。",
+      "whyItMatters": "食事に対して現実的な期待を持つことで、尿酸を最も動かす治療に注意を向け続けられます。",
+      "tags": [
+        "diet",
+        "lifestyle"
+      ],
+      "evidence": "review",
+      "sourceName": "Best Practice & Research Clinical Rheumatology (review)",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8678356/",
+      "reviewed": false,
+      "category": "lifestyle",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-diet-role.jpg"
+    },
+    {
+      "id": "k-purine-foods-ja",
+      "type": "knowledge",
+      "publishDate": "2026-03-08",
+      "locale": "ja",
+      "title": "プリン体の多い食品と痛風",
+      "summary": "赤身肉、内臓肉、一部の魚介類など、プリン体の多い食品は、尿酸の上昇や発作の起こりやすさと関連します。ガイドラインでは、治療を支える生活習慣上の対策の一つとして、これらの食品を控えることが含まれています。食べ物の影響は薬に比べてわずかですが、それでも補助的な役割を果たすことができます。",
+      "whyItMatters": "どの食品が発作と最も関連しているかを知っておくと、当てずっぽうではなく、情報に基づいて選べます。",
+      "tags": [
+        "diet",
+        "lifestyle",
+        "purines"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "lifestyle",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-purine-foods.jpg"
+    },
+    {
+      "id": "k-alcohol-ja",
+      "type": "knowledge",
+      "publishDate": "2026-03-10",
+      "locale": "ja",
+      "title": "アルコールと痛風発作",
+      "summary": "アルコール、とくにビールは、尿酸の上昇や痛風発作のリスク増加と関連しており、ガイドラインでは支えとなる生活習慣上の対策の一つとしてアルコールを控えることが含まれています。ビールはアルコールそのものに加えてプリン体も余分に含みます。ワインは研究では関連がそれほど強く見られませんが、それでも節度という基本は変わりません。",
+      "whyItMatters": "アルコールがよくある発作の引き金だと認識しておくと、自分の痛風がどう動くかと照らし合わせて考えられます。",
+      "tags": [
+        "alcohol",
+        "lifestyle",
+        "flare"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "lifestyle",
+      "readMinutes": 2
+    },
+    {
+      "id": "k-fructose-sugar-ja",
+      "type": "knowledge",
+      "publishDate": "2026-03-12",
+      "locale": "ja",
+      "title": "甘い飲み物と果糖",
+      "summary": "砂糖で甘くした飲み物や果糖は、尿酸の上昇や痛風のリスク増加と関連しており、ガイドラインでは生活習慣上の対策の一つとして高果糖コーンシロップを控えることが勧められています。体は果糖を処理する際により多くの尿酸を作ります。甘い飲み物を減らすことは、治療を支える変化になり得ます。",
+      "whyItMatters": "痛風の話題で、アルコールや肉だけでなく甘い飲み物がなぜ出てくるのかがわかります。",
+      "tags": [
+        "diet",
+        "lifestyle",
+        "fructose"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "lifestyle",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-fructose-sugar.jpg"
+    },
+    {
+      "id": "k-weight-ja",
+      "type": "knowledge",
+      "publishDate": "2026-03-15",
+      "locale": "ja",
+      "title": "体重と痛風",
+      "summary": "余分な体重を抱えていることは痛風のリスク増加と関連しており、ガイドラインでは過体重の痛風の人に対して条件付きで減量を勧めています。減量は研究で尿酸の低下と関連づけられていますが、その根拠の質は中程度です。変化は通常、少しずつ進め、全体的な健康の一部として行われます。",
+      "whyItMatters": "痛風を管理するいくつかの手立ての一つとして、医師がなぜ体重を話題にすることがあるのかがわかります。",
+      "tags": [
+        "weight",
+        "lifestyle"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "lifestyle",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-weight.jpg"
+    },
+    {
+      "id": "k-vitamin-c-cherries-ja",
+      "type": "knowledge",
+      "publishDate": "2026-03-18",
+      "locale": "ja",
+      "title": "ビタミンCとチェリー:よくてもわずか",
+      "summary": "複数の試験のメタ分析では、ビタミンCのサプリメントは尿酸をわずかにしか下げず、その効果は痛風の治療には小さすぎることがわかりました。一部の観察研究ではチェリーの摂取が発作の減少と関連づけられていますが、その根拠は限られており、効果を証明することはできません。どちらも、治療の代わりではなく補助として語られることがあります。",
+      "whyItMatters": "人気のある民間療法に現実的な期待を持つことで、より強い根拠のある対策に焦点を保てます。",
+      "tags": [
+        "diet",
+        "lifestyle",
+        "supplements"
+      ],
+      "evidence": "review",
+      "sourceName": "Arthritis Care & Research (meta-analysis)",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3169708/",
+      "reviewed": false,
+      "category": "lifestyle",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-vitamin-c-cherries.jpg"
+    },
+    {
+      "id": "k-ckd-urate-ja",
+      "type": "knowledge",
+      "publishDate": "2026-03-20",
+      "locale": "ja",
+      "title": "痛風と腎機能",
+      "summary": "痛風と腎機能の低下はしばしば同時に起こり、腎機能は尿酸降下薬の用量の決め方に影響します。ガイドラインでは、腎機能が低下している場合でも、用量とモニタリングを医師が管理したうえで allopurinol を使えると述べています。腎臓に影響がある場合でも、尿酸を下げることが目標であることは変わりません。",
+      "whyItMatters": "腎臓に不安がある場合、医師がなぜ治療の用量やモニタリングを調整することがあるのかがわかります。",
+      "tags": [
+        "ckd",
+        "kidney",
+        "medication"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "guideline",
+      "readMinutes": 1,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-ckd-urate.jpg"
+    },
+    {
+      "id": "k-comorbidities-ja",
+      "type": "knowledge",
+      "publishDate": "2026-04-02",
+      "locale": "ja",
+      "title": "痛風とよく一緒に見られる病気",
+      "summary": "ガイドラインでは、痛風が高血圧、2型糖尿病、肥満、心血管疾患、慢性腎臓病としばしば重なるため、関節だけにとどまらず目を向けるよう勧めています。ヨーロッパの推奨では、痛風の人にこれら関連する病気のスクリーニングを行うことが求められています。それらの管理は、痛風の全体的なケアの一部として位置づけられています。",
+      "whyItMatters": "痛風を心臓や代謝の健康とつながったものと見ると、医師がなぜ関節だけでなくそれ以上を調べることが多いのかがわかります。",
+      "tags": [
+        "comorbidities",
+        "kidney",
+        "lifestyle"
+      ],
+      "evidence": "guideline",
+      "sourceName": "EULAR 2016 Recommendations",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/27457514/",
+      "reviewed": false,
+      "category": "guideline",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-comorbidities.jpg"
+    },
+    {
+      "id": "k-flare-course-ja",
+      "type": "knowledge",
+      "publishDate": "2026-04-06",
+      "locale": "ja",
+      "title": "発作は通常どのように進むか",
+      "summary": "痛風発作はふつう急に起こり、およそ1日でピークに達し、その後は治療をしなくても1〜2週間で自然に治まっていきます。治療は痛みを和らげ、発作を短くすることを目指します。とくに尿酸が高いままだと、発作は再び起こることがあります。",
+      "whyItMatters": "発作のいつもの経過を知っておくと、突然の痛みも怖くなくなり、回復の見通しを立てられます。",
+      "tags": [
+        "flare",
+        "basics"
+      ],
+      "evidence": "review",
+      "sourceName": "NIAMS (NIH)",
+      "sourceUrl": "https://www.niams.nih.gov/health-topics/gout",
+      "reviewed": false,
+      "category": "general",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-flare-course.png"
+    },
+    {
+      "id": "k-what-are-tophi-ja",
+      "type": "knowledge",
+      "publishDate": "2026-04-10",
+      "locale": "ja",
+      "title": "痛風結節(tophi)とは何か",
+      "summary": "痛風結節(tophi)は、長く続いてコントロールが不十分な痛風で、尿酸の結晶が皮膚の下や関節の周囲にたまってできる硬いしこりです。時間とともに近くの骨や組織を傷つけることがあります。尿酸を下げて低く保つと、少しずつ小さくしていくことができます。",
+      "whyItMatters": "痛風結節をたまった結晶のしるしと認識すると、安定した長期の尿酸コントロールがなぜ大切なのかが際立ちます。",
+      "tags": [
+        "tophi",
+        "uric-acid",
+        "basics"
+      ],
+      "evidence": "review",
+      "sourceName": "NIAMS (NIH)",
+      "sourceUrl": "https://www.niams.nih.gov/health-topics/gout",
+      "reviewed": false,
+      "category": "general",
+      "readMinutes": 1
+    },
+    {
+      "id": "k-pseudogout-ja",
+      "type": "knowledge",
+      "publishDate": "2026-04-14",
+      "locale": "ja",
+      "title": "偽痛風(pseudogout)は別の病気",
+      "summary": "偽痛風(pseudogout)、すなわちピロリン酸カルシウム沈着症は、痛風に似て見えることがある別の種類の結晶性関節炎ですが、関わる結晶が尿酸ではなくピロリン酸カルシウムという別のものです。膝に起こることが多いです。結晶が異なるため、医師は両者を見分けるために関節液を調べることがあります。",
+      "whyItMatters": "痛風だけが結晶性関節炎ではないと知ると、医師がなぜ決めつけずに関節液を調べることがあるのかがわかります。",
+      "tags": [
+        "pseudogout",
+        "basics",
+        "diagnosis"
+      ],
+      "evidence": "review",
+      "sourceName": "Arthritis Foundation",
+      "sourceUrl": "https://www.arthritis.org/diseases/calcium-pyrophosphate-deposition",
+      "reviewed": false,
+      "category": "general",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-pseudogout.png"
+    },
+    {
+      "id": "k-what-is-gout-zh",
+      "type": "knowledge",
+      "publishDate": "2026-01-10",
+      "locale": "zh-Hans",
+      "title": "什么是痛风，以及它为什么会发作",
+      "summary": "痛风是一种炎症性关节炎，当血液中尿酸过多、在关节内及其周围形成微小结晶时就会出现。当免疫系统对这些结晶产生反应时，关节可能突然变得又热、又肿、又痛，最常见的部位是大脚趾的根部。当尿酸长期偏高时，结晶会逐渐形成。",
+      "whyItMatters": "理解发作源于尿酸盐结晶，可以说明为什么长期治疗针对的是尿酸本身，而不仅仅是缓解发作时的疼痛。",
+      "tags": [
+        "gout",
+        "uric-acid",
+        "flare",
+        "basics"
+      ],
+      "evidence": "review",
+      "sourceName": "NHS",
+      "sourceUrl": "https://www.nhs.uk/conditions/gout/",
+      "reviewed": false,
+      "category": "general",
+      "readMinutes": 2,
+      "sections": [
+        {
+          "id": "crystals",
+          "icon": "drop.fill",
+          "title": "关节里的结晶",
+          "body": "当尿酸持续偏高时，它可能在关节内及其周围形成尖锐的微观结晶。免疫系统会对这些结晶产生反应，这正是发作如此突然而剧烈的原因。"
+        },
+        {
+          "id": "where",
+          "icon": "target",
+          "title": "常见的首发部位",
+          "body": "大脚趾是首次发作的经典部位，不过痛风也可能累及踝关节、膝关节、足中部以及其他关节。"
+        },
+        {
+          "id": "long-view",
+          "icon": "calendar",
+          "title": "一种长期疾病",
+          "body": "痛风往往时好时坏，如果不随着时间推移把尿酸降下来，发作可能会越来越频繁，结晶沉积也会不断积累。"
+        }
+      ]
+    },
+    {
+      "id": "k-where-uric-acid-zh",
+      "type": "knowledge",
+      "publishDate": "2026-01-12",
+      "locale": "zh-Hans",
+      "title": "尿酸从何而来",
+      "summary": "尿酸是身体分解一种叫做嘌呤的物质后产生的最终产物。其中大部分是在体内生成的，一部分来自食物。当身体生成过多，或肾脏清除过少时，血液中的水平就会升高；在痛风中，通常肾脏清除减少才是更主要的因素。",
+      "whyItMatters": "了解身体自身生成了大部分尿酸，可以说明为什么单靠饮食很难控制尿酸，也说明了药物为什么要针对尿酸的生成或排出。",
+      "tags": [
+        "uric-acid",
+        "basics",
+        "kidney"
+      ],
+      "evidence": "review",
+      "sourceName": "Frontiers in Medicine (review)",
+      "sourceUrl": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2018.00160/full",
+      "reviewed": false,
+      "category": "general",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-where-uric-acid.png"
+    },
+    {
+      "id": "k-treat-to-target-zh",
+      "type": "knowledge",
+      "publishDate": "2026-01-15",
+      "locale": "zh-Hans",
+      "title": "把尿酸降到目标值",
+      "summary": "风湿病学指南提出了针对痛风的达标治疗方法，即调整降尿酸治疗，直到血液尿酸降到某一设定水平以下并保持稳定。一个经常被引用的目标是低于 6 mg/dL，对于有可见结晶沉积（称为痛风石）的人则设定更低的目标。长期把尿酸维持在低水平，会逐渐溶解那些引发发作的结晶。",
+      "whyItMatters": "达到并维持医生为你设定的目标值，才是从长远减少发作的关键，而不是把每次发作单独去处理。",
+      "tags": [
+        "target",
+        "ult",
+        "treatment"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "guideline",
+      "readMinutes": 2,
+      "sections": [
+        {
+          "id": "the-number",
+          "icon": "target",
+          "title": "一个要努力达到的数值",
+          "body": "指南通常将血清尿酸目标设定为低于 6 mg/dL，当存在结晶沉积时则设定更低的目标。"
+        },
+        {
+          "id": "measuring",
+          "icon": "gauge.with.dots.needle.bottom.50percent",
+          "title": "通过血液检查来跟踪",
+          "body": "尿酸会通过定期血液检查来监测，以便调整剂量，直到达到目标值，然后加以维持。"
+        },
+        {
+          "id": "why-it-works",
+          "icon": "drop.fill",
+          "title": "溶解结晶",
+          "body": "一旦尿酸持续保持在目标值以下，已有的结晶就会慢慢溶解，经过数月，这往往意味着发作次数减少。"
+        }
+      ]
+    },
+    {
+      "id": "k-allopurinol-first-line-zh",
+      "type": "knowledge",
+      "publishDate": "2026-01-20",
+      "locale": "zh-Hans",
+      "title": "为什么 allopurinol 通常是首选",
+      "summary": "指南普遍推荐 allopurinol 作为降尿酸的首选药物，包括对许多肾功能减退的人群也是如此。它经过充分研究，可以口服，剂量可以调整以达到尿酸目标值。当 allopurinol 不适合时，还有其他降尿酸药物可供选择。",
+      "whyItMatters": "了解 allopurinol 通常是起始用药，有助于理解医生最可能首先提出的治疗方案。",
+      "tags": [
+        "ult",
+        "medication",
+        "allopurinol"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "therapy",
+      "readMinutes": 1,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-allopurinol-first-line.jpg"
+    },
+    {
+      "id": "k-start-low-go-slow-zh",
+      "type": "knowledge",
+      "publishDate": "2026-01-22",
+      "locale": "zh-Hans",
+      "title": "循序渐进地开始降尿酸治疗",
+      "summary": "指南建议在医生指导下以低剂量开始使用 allopurinol，并缓慢加量，同时随时复查尿酸。这种从低剂量开始、缓慢加量的方法，与更少的副作用和更平稳的治疗起步相关。剂量是根据尿酸目标值来调整的，而不是一个固定不变的量。",
+      "whyItMatters": "理解剂量是缓慢加上去的，可以让人更容易在最初几个月保持耐心，而不是中断治疗。",
+      "tags": [
+        "ult",
+        "medication",
+        "safety"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "therapy",
+      "readMinutes": 1
+    },
+    {
+      "id": "k-flare-prophylaxis-zh",
+      "type": "knowledge",
+      "publishDate": "2026-02-01",
+      "locale": "zh-Hans",
+      "title": "为什么开始治疗时发作可能增多",
+      "summary": "随着尿酸下降，多年来积累的结晶开始溶解，这可能在治疗最初几个月里短暂地引发更多发作。为了缓冲这段时期，指南提出在降尿酸治疗的同时，加用抗炎药物持续数月。随着结晶逐渐清除，额外的发作往往会平息下来。",
+      "whyItMatters": "预先知道起步会有些波折，可以让治疗刚开始不久后发作增多时不那么令人担忧。",
+      "tags": [
+        "flare",
+        "ult",
+        "medication"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "guideline",
+      "readMinutes": 2
+    },
+    {
+      "id": "k-dont-stop-during-flare-zh",
+      "type": "knowledge",
+      "publishDate": "2026-02-10",
+      "locale": "zh-Hans",
+      "title": "发作期间继续治疗",
+      "summary": "指南普遍建议不要仅仅因为出现发作就停止正在进行的降尿酸治疗。反复地开始和停止会让尿酸忽高忽低，而这与更多的发作相关。发作本身通常会单独处理，同时继续使用降尿酸药物。",
+      "whyItMatters": "按照医生的建议在发作期间保持治疗一致，能让尿酸保持平稳，而不是上下波动。",
+      "tags": [
+        "flare",
+        "ult"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "guideline",
+      "readMinutes": 1
+    },
+    {
+      "id": "k-colchicine-zh",
+      "type": "knowledge",
+      "publishDate": "2026-02-14",
+      "locale": "zh-Hans",
+      "title": "colchicine 在痛风中的两种作用",
+      "summary": "colchicine 是一种用于痛风的抗炎药物，有两种用法：缓解急性发作，以及以低剂量在降尿酸治疗最初几个月里帮助预防发作。指南将它与抗炎药物和类固醇并列，作为治疗发作的一种选择。它作用于炎症，本身并不降低尿酸。",
+      "whyItMatters": "理解 colchicine 治疗的是炎症而非尿酸，可以说明为什么它常常与降尿酸药物一起使用。",
+      "tags": [
+        "flare",
+        "medication",
+        "colchicine"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "therapy",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-colchicine.jpg"
+    },
+    {
+      "id": "k-febuxostat-alt-zh",
+      "type": "knowledge",
+      "publishDate": "2026-02-16",
+      "locale": "zh-Hans",
+      "title": "febuxostat 作为一种替代选择",
+      "summary": "febuxostat 是另一种通过减少身体生成量来降低尿酸的药物，目的与 allopurinol 类似。在一项随机试验中，它降低尿酸的效果至少不亚于固定剂量的 allopurinol。当 allopurinol 无法耐受或不适合时，常会考虑使用它，同时会把心脏病史纳入考量。",
+      "whyItMatters": "了解在 allopurinol 不适合你的情况下，存在一种经过充分研究的替代选择，是有帮助的。",
+      "tags": [
+        "ult",
+        "medication",
+        "febuxostat"
+      ],
+      "evidence": "rct",
+      "sourceName": "New England Journal of Medicine",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/16339094/",
+      "reviewed": false,
+      "category": "therapy",
+      "readMinutes": 2
+    },
+    {
+      "id": "k-hlab5801-zh",
+      "type": "knowledge",
+      "publishDate": "2026-02-18",
+      "locale": "zh-Hans",
+      "title": "某些人在使用 allopurinol 前的一项基因检测",
+      "summary": "对于来自 HLA-B*58:01 基因变异较为常见背景的人群，包括部分汉族、韩裔和泰裔人群，指南建议在开始使用 allopurinol 之前进行该项检测。携带这一变异与出现一种罕见但严重的皮肤反应的较高风险相关。这项检测有助于识别哪些人可能会被引导使用另一种药物。",
+      "whyItMatters": "这说明了为什么医生在为某些患者开具 allopurinol 之前，可能会先安排一项特定的血液检查。",
+      "tags": [
+        "safety",
+        "ult",
+        "medication"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "guideline",
+      "readMinutes": 2
+    },
+    {
+      "id": "k-adherence-zh",
+      "type": "knowledge",
+      "publishDate": "2026-03-01",
+      "locale": "zh-Hans",
+      "title": "长期坚持治疗",
+      "summary": "一项系统综述发现，对降尿酸治疗的依从性往往较低，许多人服药量少于处方，有些人在第一年内就停药。研究表明，坚持治疗与长期更平稳地控制尿酸相关。痛风治疗往往主要在持续进行期间才能保持效果。",
+      "whyItMatters": "由于疗效取决于是否持续，坚持一致在很大程度上正是降尿酸治疗奏效的原因。",
+      "tags": [
+        "adherence",
+        "ult"
+      ],
+      "evidence": "review",
+      "sourceName": "Arthritis Care & Research (systematic review)",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/24692321/",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "k-diet-role-zh",
+      "type": "knowledge",
+      "publishDate": "2026-03-05",
+      "locale": "zh-Hans",
+      "title": "饮食能在多大程度上改变尿酸",
+      "summary": "一篇关于饮食与痛风的综述发现，与药物相比，仅靠改变饮食通常只能小幅降低尿酸。像 DASH 饮食或减少高嘌呤食物这样的做法可以起到一点帮助，并有益于整体健康，但对大多数人来说，降尿酸治疗才是主力。饮食被描述为一种有益的补充，而不是替代。",
+      "whyItMatters": "对饮食设定切合实际的期望，可以让注意力集中在最能改变尿酸的治疗上。",
+      "tags": [
+        "diet",
+        "lifestyle"
+      ],
+      "evidence": "review",
+      "sourceName": "Best Practice & Research Clinical Rheumatology (review)",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8678356/",
+      "reviewed": false,
+      "category": "lifestyle",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-diet-role.jpg"
+    },
+    {
+      "id": "k-purine-foods-zh",
+      "type": "knowledge",
+      "publishDate": "2026-03-08",
+      "locale": "zh-Hans",
+      "title": "富含嘌呤的食物与痛风",
+      "summary": "富含嘌呤的食物，如红肉、动物内脏和某些海鲜，与更高的尿酸和更大的发作可能性相关。指南将限制这些食物列入可以辅助治疗的生活方式措施之中。食物的作用与药物相比是较小的，但它仍能起到辅助作用。",
+      "whyItMatters": "了解哪些食物与发作关系最密切，有助于做出明智的选择，而不是靠猜测。",
+      "tags": [
+        "diet",
+        "lifestyle",
+        "purines"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "lifestyle",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-purine-foods.jpg"
+    },
+    {
+      "id": "k-alcohol-zh",
+      "type": "knowledge",
+      "publishDate": "2026-03-10",
+      "locale": "zh-Hans",
+      "title": "酒精与痛风发作",
+      "summary": "酒精，尤其是啤酒，与更高的尿酸和更大的痛风发作风险相关，指南也将限制饮酒列入辅助性的生活方式措施之中。啤酒在酒精本身之外还带有额外的嘌呤。在研究中，葡萄酒的关联似乎不那么明显，不过适度仍是总的主题。",
+      "whyItMatters": "认识到酒精是一种常见的发作诱因，可以让你结合自己痛风的实际表现来权衡它。",
+      "tags": [
+        "alcohol",
+        "lifestyle",
+        "flare"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "lifestyle",
+      "readMinutes": 2
+    },
+    {
+      "id": "k-fructose-sugar-zh",
+      "type": "knowledge",
+      "publishDate": "2026-03-12",
+      "locale": "zh-Hans",
+      "title": "含糖饮料与果糖",
+      "summary": "含糖饮料和果糖与更高的尿酸和更大的痛风风险相关，指南建议在生活方式措施中限制高果糖玉米糖浆。身体在代谢果糖时会生成更多尿酸。减少含糖饮料是一项可以辅助治疗的改变。",
+      "whyItMatters": "这说明了为什么在谈论痛风时，除了酒精和肉类之外，含糖饮料也会被提及。",
+      "tags": [
+        "diet",
+        "lifestyle",
+        "fructose"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "lifestyle",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-fructose-sugar.jpg"
+    },
+    {
+      "id": "k-weight-zh",
+      "type": "knowledge",
+      "publishDate": "2026-03-15",
+      "locale": "zh-Hans",
+      "title": "体重与痛风",
+      "summary": "体重过重与更高的痛风风险相关，指南有条件地建议超重的痛风患者减重。在研究中，减重与更低的尿酸相关，不过这方面证据的质量为中等。任何改变通常都是循序渐进的，并且是整体健康的一部分。",
+      "whyItMatters": "这说明了为什么医生可能会把体重作为管理痛风的若干手段之一提出来。",
+      "tags": [
+        "weight",
+        "lifestyle"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "lifestyle",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-weight.jpg"
+    },
+    {
+      "id": "k-vitamin-c-cherries-zh",
+      "type": "knowledge",
+      "publishDate": "2026-03-18",
+      "locale": "zh-Hans",
+      "title": "维生素 C 与樱桃：作用充其量有限",
+      "summary": "一项对多项试验的荟萃分析发现，维生素 C 补充剂只能略微降低尿酸，这一效果太小，不足以用来治疗痛风。一些观察性研究将食用樱桃与更少的发作联系起来，但那类证据有限，无法证明其益处。两者有时被当作辅助之物来讨论，而不是治疗的替代品。",
+      "whyItMatters": "对流行的偏方设定切合实际的期望，可以让注意力集中在证据更充分的措施上。",
+      "tags": [
+        "diet",
+        "lifestyle",
+        "supplements"
+      ],
+      "evidence": "review",
+      "sourceName": "Arthritis Care & Research (meta-analysis)",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3169708/",
+      "reviewed": false,
+      "category": "lifestyle",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-vitamin-c-cherries.jpg"
+    },
+    {
+      "id": "k-ckd-urate-zh",
+      "type": "knowledge",
+      "publishDate": "2026-03-20",
+      "locale": "zh-Hans",
+      "title": "痛风与肾功能",
+      "summary": "痛风和肾功能减退常常同时出现，肾功能会影响降尿酸药物的剂量。指南指出，在肾功能减退时仍可使用 allopurinol，剂量和监测由医生来把握。即使肾脏受到影响，降低尿酸仍然是目标。",
+      "whyItMatters": "如果你有肾脏方面的担忧，这就是医生为什么可能会调整你治疗的剂量或监测方式的原因。",
+      "tags": [
+        "ckd",
+        "kidney",
+        "medication"
+      ],
+      "evidence": "guideline",
+      "sourceName": "ACR 2020 Gout Guideline",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "reviewed": false,
+      "category": "guideline",
+      "readMinutes": 1,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-ckd-urate.jpg"
+    },
+    {
+      "id": "k-comorbidities-zh",
+      "type": "knowledge",
+      "publishDate": "2026-04-02",
+      "locale": "zh-Hans",
+      "title": "常与痛风相伴的疾病",
+      "summary": "指南建议把目光放到关节之外，因为痛风常常与高血压、2 型糖尿病、肥胖、心血管疾病和慢性肾病相重叠。欧洲的推荐意见呼吁对痛风患者筛查这些相关疾病。管理这些疾病被视为痛风整体照护的一部分。",
+      "whyItMatters": "把痛风看作与心脏和代谢健康相关联，可以说明为什么医生往往检查的不只是关节。",
+      "tags": [
+        "comorbidities",
+        "kidney",
+        "lifestyle"
+      ],
+      "evidence": "guideline",
+      "sourceName": "EULAR 2016 Recommendations",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/27457514/",
+      "reviewed": false,
+      "category": "guideline",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-comorbidities.jpg"
+    },
+    {
+      "id": "k-flare-course-zh",
+      "type": "knowledge",
+      "publishDate": "2026-04-06",
+      "locale": "zh-Hans",
+      "title": "一次发作通常是怎样演变的",
+      "summary": "痛风发作通常来得很快，在大约一天内达到最严重，然后即使不治疗，也会在一到两周内自行平息。治疗的目的是缓解疼痛并缩短发作。发作可能会复发，尤其是在尿酸持续偏高的时候。",
+      "whyItMatters": "了解一次发作通常的演变过程，可以让突如其来的疼痛不那么令人害怕，并对恢复设定合理的预期。",
+      "tags": [
+        "flare",
+        "basics"
+      ],
+      "evidence": "review",
+      "sourceName": "NIAMS (NIH)",
+      "sourceUrl": "https://www.niams.nih.gov/health-topics/gout",
+      "reviewed": false,
+      "category": "general",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-flare-course.png"
+    },
+    {
+      "id": "k-what-are-tophi-zh",
+      "type": "knowledge",
+      "publishDate": "2026-04-10",
+      "locale": "zh-Hans",
+      "title": "什么是痛风石",
+      "summary": "痛风石是当尿酸盐结晶在皮下和关节周围积累时形成的坚硬肿块，见于长期、控制不佳的痛风。随着时间推移，它们可能损害附近的骨骼和组织。把尿酸降下来并维持在低水平，可以让它们逐渐缩小。",
+      "whyItMatters": "认识到痛风石是结晶积累的一种信号，凸显了为什么平稳、长期地控制尿酸很重要。",
+      "tags": [
+        "tophi",
+        "uric-acid",
+        "basics"
+      ],
+      "evidence": "review",
+      "sourceName": "NIAMS (NIH)",
+      "sourceUrl": "https://www.niams.nih.gov/health-topics/gout",
+      "reviewed": false,
+      "category": "general",
+      "readMinutes": 1
+    },
+    {
+      "id": "k-pseudogout-zh",
+      "type": "knowledge",
+      "publishDate": "2026-04-14",
+      "locale": "zh-Hans",
+      "title": "假性痛风是另一种不同的疾病",
+      "summary": "假性痛风，即焦磷酸钙沉积症，是另一种结晶性关节炎，看起来可能像痛风，但涉及的是一种不同的结晶——焦磷酸钙，而不是尿酸盐。它常累及膝关节。由于结晶不同，医生可能会检查关节液来区分这两者。",
+      "whyItMatters": "了解痛风并不是唯一的结晶性关节炎，可以说明为什么医生可能会检查关节液，而不是直接假定。",
+      "tags": [
+        "pseudogout",
+        "basics",
+        "diagnosis"
+      ],
       "evidence": "review",
       "sourceName": "Arthritis Foundation",
       "sourceUrl": "https://www.arthritis.org/diseases/calcium-pyrophosphate-deposition",

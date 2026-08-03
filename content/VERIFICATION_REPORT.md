@@ -3,10 +3,14 @@
 Regenerated 2026-08-03. **Status: DRAFT.** Every item has `reviewed: false`. A
 clinician/editor must review the copy before flipping `reviewed: true`.
 
-- `feed-knowledge.json` — **22 items** (all `type: knowledge`, `locale: en`); **12
-  carry a self-hosted PD/CC0 image**.
-- `feed-news.json` — **10 items** (all `type: update`, `locale: en`, newest first);
-  genuinely recent (Mar 2025 → Jun 2026); 1 carries an image.
+- `feed-knowledge.json` — **88 items** = 22 English (`type: knowledge`) ×4 locales
+  (`en`/`vi`/`ja`/`zh-Hans`); the 12 self-hosted PD/CC0 images are shared across locales.
+- `feed-news.json` — **40 items** = 10 English (`type: update`, newest first) ×4
+  locales; genuinely recent (Mar 2025 → Jun 2026).
+- **Localization** was generated in-session (not human-reviewed): only `title` /
+  `summary` / `whyItMatters` / section text translated; all other fields kept identical
+  to English; drug/source/unit names kept verbatim. Needs a native-speaker + clinical
+  check before `reviewed: true`, same as the English copy.
 - **13 images**, all downloaded to `docs/content/img/` and confirmed **public-domain or CC0
   (no attribution)**; SVG diagrams rasterized to PNG (iOS won't render SVG). The beer
   SVG failed to rasterize and was dropped (`k-alcohol` has no image).

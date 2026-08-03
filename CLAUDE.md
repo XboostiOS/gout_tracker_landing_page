@@ -45,6 +45,19 @@ approves → commit. Cadence: weekly PubMed filter (~5 min) + 2 conference harve
 Live lead worth publishing now: **new-gen URAT1 inhibitors** (AR882, ruzinurad,
 tigulixostat, SEL-212, ABP-671, dotinurad-in-Japan).
 
+### Localize every item (part of generation, not a later pass)
+
+Each feed ships in **four locales**: `en` + `vi` + `ja` + `zh-Hans`. When you crawl
+and write the English items, immediately add three translated copies of each to the
+same file. Localized item = the English item copied verbatim except: `id` =
+`<en-id>-<vi|ja|zh>`, `locale` set, and only `title` / `summary` / `whyItMatters` /
+section `title`+`body` translated. Keep `tags`, `evidence`, `source*`, dates,
+`category`, `readMinutes`, `imageUrl`, and section `id`s identical; keep drug/source/
+trial names and units (`6 mg/dL`, `HLA-B*58:01`, GLP-1, …) verbatim; `reviewed:false`.
+Length limits apply per locale — Vietnamese runs long, so tighten it to fit
+(`summary` ≤400, `whyItMatters` ≤220). A ~20-item English knowledge set becomes ~80
+items. (Do the translation directly — no separate tool.)
+
 ## Non-negotiable source rules
 
 - **Trust tier maps to `evidence`:** guideline > `rct`/`review` > `news`.

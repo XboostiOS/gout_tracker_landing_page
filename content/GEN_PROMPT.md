@@ -96,9 +96,9 @@ support.
 > 4. **Copy shape.** `summary` = 2–4 neutral sentences. `whyItMatters` = exactly one
 >    declarative sentence, no imperative ("you should…").
 > 5. **Fixed fields.** `id` kebab-case with prefix `k-` (knowledge) / `n-` (news),
->    stable and unique. `reviewed: false` on every item (never set true). `locale:
->    "en"`. `tags`: 2–5 lowercase words. Fill `category` and `readMinutes`.
->    `type` matches the file.
+>    stable and unique. Write each item in **English first** (`locale: "en"`), then
+>    localize (rule 9). `reviewed: false` on every item (never set true). `tags`: 2–5
+>    lowercase words. Fill `category` and `readMinutes`. `type` matches the file.
 > 6. **Sections (knowledge only, optional).** 3–5 short sections; `icon` is an SF
 >    Symbol name (`target`, `drop.fill`, `calendar`,
 >    `gauge.with.dots.needle.bottom.50percent`, `checkmark.seal.fill`, `heart.fill`,
@@ -110,7 +110,7 @@ support.
 >    a stock site's free licence). The app has **no attribution UI**, so:
 >    - **Include** it only if the image is **public domain or CC0** — freely reusable,
 >      redistributable, and **requires no attribution**. Then set `imageUrl` to
->      `https://goutly.xboostapp.io/img/<id>.<ext>` and self-host it (never hotlink).
+>      `https://goutly.xboostapp.io/content/img/<id>.<ext>` and self-host it (never hotlink).
 >    - **Omit `imageUrl`** for anything else: copyrighted / all-rights-reserved,
 >      licences that require attribution (CC-BY, CC-BY-SA), non-commercial or
 >      no-derivatives licences, or **any image whose licence you cannot clearly
@@ -120,6 +120,23 @@ support.
 >      copyrighted.
 > 8. **Schema-clean.** Emit only the fields in the spec — **no extra keys** inside the
 >    JSON (strict validation rejects unknown fields).
+> 9. **Localize into all four locales (do this as part of generation, not later).**
+>    After the English item is finalized, add three translated copies to the SAME
+>    file: **Vietnamese** (`vi`), **Japanese** (`ja`), **Simplified Chinese**
+>    (`zh-Hans`). Each copy:
+>    - `id` = `<english-id>-<suffix>` (`-vi` / `-ja` / `-zh`); `locale` set accordingly.
+>    - **Translate only** `title`, `summary`, `whyItMatters`, and (if present) each
+>      section's `title` + `body`. Keep everything else byte-identical to the English
+>      item: `tags`, `evidence`, `sourceName`, `sourceUrl`, `publishDate`, `category`,
+>      `readMinutes`, `imageUrl`, `type`, and section `id`s.
+>    - Keep verbatim inside the translation: drug names (allopurinol, febuxostat,
+>      colchicine, pozdeutinurad/AR882, ruzinurad, dotinurad, …), source/trial/org
+>      names (ACR, EULAR, NHS, JAMA, REDUCE 2), and units/identifiers (`6 mg/dL`,
+>      `HLA-B*58:01`, DASH, GLP-1, DECT, FDA, NASP). Don't add advice or content not in
+>      the English. `reviewed: false`.
+>    - **Length still applies per locale:** `summary` ≤ 400 chars, `whyItMatters` ≤ 220.
+>      Vietnamese runs ~5–10% longer than English — tighten it to fit rather than
+>      spill over.
 >
 > **Output format.** Return, clearly separated:
 > - **A)** `feed-knowledge.json` and **B)** `feed-news.json`, each exactly
@@ -135,8 +152,10 @@ support.
 >      (**kept** only for PD/CC0, **dropped** otherwise). List every image you
 >      considered and dropped, with the reason.
 >
-> **Counts.** ~15–25 knowledge (aim for a rich set with images where PD/CC0 art
-> exists), ~8–12 news.
+> **Counts.** ~15–25 English knowledge items (aim for a rich set with images where
+> PD/CC0 art exists), ~8–12 English news items — then ×4 in the file once each is
+> localized to vi/ja/zh-Hans (rule 9). So a ~20-item English knowledge set ships as
+> ~80 items total.
 >
 > **Field spec (bind to this; also enforced by `feed.schema.json`):**
 > - Required: `id` (kebab), `type` (`knowledge`|`update`), `publishDate`

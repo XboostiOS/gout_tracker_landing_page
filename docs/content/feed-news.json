@@ -10,7 +10,11 @@
       "title": "Trial backs staying on urate-lowering therapy",
       "summary": "A randomized trial in nine Dutch clinics, reported at a 2026 European rheumatology congress, compared continuing urate-lowering therapy with trying to stop it in people whose gout was well controlled. More of those who continued stayed in remission (about 79% versus 63%), and far fewer flared over two years. It supports staying on treatment once urate is controlled.",
       "whyItMatters": "It adds direct trial evidence to the common advice that gout treatment usually works best when it is kept up.",
-      "tags": ["ult", "adherence", "treatment"],
+      "tags": [
+        "ult",
+        "adherence",
+        "treatment"
+      ],
       "evidence": "rct",
       "sourceName": "European Medical Journal (EULAR 2026)",
       "sourceUrl": "https://www.emjreviews.com/rheumatology/news/new-insights-in-gout-management-eular-2026/",
@@ -26,7 +30,11 @@
       "title": "Positive phase 3 results for a new urate drug",
       "summary": "Sobi reported positive topline results from REDUCE 2, a phase 3 trial of pozdeutinurad (also called AR882), an experimental once-daily pill that helps the kidneys clear uric acid. In the 811-person trial, both doses reached serum urate below 6 mg/dL at six months far more often than placebo, and it was well tolerated. These are early topline results, not a full published paper yet.",
       "whyItMatters": "It signals a possible new option among drugs that lower urate by increasing how much the kidneys remove.",
-      "tags": ["medication", "research", "ult"],
+      "tags": [
+        "medication",
+        "research",
+        "ult"
+      ],
       "evidence": "rct",
       "sourceName": "Sobi (REDUCE 2 topline)",
       "sourceUrl": "https://www.sobi.com/en/press-releases/positive-topline-results-pivotal-phase-3-reduce-2-study-pozdeutinurad-gout-2455881",
@@ -42,7 +50,11 @@
       "title": "Reaching the urate target linked to lower heart risk",
       "summary": "An analysis of about 109,000 gout patients in England, published in JAMA Internal Medicine, found that reaching serum urate below 6 mg/dL within a year of starting treatment was tied to a lower five-year risk of major heart events. The link was stronger at lower urate and in higher-risk patients. Being observational, it shows an association, not proof of cause.",
       "whyItMatters": "It suggests controlling urate may matter beyond the joints, though it cannot prove the treatment caused the lower risk.",
-      "tags": ["treatment", "target", "comorbidities"],
+      "tags": [
+        "treatment",
+        "target",
+        "comorbidities"
+      ],
       "evidence": "news",
       "sourceName": "JAMA Internal Medicine",
       "sourceUrl": "https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/2844321",
@@ -58,7 +70,10 @@
       "title": "Weight-loss drugs and gout: signals differ",
       "summary": "At a 2025 rheumatology meeting, a large records-based study reported that people starting GLP-1 weight-loss and diabetes drugs had a lower one-year risk of gout than those on a different diabetes drug. Other analyses have pointed the opposite way, so the overall picture is mixed. All of these are observational and were not designed to prove cause and effect.",
       "whyItMatters": "It reflects growing interest in whether newer metabolic drugs affect gout, without a clear answer yet.",
-      "tags": ["comorbidities", "research"],
+      "tags": [
+        "comorbidities",
+        "research"
+      ],
       "evidence": "news",
       "sourceName": "Healio Rheumatology (ACR Convergence 2025)",
       "sourceUrl": "https://www.healio.com/news/rheumatology/20251030/glp1s-show-clear-signal-of-reduced-rheumatoid-arthritis-gout-osteoarthritis-risks",
@@ -74,7 +89,11 @@
       "title": "Imaging model aims to predict frequent flares",
       "summary": "Researchers reported in European Radiology a model that combines dual-energy CT, which reveals urate crystal buildup, with clinical details to estimate who is likely to have frequent gout flares. In the study group it identified higher-risk patients more accurately than clinical information alone. Tools like this would still need further testing before routine use.",
       "whyItMatters": "It hints at how imaging might one day help tailor how closely a person's gout is watched.",
-      "tags": ["research", "imaging", "flare"],
+      "tags": [
+        "research",
+        "imaging",
+        "flare"
+      ],
       "evidence": "news",
       "sourceName": "European Radiology (via PubMed)",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41175200/",
@@ -91,7 +110,11 @@
       "title": "New flare drug reported in late-stage testing",
       "summary": "The American College of Rheumatology highlighted phase 3 data on firsekibart, an antibody that blocks an inflammation signal called interleukin-1 beta, for treating acute gout flares, including in people with reduced kidney function. The results were presented at the group's 2025 meeting. It is one of several gout therapies moving through late-stage trials.",
       "whyItMatters": "It points to potential new choices for treating flares in people who cannot use standard anti-inflammatory options.",
-      "tags": ["flare", "medication", "research"],
+      "tags": [
+        "flare",
+        "medication",
+        "research"
+      ],
       "evidence": "news",
       "sourceName": "American College of Rheumatology (ACR Convergence 2025)",
       "sourceUrl": "https://rheumatology.org/press-releases/new-gout-therapies-show-promise-in-phase-iii-trials-at-acr-convergence-2025",
@@ -107,7 +130,11 @@
       "title": "New company to bring a Japanese urate drug west",
       "summary": "A startup, Crystalys Therapeutics, launched with $205 million in funding to develop dotinurad, a once-daily urate-lowering pill already approved in Japan and several other Asian markets, through late-stage trials in the US and Europe. The plan positions it as a second-line option for gout. Approval outside its current markets would still depend on trial results and regulators.",
       "whyItMatters": "It shows a drug established in Asia being pushed toward Western markets, one of several new urate-lowering options in development.",
-      "tags": ["medication", "research", "ult"],
+      "tags": [
+        "medication",
+        "research",
+        "ult"
+      ],
       "evidence": "news",
       "sourceName": "Crystalys Therapeutics (PR Newswire)",
       "sourceUrl": "https://www.prnewswire.com/news-releases/crystalys-therapeutics-launches-with-205m-series-a-financing-to-transform-the-treatment-of-gout-302569747.html",
@@ -123,7 +150,10 @@
       "title": "Regulator to review a drug for uncontrolled gout",
       "summary": "The US Food and Drug Administration accepted for review an application for NASP, a monthly infusion pairing an enzyme that breaks down uric acid with a second agent, aimed at gout that has not responded to usual treatment. A decision was targeted for mid-2026. The application rested on two phase 3 trials in people with hard-to-control gout.",
       "whyItMatters": "It marks progress toward another option for severe gout that standard urate-lowering pills have not controlled.",
-      "tags": ["medication", "research"],
+      "tags": [
+        "medication",
+        "research"
+      ],
       "evidence": "news",
       "sourceName": "Sobi (FDA BLA acceptance)",
       "sourceUrl": "https://www.sobi.com/en/press-releases/fda-accepts-biologics-license-application-sobis-nasp-patients-uncontrolled-gout-2389168",
@@ -139,7 +169,11 @@
       "title": "Experimental drug beat allopurinol on urate in a trial",
       "summary": "In a phase 3 trial of 773 people presented at a 2025 European rheumatology congress, the experimental urate-lowering drug ruzinurad brought more patients to the urate target than allopurinol (about 53% versus 35%) by week 16, with the benefit holding to a year. Side-effect rates were similar between the groups. The findings were presented at a conference and not yet published as a full paper.",
       "whyItMatters": "It is early evidence that a new kind of urate-lowering drug could help people not reaching target on allopurinol.",
-      "tags": ["medication", "research", "ult"],
+      "tags": [
+        "medication",
+        "research",
+        "ult"
+      ],
       "evidence": "rct",
       "sourceName": "Rheumatology Republic (EULAR 2025)",
       "sourceUrl": "https://www.rheuma.com.au/advances-in-gout-management-presented-at-eular-2025/27267",
@@ -155,7 +189,604 @@
       "title": "A gout drug program was halted",
       "summary": "LG Chem stopped developing tigulixostat, an experimental urate-lowering drug, ending its large late-stage trial against allopurinol despite earlier positive results, as the company shifted focus elsewhere. Rights in China stay with a partner. The drug was discontinued in the US and Europe.",
       "whyItMatters": "It is a reminder that gout drugs in development can be shelved for business as well as medical reasons.",
-      "tags": ["medication", "research"],
+      "tags": [
+        "medication",
+        "research"
+      ],
+      "evidence": "news",
+      "sourceName": "Korea Biomedical Review",
+      "sourceUrl": "https://www.koreabiomed.com/news/articleView.html?idxno=27083",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "n-eular2026-continue-ult-vi",
+      "type": "update",
+      "publishDate": "2026-06-03",
+      "locale": "vi",
+      "title": "Thử nghiệm ủng hộ việc duy trì liệu pháp hạ urat",
+      "summary": "Một thử nghiệm ngẫu nhiên tại chín phòng khám ở Hà Lan, báo cáo tại một hội nghị thấp khớp học châu Âu năm 2026, so sánh việc tiếp tục liệu pháp hạ urat với việc thử ngừng ở người có bệnh gút được kiểm soát tốt. Nhóm tiếp tục điều trị duy trì lui bệnh nhiều hơn (khoảng 79% so với 63%) và ít bùng phát hơn trong hai năm. Kết quả ủng hộ việc duy trì điều trị khi urat đã được kiểm soát.",
+      "whyItMatters": "Nó bổ sung bằng chứng thử nghiệm trực tiếp cho lời khuyên phổ biến rằng điều trị gút thường hiệu quả nhất khi được duy trì.",
+      "tags": [
+        "ult",
+        "adherence",
+        "treatment"
+      ],
+      "evidence": "rct",
+      "sourceName": "European Medical Journal (EULAR 2026)",
+      "sourceUrl": "https://www.emjreviews.com/rheumatology/news/new-insights-in-gout-management-eular-2026/",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "n-reduce2-pozdeutinurad-vi",
+      "type": "update",
+      "publishDate": "2026-05-21",
+      "locale": "vi",
+      "title": "Kết quả pha 3 tích cực cho một thuốc hạ urat mới",
+      "summary": "Sobi báo cáo kết quả sơ bộ tích cực từ REDUCE 2, thử nghiệm pha 3 của pozdeutinurad (còn gọi AR882), viên uống thử nghiệm một lần mỗi ngày giúp thận đào thải axit uric. Trong 811 người, cả hai liều đạt urat dưới 6 mg/dL ở tháng thứ sáu nhiều hơn hẳn giả dược và được dung nạp tốt. Đây là kết quả sơ bộ, chưa phải bài báo công bố đầy đủ.",
+      "whyItMatters": "Nó báo hiệu một lựa chọn mới có thể có trong nhóm thuốc hạ urat bằng cách tăng lượng thận đào thải.",
+      "tags": [
+        "medication",
+        "research",
+        "ult"
+      ],
+      "evidence": "rct",
+      "sourceName": "Sobi (REDUCE 2 topline)",
+      "sourceUrl": "https://www.sobi.com/en/press-releases/positive-topline-results-pivotal-phase-3-reduce-2-study-pozdeutinurad-gout-2455881",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "n-jama-t2t-cv-vi",
+      "type": "update",
+      "publishDate": "2026-01-26",
+      "locale": "vi",
+      "title": "Đạt mục tiêu urat gắn với nguy cơ tim mạch thấp hơn",
+      "summary": "Một phân tích trên khoảng 109.000 bệnh nhân gút ở Anh, công bố trên JAMA Internal Medicine, cho thấy đạt urat dưới 6 mg/dL trong vòng một năm sau khi bắt đầu điều trị gắn với nguy cơ biến cố tim mạch nặng trong năm năm thấp hơn. Liên hệ mạnh hơn ở mức urat thấp và ở bệnh nhân nguy cơ cao. Vì là nghiên cứu quan sát, nó cho thấy liên hệ chứ không phải nguyên nhân.",
+      "whyItMatters": "Nó gợi ý rằng kiểm soát urat có thể quan trọng vượt ra ngoài các khớp, dù không thể chứng minh rằng điều trị đã gây ra nguy cơ thấp hơn.",
+      "tags": [
+        "treatment",
+        "target",
+        "comorbidities"
+      ],
+      "evidence": "news",
+      "sourceName": "JAMA Internal Medicine",
+      "sourceUrl": "https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/2844321",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "n-glp1-gout-signal-vi",
+      "type": "update",
+      "publishDate": "2025-11-03",
+      "locale": "vi",
+      "title": "Thuốc giảm cân và bệnh gút: các tín hiệu khác nhau",
+      "summary": "Tại một hội nghị thấp khớp học năm 2025, một nghiên cứu dựa trên hồ sơ quy mô lớn báo cáo người bắt đầu dùng thuốc GLP-1 (giảm cân, trị đái tháo đường) có nguy cơ mắc gút trong một năm thấp hơn nhóm dùng thuốc đái tháo đường khác. Các phân tích khác lại cho kết quả ngược lại, nên bức tranh còn lẫn lộn. Tất cả đều là nghiên cứu quan sát, không nhằm chứng minh nhân quả.",
+      "whyItMatters": "Nó phản ánh sự quan tâm ngày càng tăng về việc liệu các thuốc chuyển hóa mới hơn có ảnh hưởng đến bệnh gút hay không, nhưng chưa có câu trả lời rõ ràng.",
+      "tags": [
+        "comorbidities",
+        "research"
+      ],
+      "evidence": "news",
+      "sourceName": "Healio Rheumatology (ACR Convergence 2025)",
+      "sourceUrl": "https://www.healio.com/news/rheumatology/20251030/glp1s-show-clear-signal-of-reduced-rheumatoid-arthritis-gout-osteoarthritis-risks",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "n-dect-flare-prediction-vi",
+      "type": "update",
+      "publishDate": "2025-11-01",
+      "locale": "vi",
+      "title": "Mô hình hình ảnh hướng tới dự đoán các đợt bùng phát thường xuyên",
+      "summary": "Các nhà nghiên cứu báo cáo trên European Radiology một mô hình kết hợp chụp CT hai mức năng lượng — vốn cho thấy tinh thể urat tích tụ — với thông tin lâm sàng để ước tính ai dễ bùng phát gút thường xuyên. Trong nhóm nghiên cứu, mô hình nhận diện bệnh nhân nguy cơ cao chính xác hơn so với chỉ dùng thông tin lâm sàng. Công cụ như thế vẫn cần kiểm chứng thêm trước khi dùng thường quy.",
+      "whyItMatters": "Nó gợi mở cách mà hình ảnh học một ngày nào đó có thể giúp điều chỉnh mức độ theo dõi sát sao bệnh gút của mỗi người.",
+      "tags": [
+        "research",
+        "imaging",
+        "flare"
+      ],
+      "evidence": "news",
+      "sourceName": "European Radiology (via PubMed)",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41175200/",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/n-dect-flare-prediction.jpg"
+    },
+    {
+      "id": "n-acr2025-firsekibart-vi",
+      "type": "update",
+      "publishDate": "2025-10-25",
+      "locale": "vi",
+      "title": "Thuốc trị bùng phát mới được báo cáo trong giai đoạn thử nghiệm muộn",
+      "summary": "American College of Rheumatology nêu bật dữ liệu pha 3 về firsekibart, một kháng thể chặn một tín hiệu viêm gọi là interleukin-1 beta, để điều trị các đợt bùng phát gút cấp, bao gồm cả ở người có chức năng thận giảm. Kết quả được trình bày tại hội nghị năm 2025 của nhóm này. Đây là một trong nhiều liệu pháp gút đang tiến qua các thử nghiệm giai đoạn muộn.",
+      "whyItMatters": "Nó chỉ ra những lựa chọn mới tiềm năng để điều trị các đợt bùng phát ở những người không thể dùng các thuốc chống viêm tiêu chuẩn.",
+      "tags": [
+        "flare",
+        "medication",
+        "research"
+      ],
+      "evidence": "news",
+      "sourceName": "American College of Rheumatology (ACR Convergence 2025)",
+      "sourceUrl": "https://rheumatology.org/press-releases/new-gout-therapies-show-promise-in-phase-iii-trials-at-acr-convergence-2025",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "n-crystalys-dotinurad-vi",
+      "type": "update",
+      "publishDate": "2025-09-30",
+      "locale": "vi",
+      "title": "Công ty mới đưa một thuốc urat của Nhật sang phương Tây",
+      "summary": "Công ty khởi nghiệp Crystalys Therapeutics ra mắt với 205 triệu đô la tài trợ để phát triển dotinurad — viên uống hạ urat một lần mỗi ngày đã được duyệt ở Nhật Bản và vài thị trường châu Á — qua các thử nghiệm giai đoạn muộn ở Mỹ và châu Âu, định vị như lựa chọn hàng thứ hai cho bệnh gút. Việc phê duyệt ngoài các thị trường hiện tại vẫn tùy kết quả thử nghiệm và cơ quan quản lý.",
+      "whyItMatters": "Nó cho thấy một thuốc đã có chỗ đứng ở châu Á đang được đẩy sang các thị trường phương Tây, một trong nhiều lựa chọn hạ urat mới đang được phát triển.",
+      "tags": [
+        "medication",
+        "research",
+        "ult"
+      ],
+      "evidence": "news",
+      "sourceName": "Crystalys Therapeutics (PR Newswire)",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/crystalys-therapeutics-launches-with-205m-series-a-financing-to-transform-the-treatment-of-gout-302569747.html",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "n-nasp-fda-bla-vi",
+      "type": "update",
+      "publishDate": "2025-09-10",
+      "locale": "vi",
+      "title": "Cơ quan quản lý sẽ xem xét một thuốc cho bệnh gút không kiểm soát được",
+      "summary": "US Food and Drug Administration đã tiếp nhận để xem xét một hồ sơ đăng ký cho NASP, một liệu pháp truyền hàng tháng kết hợp một enzyme phân hủy axit uric với một tác nhân thứ hai, nhắm vào bệnh gút đã không đáp ứng với điều trị thông thường. Một quyết định được đặt mục tiêu vào giữa năm 2026. Hồ sơ dựa trên hai thử nghiệm pha 3 ở những người bị gút khó kiểm soát.",
+      "whyItMatters": "Nó đánh dấu bước tiến tới một lựa chọn khác cho bệnh gút nặng mà các viên uống hạ urat tiêu chuẩn chưa kiểm soát được.",
+      "tags": [
+        "medication",
+        "research"
+      ],
+      "evidence": "news",
+      "sourceName": "Sobi (FDA BLA acceptance)",
+      "sourceUrl": "https://www.sobi.com/en/press-releases/fda-accepts-biologics-license-application-sobis-nasp-patients-uncontrolled-gout-2389168",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "n-ruzinurad-ph3-vi",
+      "type": "update",
+      "publishDate": "2025-06-26",
+      "locale": "vi",
+      "title": "Thuốc thử nghiệm vượt allopurinol về urat trong một thử nghiệm",
+      "summary": "Trong thử nghiệm pha 3 gồm 773 người trình bày tại một hội nghị thấp khớp học châu Âu năm 2025, thuốc hạ urat thử nghiệm ruzinurad đưa nhiều bệnh nhân đạt mục tiêu urat hơn allopurinol (khoảng 53% so với 35%) vào tuần 16, lợi ích duy trì đến một năm. Tỷ lệ tác dụng phụ tương tự giữa các nhóm. Kết quả được trình bày tại hội nghị, chưa công bố thành bài báo đầy đủ.",
+      "whyItMatters": "Đây là bằng chứng ban đầu cho thấy một loại thuốc hạ urat mới có thể giúp những người không đạt mục tiêu với allopurinol.",
+      "tags": [
+        "medication",
+        "research",
+        "ult"
+      ],
+      "evidence": "rct",
+      "sourceName": "Rheumatology Republic (EULAR 2025)",
+      "sourceUrl": "https://www.rheuma.com.au/advances-in-gout-management-presented-at-eular-2025/27267",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "n-tigulixostat-halt-vi",
+      "type": "update",
+      "publishDate": "2025-03-28",
+      "locale": "vi",
+      "title": "Một chương trình phát triển thuốc gút bị dừng lại",
+      "summary": "LG Chem đã ngừng phát triển tigulixostat, một thuốc hạ urat thử nghiệm, kết thúc thử nghiệm giai đoạn muộn quy mô lớn so với allopurinol dù có kết quả tích cực trước đó, khi công ty chuyển trọng tâm sang nơi khác. Quyền tại Trung Quốc vẫn thuộc về một đối tác. Thuốc đã bị ngừng phát triển ở Mỹ và châu Âu.",
+      "whyItMatters": "Đây là một lời nhắc rằng các thuốc gút đang phát triển có thể bị gác lại vì lý do kinh doanh cũng như lý do y khoa.",
+      "tags": [
+        "medication",
+        "research"
+      ],
+      "evidence": "news",
+      "sourceName": "Korea Biomedical Review",
+      "sourceUrl": "https://www.koreabiomed.com/news/articleView.html?idxno=27083",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "n-eular2026-continue-ult-ja",
+      "type": "update",
+      "publishDate": "2026-06-03",
+      "locale": "ja",
+      "title": "尿酸降下療法を続けることを支持する試験",
+      "summary": "2026年のヨーロッパのリウマチ学会で報告された、オランダの9施設でのランダム化試験では、痛風がよくコントロールされている人を対象に、尿酸降下療法を続ける場合とやめてみる場合を比較しました。続けた人のほうが多く寛解を保ち(およそ79%対63%)、2年間で発作を起こした人ははるかに少なくなりました。この結果は、尿酸がコントロールできたら治療を続けることを支持しています。",
+      "whyItMatters": "痛風の治療は続けたときに最もよく効くことが多い、というよくある助言に、直接の試験の根拠を加えるものです。",
+      "tags": [
+        "ult",
+        "adherence",
+        "treatment"
+      ],
+      "evidence": "rct",
+      "sourceName": "European Medical Journal (EULAR 2026)",
+      "sourceUrl": "https://www.emjreviews.com/rheumatology/news/new-insights-in-gout-management-eular-2026/",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "n-reduce2-pozdeutinurad-ja",
+      "type": "update",
+      "publishDate": "2026-05-21",
+      "locale": "ja",
+      "title": "新しい尿酸の薬で良好な第3相の結果",
+      "summary": "Sobi は、腎臓が尿酸を排出するのを助ける実験段階の1日1回の錠剤 pozdeutinurad(AR882 とも呼ばれます)の第3相試験 REDUCE 2 から、良好なトップライン結果を報告しました。811人が参加したこの試験では、両方の用量とも6か月時点で血清尿酸を 6 mg/dL 未満まで下げた割合がプラセボよりはるかに高く、忍容性も良好でした。これは初期のトップライン結果であり、まだ完全に公表された論文ではありません。",
+      "whyItMatters": "腎臓が排出する量を増やして尿酸を下げる薬の中に、新しい選択肢となりうるものが現れたことを示しています。",
+      "tags": [
+        "medication",
+        "research",
+        "ult"
+      ],
+      "evidence": "rct",
+      "sourceName": "Sobi (REDUCE 2 topline)",
+      "sourceUrl": "https://www.sobi.com/en/press-releases/positive-topline-results-pivotal-phase-3-reduce-2-study-pozdeutinurad-gout-2455881",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "n-jama-t2t-cv-ja",
+      "type": "update",
+      "publishDate": "2026-01-26",
+      "locale": "ja",
+      "title": "尿酸の目標達成が心臓リスクの低下と関連",
+      "summary": "JAMA Internal Medicine に発表された、イングランドのおよそ109,000人の痛風患者の分析では、治療開始から1年以内に血清尿酸を 6 mg/dL 未満まで下げることが、5年間の主要な心臓イベントのリスク低下と結びついていました。この関連は、尿酸がより低い場合やリスクの高い患者でより強く見られました。観察研究であるため、因果関係の証明ではなく関連を示すものです。",
+      "whyItMatters": "尿酸のコントロールが関節を超えて重要かもしれないことを示唆しますが、治療がリスク低下の原因だと証明することはできません。",
+      "tags": [
+        "treatment",
+        "target",
+        "comorbidities"
+      ],
+      "evidence": "news",
+      "sourceName": "JAMA Internal Medicine",
+      "sourceUrl": "https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/2844321",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "n-glp1-gout-signal-ja",
+      "type": "update",
+      "publishDate": "2025-11-03",
+      "locale": "ja",
+      "title": "減量薬と痛風:シグナルはさまざま",
+      "summary": "2025年のあるリウマチ学の会議で、大規模な記録に基づく研究が、GLP-1 の減量薬・糖尿病薬を始めた人は、別の糖尿病薬を使う人に比べて1年間の痛風リスクが低かったと報告しました。ほかの分析では逆の方向を示しており、全体像はまちまちです。これらはいずれも観察研究であり、因果関係を証明するために設計されたものではありません。",
+      "whyItMatters": "新しい代謝の薬が痛風に影響するかどうかへの関心が高まっていることを反映していますが、まだ明確な答えはありません。",
+      "tags": [
+        "comorbidities",
+        "research"
+      ],
+      "evidence": "news",
+      "sourceName": "Healio Rheumatology (ACR Convergence 2025)",
+      "sourceUrl": "https://www.healio.com/news/rheumatology/20251030/glp1s-show-clear-signal-of-reduced-rheumatoid-arthritis-gout-osteoarthritis-risks",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "n-dect-flare-prediction-ja",
+      "type": "update",
+      "publishDate": "2025-11-01",
+      "locale": "ja",
+      "title": "頻繁な発作を予測しようとする画像モデル",
+      "summary": "研究者らは European Radiology に、尿酸の結晶の蓄積を映し出すデュアルエナジー CT と臨床情報を組み合わせ、痛風発作を頻繁に起こしそうな人を推定するモデルを報告しました。研究の対象集団では、臨床情報だけの場合よりも正確にリスクの高い患者を見分けました。このようなツールは、日常的に使う前にさらなる検証が必要です。",
+      "whyItMatters": "画像がいつか、一人ひとりの痛風をどれだけ注意深く見守るかを調整するのに役立つかもしれない可能性を示唆しています。",
+      "tags": [
+        "research",
+        "imaging",
+        "flare"
+      ],
+      "evidence": "news",
+      "sourceName": "European Radiology (via PubMed)",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41175200/",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/n-dect-flare-prediction.jpg"
+    },
+    {
+      "id": "n-acr2025-firsekibart-ja",
+      "type": "update",
+      "publishDate": "2025-10-25",
+      "locale": "ja",
+      "title": "新しい発作の薬が後期試験で報告される",
+      "summary": "米国リウマチ学会(American College of Rheumatology)は、インターロイキン-1ベータと呼ばれる炎症のシグナルを遮断する抗体 firsekibart について、腎機能が低下している人を含む急性痛風発作の治療に関する第3相のデータを取り上げました。結果は同学会の2025年の会議で発表されました。これは後期試験を進んでいるいくつかの痛風治療薬の一つです。",
+      "whyItMatters": "標準的な抗炎症薬の選択肢を使えない人の発作治療に、新たな選択肢となりうるものを示しています。",
+      "tags": [
+        "flare",
+        "medication",
+        "research"
+      ],
+      "evidence": "news",
+      "sourceName": "American College of Rheumatology (ACR Convergence 2025)",
+      "sourceUrl": "https://rheumatology.org/press-releases/new-gout-therapies-show-promise-in-phase-iii-trials-at-acr-convergence-2025",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "n-crystalys-dotinurad-ja",
+      "type": "update",
+      "publishDate": "2025-09-30",
+      "locale": "ja",
+      "title": "日本の尿酸薬を西側へ届ける新会社",
+      "summary": "スタートアップの Crystalys Therapeutics が2億500万ドルの資金を得て設立され、日本やいくつかのアジア市場ですでに承認されている1日1回の尿酸降下薬 dotinurad を、米国とヨーロッパでの後期試験を通じて開発します。この計画では、同薬を痛風の二次治療の選択肢として位置づけています。現在の市場以外での承認は、試験の結果と規制当局しだいとなります。",
+      "whyItMatters": "アジアで確立した薬が西側市場へ押し進められていることを示しており、開発中のいくつかの新しい尿酸降下薬の一つです。",
+      "tags": [
+        "medication",
+        "research",
+        "ult"
+      ],
+      "evidence": "news",
+      "sourceName": "Crystalys Therapeutics (PR Newswire)",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/crystalys-therapeutics-launches-with-205m-series-a-financing-to-transform-the-treatment-of-gout-302569747.html",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "n-nasp-fda-bla-ja",
+      "type": "update",
+      "publishDate": "2025-09-10",
+      "locale": "ja",
+      "title": "規制当局がコントロール困難な痛風の薬を審査へ",
+      "summary": "米国食品医薬品局(FDA)は、尿酸を分解する酵素と第二の薬剤を組み合わせた月1回の点滴 NASP について、通常の治療に反応しなかった痛風を対象とした申請を審査のために受理しました。判断は2026年半ばが目標とされていました。この申請は、コントロールが難しい痛風の人を対象とした二つの第3相試験に基づいていました。",
+      "whyItMatters": "標準的な尿酸降下の錠剤ではコントロールできなかった重い痛風に対する、もう一つの選択肢へ向けた前進を示しています。",
+      "tags": [
+        "medication",
+        "research"
+      ],
+      "evidence": "news",
+      "sourceName": "Sobi (FDA BLA acceptance)",
+      "sourceUrl": "https://www.sobi.com/en/press-releases/fda-accepts-biologics-license-application-sobis-nasp-patients-uncontrolled-gout-2389168",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "n-ruzinurad-ph3-ja",
+      "type": "update",
+      "publishDate": "2025-06-26",
+      "locale": "ja",
+      "title": "実験段階の薬が試験で尿酸について allopurinol を上回る",
+      "summary": "2025年のヨーロッパのリウマチ学会で発表された773人が参加した第3相試験では、実験段階の尿酸降下薬 ruzinurad が、16週までに allopurinol より多くの患者を尿酸の目標に到達させ(およそ53%対35%)、その効果は1年まで保たれました。副作用の発生率は両群で同程度でした。この結果は学会で発表されたもので、まだ完全な論文としては公表されていません。",
+      "whyItMatters": "allopurinol で目標に届かない人に、新しい種類の尿酸降下薬が役立つ可能性を示す初期の根拠です。",
+      "tags": [
+        "medication",
+        "research",
+        "ult"
+      ],
+      "evidence": "rct",
+      "sourceName": "Rheumatology Republic (EULAR 2025)",
+      "sourceUrl": "https://www.rheuma.com.au/advances-in-gout-management-presented-at-eular-2025/27267",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "n-tigulixostat-halt-ja",
+      "type": "update",
+      "publishDate": "2025-03-28",
+      "locale": "ja",
+      "title": "ある痛風薬の開発計画が中止された",
+      "summary": "LG Chem は、以前の良好な結果にもかかわらず、注力先を変えたことにより、実験段階の尿酸降下薬 tigulixostat の開発をやめ、allopurinol と比較する大規模な後期試験を終了しました。中国での権利はパートナーが引き続き保有します。この薬は米国とヨーロッパで中止されました。",
+      "whyItMatters": "開発中の痛風薬が、医学的な理由だけでなく事業上の理由でも棚上げされることがあると気づかせてくれます。",
+      "tags": [
+        "medication",
+        "research"
+      ],
+      "evidence": "news",
+      "sourceName": "Korea Biomedical Review",
+      "sourceUrl": "https://www.koreabiomed.com/news/articleView.html?idxno=27083",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "n-eular2026-continue-ult-zh",
+      "type": "update",
+      "publishDate": "2026-06-03",
+      "locale": "zh-Hans",
+      "title": "试验支持继续进行降尿酸治疗",
+      "summary": "一项在荷兰九家诊所开展的随机试验，在 2026 年一次欧洲风湿病学大会上公布，比较了在痛风控制良好的人群中继续降尿酸治疗与尝试停药的效果。继续治疗的人中有更多保持缓解（约 79% 对 63%），并且在两年内发作的人少得多。这支持在尿酸得到控制后继续治疗。",
+      "whyItMatters": "它为一条常见建议——痛风治疗通常在持续进行时效果最好——补充了直接的试验证据。",
+      "tags": [
+        "ult",
+        "adherence",
+        "treatment"
+      ],
+      "evidence": "rct",
+      "sourceName": "European Medical Journal (EULAR 2026)",
+      "sourceUrl": "https://www.emjreviews.com/rheumatology/news/new-insights-in-gout-management-eular-2026/",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "n-reduce2-pozdeutinurad-zh",
+      "type": "update",
+      "publishDate": "2026-05-21",
+      "locale": "zh-Hans",
+      "title": "一种新型尿酸药物的 3 期试验结果为阳性",
+      "summary": "Sobi 公布了 REDUCE 2 的阳性顶线结果，这是 pozdeutinurad（也称 AR882）的一项 3 期试验，该药是一种试验性的每日一次口服药，可帮助肾脏清除尿酸。在这项 811 人的试验中，两种剂量在六个月时使血清尿酸降到 6 mg/dL 以下的比例都远高于安慰剂，且耐受性良好。这些是早期顶线结果，尚不是完整发表的论文。",
+      "whyItMatters": "它预示着在通过增加肾脏排出量来降低尿酸的药物中，可能出现一种新的选择。",
+      "tags": [
+        "medication",
+        "research",
+        "ult"
+      ],
+      "evidence": "rct",
+      "sourceName": "Sobi (REDUCE 2 topline)",
+      "sourceUrl": "https://www.sobi.com/en/press-releases/positive-topline-results-pivotal-phase-3-reduce-2-study-pozdeutinurad-gout-2455881",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "n-jama-t2t-cv-zh",
+      "type": "update",
+      "publishDate": "2026-01-26",
+      "locale": "zh-Hans",
+      "title": "达到尿酸目标值与更低的心脏风险相关",
+      "summary": "一项对英格兰约 109,000 名痛风患者的分析，发表于 JAMA Internal Medicine，发现在开始治疗一年内使血清尿酸降到 6 mg/dL 以下，与更低的五年重大心脏事件风险相关。在尿酸更低以及风险更高的患者中，这种关联更为明显。由于是观察性研究，它显示的是一种关联，而非因果的证明。",
+      "whyItMatters": "它提示控制尿酸的意义可能超出关节之外，尽管它无法证明是治疗导致了风险降低。",
+      "tags": [
+        "treatment",
+        "target",
+        "comorbidities"
+      ],
+      "evidence": "news",
+      "sourceName": "JAMA Internal Medicine",
+      "sourceUrl": "https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/2844321",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "n-glp1-gout-signal-zh",
+      "type": "update",
+      "publishDate": "2025-11-03",
+      "locale": "zh-Hans",
+      "title": "减重药物与痛风：信号并不一致",
+      "summary": "在 2025 年一次风湿病学会议上，一项基于大量病历记录的研究报告称，开始使用 GLP-1 减重和糖尿病药物的人，一年内患痛风的风险低于使用另一种糖尿病药物的人。其他一些分析则得出相反的方向，因此总体图景并不一致。所有这些都是观察性研究，其设计并不是为了证明因果关系。",
+      "whyItMatters": "它反映了人们越来越关注较新的代谢药物是否影响痛风，但目前尚无明确答案。",
+      "tags": [
+        "comorbidities",
+        "research"
+      ],
+      "evidence": "news",
+      "sourceName": "Healio Rheumatology (ACR Convergence 2025)",
+      "sourceUrl": "https://www.healio.com/news/rheumatology/20251030/glp1s-show-clear-signal-of-reduced-rheumatoid-arthritis-gout-osteoarthritis-risks",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "n-dect-flare-prediction-zh",
+      "type": "update",
+      "publishDate": "2025-11-01",
+      "locale": "zh-Hans",
+      "title": "影像学模型旨在预测频繁发作",
+      "summary": "研究人员在 European Radiology 上报告了一种模型，它把能显示尿酸盐结晶积累的双能 CT 与临床资料结合起来，用于估计哪些人可能会频繁出现痛风发作。在研究人群中，它识别高风险患者的准确度高于单凭临床信息。这类工具在常规使用前仍需要进一步的检验。",
+      "whyItMatters": "它暗示了影像学有朝一日可能如何帮助量身定制对一个人痛风的监测密切程度。",
+      "tags": [
+        "research",
+        "imaging",
+        "flare"
+      ],
+      "evidence": "news",
+      "sourceName": "European Radiology (via PubMed)",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41175200/",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/n-dect-flare-prediction.jpg"
+    },
+    {
+      "id": "n-acr2025-firsekibart-zh",
+      "type": "update",
+      "publishDate": "2025-10-25",
+      "locale": "zh-Hans",
+      "title": "一种新型发作药物进入后期临床试验",
+      "summary": "美国风湿病学会重点介绍了 firsekibart 的 3 期数据，这是一种阻断名为白细胞介素-1β 的炎症信号的抗体，用于治疗急性痛风发作，包括在肾功能减退的人群中。相关结果在该学会 2025 年的会议上公布。它是若干正在进行后期试验的痛风疗法之一。",
+      "whyItMatters": "它为无法使用标准抗炎方案的人群治疗发作，指向了潜在的新选择。",
+      "tags": [
+        "flare",
+        "medication",
+        "research"
+      ],
+      "evidence": "news",
+      "sourceName": "American College of Rheumatology (ACR Convergence 2025)",
+      "sourceUrl": "https://rheumatology.org/press-releases/new-gout-therapies-show-promise-in-phase-iii-trials-at-acr-convergence-2025",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "n-crystalys-dotinurad-zh",
+      "type": "update",
+      "publishDate": "2025-09-30",
+      "locale": "zh-Hans",
+      "title": "新公司要把一款日本尿酸药物带到西方",
+      "summary": "一家名为 Crystalys Therapeutics 的初创公司获得 2.05 亿美元融资后成立，计划通过在美国和欧洲开展的后期试验来开发 dotinurad——一款每日一次的降尿酸口服药，它已在日本及其他几个亚洲市场获批。该计划把它定位为痛风的二线选择。要在现有市场之外获批，仍将取决于试验结果和监管机构。",
+      "whyItMatters": "它显示出一款在亚洲已站稳脚跟的药物正被推向西方市场，是若干正在研发的新型降尿酸选择之一。",
+      "tags": [
+        "medication",
+        "research",
+        "ult"
+      ],
+      "evidence": "news",
+      "sourceName": "Crystalys Therapeutics (PR Newswire)",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/crystalys-therapeutics-launches-with-205m-series-a-financing-to-transform-the-treatment-of-gout-302569747.html",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "n-nasp-fda-bla-zh",
+      "type": "update",
+      "publishDate": "2025-09-10",
+      "locale": "zh-Hans",
+      "title": "监管机构将审评一款治疗难控性痛风的药物",
+      "summary": "美国食品药品监督管理局（FDA）受理了对 NASP 的审评申请，这是一种每月输注的疗法，把一种分解尿酸的酶与第二种药物配合使用，针对的是对常规治疗无反应的痛风。决定的目标时间定在 2026 年年中。该申请依据的是两项在难以控制的痛风人群中开展的 3 期试验。",
+      "whyItMatters": "它标志着为标准降尿酸口服药未能控制的重度痛风提供另一种选择的进展。",
+      "tags": [
+        "medication",
+        "research"
+      ],
+      "evidence": "news",
+      "sourceName": "Sobi (FDA BLA acceptance)",
+      "sourceUrl": "https://www.sobi.com/en/press-releases/fda-accepts-biologics-license-application-sobis-nasp-patients-uncontrolled-gout-2389168",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "n-ruzinurad-ph3-zh",
+      "type": "update",
+      "publishDate": "2025-06-26",
+      "locale": "zh-Hans",
+      "title": "试验中试验性药物在降尿酸方面胜过 allopurinol",
+      "summary": "在一项 773 人的 3 期试验中（于 2025 年一次欧洲风湿病学大会上公布），试验性降尿酸药物 ruzinurad 在第 16 周使更多患者达到尿酸目标值，比例高于 allopurinol（约 53% 对 35%），并且这一获益一直保持到一年。两组的副作用发生率相近。这些结果是在会议上公布的，尚未作为完整论文发表。",
+      "whyItMatters": "它是早期证据，表明一种新型降尿酸药物可能帮助那些使用 allopurinol 未能达标的人。",
+      "tags": [
+        "medication",
+        "research",
+        "ult"
+      ],
+      "evidence": "rct",
+      "sourceName": "Rheumatology Republic (EULAR 2025)",
+      "sourceUrl": "https://www.rheuma.com.au/advances-in-gout-management-presented-at-eular-2025/27267",
+      "reviewed": false,
+      "category": "research",
+      "readMinutes": 2
+    },
+    {
+      "id": "n-tigulixostat-halt-zh",
+      "type": "update",
+      "publishDate": "2025-03-28",
+      "locale": "zh-Hans",
+      "title": "一个痛风药物研发项目被叫停",
+      "summary": "LG Chem 停止了对 tigulixostat 这款试验性降尿酸药物的研发，终止了其针对 allopurinol 的大型后期试验——尽管早前结果为阳性——因为公司把重心转向了别处。在中国的权益仍归一家合作伙伴所有。该药在美国和欧洲被中止。",
+      "whyItMatters": "它提醒人们，研发中的痛风药物可能因商业原因而不仅是医学原因被搁置。",
+      "tags": [
+        "medication",
+        "research"
+      ],
       "evidence": "news",
       "sourceName": "Korea Biomedical Review",
       "sourceUrl": "https://www.koreabiomed.com/news/articleView.html?idxno=27083",
