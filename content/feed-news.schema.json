@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gouthelper.pages.dev/feed-news.schema.json",
+  "title": "Goutly Learn — Updates feed",
+  "description": "feed-news.json: every item must be type=update.",
+  "$ref": "./feed.schema.json",
+  "properties": {
+    "items": {
+      "items": {
+        "properties": { "type": { "const": "update" } }
+      }
+    }
+  }
+}

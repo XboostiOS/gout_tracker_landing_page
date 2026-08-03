@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gouthelper.pages.dev/feed-knowledge.schema.json",
+  "title": "Goutly Learn — Knowledge feed",
+  "description": "feed-knowledge.json: every item must be type=knowledge.",
+  "$ref": "./feed.schema.json",
+  "properties": {
+    "items": {
+      "items": {
+        "properties": { "type": { "const": "knowledge" } }
+      }
+    }
+  }
+}

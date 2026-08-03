@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gouthelper.pages.dev/feed.schema.json",
+  "title": "Goutly Learn feed",
+  "description": "One Learn feed file (feed-knowledge.json or feed-news.json).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "updatedAt", "items"],
+  "properties": {
+    "version": { "type": "integer", "const": 4 },
+    "updatedAt": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "Date this file was published, yyyy-MM-dd (UTC)."
+    },
+    "items": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/item" }
+    }
+  },
+  "$defs": {
+    "item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id", "type", "publishDate", "locale", "title", "summary",
+        "whyItMatters", "tags", "evidence", "sourceName", "sourceUrl", "reviewed"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]*$",
+          "description": "Stable, unique, kebab-case. Never change it (used for Save + dedup). Convention: k- for knowledge, n- for news."
+        },
+        "type": { "enum": ["knowledge", "update"] },
+        "publishDate": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+        "locale": { "enum": ["en", "vi", "ja", "zh-Hans"] },
+        "title": { "type": "string", "minLength": 1, "maxLength": 90 },
+        "summary": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 400,
+          "description": "2-4 neutral, plain-language sentences. No dosing advice, no diagnosis."
+        },
+        "whyItMatters": {
+          "type": "string",
+          "maxLength": 220,
+          "description": "One sentence: why a gout patient cares. Not an instruction ('you should...')."
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^[a-zA-Z0-9][a-zA-Z0-9-]*$" }
+        },
+        "evidence": { "enum": ["guideline", "rct", "review", "news"] },
+        "sourceName": { "type": "string", "minLength": 1 },
+        "sourceUrl": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://",
+          "description": "REQUIRED. A real, credible source (guideline / journal / trusted org)."
+        },
+        "reviewed": {
+          "type": "boolean",
+          "description": "true ONLY after a human has reviewed the medical copy."
+        },
+
+        "category": {
+          "enum": ["guideline", "research", "therapy", "lifestyle", "general"],
+          "description": "Optional. Drives the coloured badge; inferred from evidence/tags when omitted."
+        },
+        "readMinutes": { "type": "integer", "minimum": 1, "maximum": 60 },
+        "imageUrl": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://",
+          "description": "The article's real image (downloaded + cached on device). PNG (transparent) recommended."
+        },
+        "illustration": {
+          "type": "string",
+          "description": "Bundled asset name — for the offline fallback feed only. Remote feeds should use imageUrl instead."
+        },
+        "sections": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/section" }
+        }
+      }
+    },
+    "section": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "icon", "title", "body"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1, "description": "Unique within the article." },
+        "icon": { "type": "string", "minLength": 1, "description": "SF Symbol name, e.g. target, drop.fill, calendar." },
+        "title": { "type": "string", "minLength": 1, "maxLength": 80 },
+        "body": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

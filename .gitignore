@@ -1,15 +1,5 @@
 .DS_Store
 
-# content/: publish only the public feeds + their images.
-# Keep schemas, docs (FEED_SCHEMA.md), the generation prompt (GEN_PROMPT.md),
-# and the verification report local — never push them.
-content/*
-!content/feed-knowledge.json
-!content/feed-news.json
-!content/img/
-content/img/*
-!content/img/*.jpg
-!content/img/*.jpeg
-!content/img/*.png
-!content/img/*.svg
-!content/img/*.webp
+# What GitHub Pages serves lives in docs/ (Pages source = main /docs).
+# Everything outside docs/ (CLAUDE.md, content/schemas + prompt + report) is
+# version-controlled but NOT public — the docs/ boundary is what keeps it off Pages.
