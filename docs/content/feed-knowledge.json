@@ -639,7 +639,7 @@
       "publishDate": "2026-02-01",
       "locale": "vi",
       "title": "Vì sao các đợt bùng phát có thể tăng khi bắt đầu điều trị",
-      "summary": "Khi axit uric giảm, những tinh thể đã tích tụ qua nhiều năm bắt đầu hòa tan, và điều này có thể tạm thời gây ra nhiều đợt bùng phát hơn trong những tháng đầu điều trị. Để giảm nhẹ giai đoạn này, các hướng dẫn mô tả việc thêm một thuốc chống viêm trong vài tháng bên cạnh liệu pháp hạ urat. Các đợt bùng phát tăng thêm thường lắng dịu khi các tinh thể được làm sạch.",
+      "summary": "Khi axit uric giảm, những tinh thể đã tích tụ qua nhiều năm bắt đầu hòa tan, và điều này có thể tạm thời gây ra nhiều đợt bùng phát hơn trong những tháng đầu điều trị. Để giảm nhẹ giai đoạn này, các hướng dẫn mô tả việc thêm một thuốc chống viêm trong vài tháng bên cạnh liệu pháp hạ urat. Các đợt bùng phát tăng thêm thường lắng dịu khi các tinh thể tan bớt.",
       "whyItMatters": "Chuẩn bị tinh thần cho một khởi đầu gập ghềnh sẽ khiến bạn bớt lo lắng nếu các đợt bùng phát tăng lên ngay sau khi bắt đầu điều trị.",
       "tags": [
         "flare",
@@ -739,7 +739,7 @@
       "publishDate": "2026-03-01",
       "locale": "vi",
       "title": "Duy trì điều trị về lâu dài",
-      "summary": "Một tổng quan hệ thống cho thấy mức độ tuân thủ liệu pháp hạ urat thường thấp, với nhiều người dùng ít hơn liều được kê và một số ngừng trong năm đầu tiên. Các nghiên cứu cho thấy việc duy trì liệu pháp gắn với sự kiểm soát axit uric ổn định hơn theo thời gian. Điều trị gút có xu hướng chỉ tiếp tục hiệu quả chủ yếu trong khi còn dùng thuốc.",
+      "summary": "Một tổng quan hệ thống cho thấy mức độ tuân thủ liệu pháp hạ urat thường thấp, với nhiều người dùng ít hơn liều được kê và một số ngừng trong năm đầu tiên. Các nghiên cứu cho thấy việc duy trì liệu pháp gắn với sự kiểm soát axit uric ổn định hơn theo thời gian. Điều trị gút thường chỉ duy trì hiệu quả chừng nào còn tiếp tục dùng thuốc.",
       "whyItMatters": "Vì lợi ích phụ thuộc vào việc tiếp tục điều trị, tính đều đặn là một phần lớn tạo nên hiệu quả của liệu pháp hạ urat.",
       "tags": [
         "adherence",
@@ -1003,7 +1003,7 @@
           "id": "crystals",
           "icon": "drop.fill",
           "title": "関節にできる結晶",
-          "body": "尿酸が高い状態が続くと、関節やその周囲に鋭い顕微鏡レベルの結晶ができることがあります。免疫系がこれらの結晶に反応し、それが発作を突然で痛みの強いものにしています。"
+          "body": "尿酸が高い状態が続くと、関節やその周囲に鋭い顕微鏡レベルの結晶ができることがあります。免疫系がこれらの結晶に反応することが、発作が突然起こり、強い痛みを伴う理由です。"
         },
         {
           "id": "where",
@@ -1208,7 +1208,7 @@
       "locale": "ja",
       "title": "一部の人には allopurinol の前に遺伝子検査を",
       "summary": "HLA-B*58:01 と呼ばれる遺伝子の型がより多く見られる背景を持つ人、たとえば漢民族、韓国系、タイ系の一部の人については、ガイドラインで allopurinol を始める前にこの検査を行うことが勧められています。この型を持っていると、まれではあるものの重い皮膚反応のリスクが高まることと関連します。この検査は、別の薬へ導いたほうがよい人を見分けるのに役立ちます。",
-      "whyItMatters": "これは、特定の患者に allopurinol を処方する前に医師がなぜ特定の血液検査を指示することがあるのかを説明しています。",
+      "whyItMatters": "これは、一部の患者に allopurinol を処方する前に、医師がなぜ特定の血液検査を指示することがあるのかを説明しています。",
       "tags": [
         "safety",
         "ult",
@@ -1695,7 +1695,7 @@
       "publishDate": "2026-02-18",
       "locale": "zh-Hans",
       "title": "某些人在使用 allopurinol 前的一项基因检测",
-      "summary": "对于来自 HLA-B*58:01 基因变异较为常见背景的人群，包括部分汉族、韩裔和泰裔人群，指南建议在开始使用 allopurinol 之前进行该项检测。携带这一变异与出现一种罕见但严重的皮肤反应的较高风险相关。这项检测有助于识别哪些人可能会被引导使用另一种药物。",
+      "summary": "对于所属族群中 HLA-B*58:01 基因变异较为常见的人群，包括部分汉族、韩裔和泰裔人群，指南建议在开始使用 allopurinol 之前先进行该项检测。携带这一变异与出现一种罕见但严重的皮肤反应的较高风险相关。这项检测有助于提示哪些人可能会被引导改用另一种药物。",
       "whyItMatters": "这说明了为什么医生在为某些患者开具 allopurinol 之前，可能会先安排一项特定的血液检查。",
       "tags": [
         "safety",
@@ -1715,7 +1715,7 @@
       "publishDate": "2026-03-01",
       "locale": "zh-Hans",
       "title": "长期坚持治疗",
-      "summary": "一项系统综述发现，对降尿酸治疗的依从性往往较低，许多人服药量少于处方，有些人在第一年内就停药。研究表明，坚持治疗与长期更平稳地控制尿酸相关。痛风治疗往往主要在持续进行期间才能保持效果。",
+      "summary": "一项系统综述发现，对降尿酸治疗的依从性往往较低，许多人服药量少于处方，有些人在第一年内就停药。研究表明，坚持治疗与长期更平稳地控制尿酸相关。痛风治疗的效果往往主要在持续用药期间才能维持。",
       "whyItMatters": "由于疗效取决于是否持续，坚持一致在很大程度上正是降尿酸治疗奏效的原因。",
       "tags": [
         "adherence",
@@ -1754,7 +1754,7 @@
       "publishDate": "2026-03-08",
       "locale": "zh-Hans",
       "title": "富含嘌呤的食物与痛风",
-      "summary": "富含嘌呤的食物，如红肉、动物内脏和某些海鲜，与更高的尿酸和更大的发作可能性相关。指南将限制这些食物列入可以辅助治疗的生活方式措施之中。食物的作用与药物相比是较小的，但它仍能起到辅助作用。",
+      "summary": "富含嘌呤的食物，如红肉、动物内脏和某些海鲜，与更高的尿酸和更大的发作可能性相关。指南将限制这些食物列入可以辅助治疗的生活方式措施之中。与药物相比，食物的作用较小，但它仍能起到辅助作用。",
       "whyItMatters": "了解哪些食物与发作关系最密切，有助于做出明智的选择，而不是靠猜测。",
       "tags": [
         "diet",
@@ -1858,7 +1858,7 @@
       "locale": "zh-Hans",
       "title": "痛风与肾功能",
       "summary": "痛风和肾功能减退常常同时出现，肾功能会影响降尿酸药物的剂量。指南指出，在肾功能减退时仍可使用 allopurinol，剂量和监测由医生来把握。即使肾脏受到影响，降低尿酸仍然是目标。",
-      "whyItMatters": "如果你有肾脏方面的担忧，这就是医生为什么可能会调整你治疗的剂量或监测方式的原因。",
+      "whyItMatters": "如果你有肾脏方面的顾虑，这正是医生可能会为你调整用药剂量或监测方式的原因。",
       "tags": [
         "ckd",
         "kidney",
