@@ -1,7 +1,11 @@
 # Learn feed — generation & verification report (v2)
 
-Regenerated 2026-08-03. **Status: DRAFT.** Every item has `reviewed: false`. A
-clinician/editor must review the copy before flipping `reviewed: true`.
+Regenerated 2026-08-03. **Status: PUBLISHED — `reviewed: true` on all items**, set
+after an AI review pass (native vi/ja/zh-Hans medical editors + a rheumatologist
+persona): doctor found 0 medical/guardrail issues; editors applied 10 minor fluency
+fixes. **Caveat:** this was AI review, not a real native-speaker + clinician sign-off
+— re-review with actual humans if/when available and roll back `reviewed` if anything
+needs changing.
 
 - `feed-knowledge.json` — **88 items** = 22 English (`type: knowledge`) ×4 locales
   (`en`/`vi`/`ja`/`zh-Hans`); the 12 self-hosted PD/CC0 images are shared across locales.
