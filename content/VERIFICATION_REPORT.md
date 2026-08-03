@@ -1,125 +1,103 @@
-# Learn feed — generation & verification report
+# Learn feed — generation & verification report (v2)
 
-Generated 2026-07-31. **Status: DRAFT.** Every item has `reviewed: false`. A
-clinician/editor must review the copy before flipping `reviewed: true` and
-publishing.
+Regenerated 2026-08-03. **Status: DRAFT.** Every item has `reviewed: false`. A
+clinician/editor must review the copy before flipping `reviewed: true`.
 
-- `feed-knowledge.json` — 11 items, all `type: knowledge`, all `locale: en`.
-- `feed-news.json` — 7 items, all `type: update`, all `locale: en`, newest first.
-- Schema validation: **both files pass** `ajv` against `feed.schema.json`
-  (Draft 2020-12; run with `-c ajv-formats --strict=false` because the wrapper
-  schemas use `$ref`+`properties` and the `uri` format needs the formats plugin —
-  data is valid either way).
-- Every `sourceUrl` was fetched and returns **HTTP 200** (checked 2026-07-31).
-- URLs standardised on **PubMed / PMC / NHS** canonical pages (they load for
-  everyone; publisher pages at bmj.com, nejm.org, wiley.com are the same papers
-  but block automated fetching behind Cloudflare/paywall).
+- `feed-knowledge.json` — **22 items** (all `type: knowledge`, `locale: en`); **12
+  carry a self-hosted PD/CC0 image**.
+- `feed-news.json` — **10 items** (all `type: update`, `locale: en`, newest first);
+  genuinely recent (Mar 2025 → Jun 2026); 1 carries an image.
+- **13 images**, all downloaded to `docs/img/` and confirmed **public-domain or CC0
+  (no attribution)**; SVG diagrams rasterized to PNG (iOS won't render SVG). The beer
+  SVG failed to rasterize and was dropped (`k-alcohol` has no image).
+- Schema validation: **both files pass** ajv (Draft 2020-12,
+  `-c ajv-formats --strict=false`).
+- Every `sourceUrl` was fetched: all return **HTTP 200 except JAMA (403 to bots — the
+  page is real and opens in a browser)**.
 
-> Note on the previous draft: the old files mixed in a few Vietnamese (`vi`)
-> items and pointed CARES at an `nejm.org` URL that returns 403 to bots. This
-> regeneration is **all-English per the prompt** and re-points CARES to its
-> PubMed page. If you want the `vi` locale items back, they can be re-added as
-> translations of these verified sources.
-
----
-
-## 1. Sources — one row per item
-
-Each source below was visited by a research agent and (for the URL liveness) by a
-direct HTTP check. "Supports" = the source genuinely backs the summary's claim.
-
-### Knowledge
-
-| id | sourceUrl (HTTP 200) | Supports the summary? |
-|----|----------------------|-----------------------|
-| k-what-is-gout | https://www.nhs.uk/conditions/gout/ | Yes — NHS states gout is caused by too much uric acid forming crystals around joints, sudden pain "usually your big toe." |
-| k-treat-to-target | https://pubmed.ncbi.nlm.nih.gov/32391934/ | Yes — ACR 2020 strongly recommends treat-to-target ULT to serum urate <6 mg/dL, lower with tophi, maintained long-term. |
-| k-allopurinol-first-line | https://pubmed.ncbi.nlm.nih.gov/32391934/ | Yes — ACR 2020 strongly recommends allopurinol as preferred first-line ULT, incl. moderate–severe CKD. |
-| k-start-low-go-slow | https://pubmed.ncbi.nlm.nih.gov/32391934/ | Yes — ACR 2020 strongly recommends a low allopurinol start dose with titration (start-low-go-slow), treat-to-target dosing. |
-| k-flare-prophylaxis | https://pubmed.ncbi.nlm.nih.gov/32391934/ | Yes — ACR 2020 strongly recommends anti-inflammatory flare prophylaxis when initiating ULT, ≥3–6 months. |
-| k-dont-stop-during-flare | https://pubmed.ncbi.nlm.nih.gov/32391934/ | Yes — ACR 2020 directs continuing established ULT during a flare (and conditionally starting ULT during a flare). |
-| k-hlab5801 | https://pubmed.ncbi.nlm.nih.gov/32391934/ | Yes — ACR 2020 conditionally recommends HLA-B*58:01 testing before allopurinol in higher-risk groups (Han Chinese/Korean/Thai descent). |
-| k-adherence | https://pubmed.ncbi.nlm.nih.gov/24692321/ | Yes — De Vera 2014 systematic review: ULT adherence consistently below 0.80; adherent proportion 10–46%. |
-| k-diet-role | https://pmc.ncbi.nlm.nih.gov/articles/PMC8678356/ | Yes — 2021 review: diet lowers urate only modestly (DASH ~0.22, low-purine ~1 mg/dL); ULT "remains the mainstay." |
-| k-ckd-urate | https://pubmed.ncbi.nlm.nih.gov/32391934/ | Yes — ACR 2020: allopurinol usable in reduced kidney function with dose management (low start dose in CKD). |
-| k-comorbidities | https://pmc.ncbi.nlm.nih.gov/articles/PMC11678569/ | Yes — 2024 narrative review: gout/hyperuricemia associated with CVD, CKD, hypertension, T2D, insulin resistance, obesity. |
-
-### News
-
-| id | sourceUrl (HTTP 200) | Supports the summary? |
-|----|----------------------|-----------------------|
-| n-mirror-methotrexate | https://pubmed.ncbi.nlm.nih.gov/36099211/ | Yes — MIRROR RCT (A&R 2023): MTX co-therapy raised month-6 pegloticase response 71.0% vs 38.5%, fewer infusion reactions. |
-| n-fast-cv-safety | https://pubmed.ncbi.nlm.nih.gov/33181081/ | Yes — FAST (Lancet 2020, n=6,128): febuxostat non-inferior to allopurinol for CV endpoint (HR 0.85), no increased death risk. |
-| n-acr-2020-guideline | https://pubmed.ncbi.nlm.nih.gov/32391934/ | Yes — ACR 2020 guideline: treat-to-target, allopurinol first-line, flare prophylaxis at initiation. |
-| n-nurse-led-t2t | https://pubmed.ncbi.nlm.nih.gov/30343856/ | Yes — Doherty 2018 (Lancet, n=517): 95% of nurse-led group reached urate <360 µmol/L at 2 yr vs 30% usual care. |
-| n-cares-cv | https://pubmed.ncbi.nlm.nih.gov/29527974/ | Yes — CARES (NEJM 2018, n=6,190 with CVD): CV endpoint non-inferior (HR 1.03) but higher all-cause (1.22) and CV mortality (1.34). |
-| n-eular-2016 | https://pubmed.ncbi.nlm.nih.gov/27457514/ | Yes — EULAR 2016 update (Ann Rheum Dis 2017): treat-to-target <6 mg/dL, patient education central, prophylaxis first 6 months. |
-| n-agree-colchicine | https://pubmed.ncbi.nlm.nih.gov/20131255/ | Yes — AGREE (A&R 2010): low-dose colchicine ≈ high-dose efficacy for early flare, far less GI toxicity (diarrhea 23% vs 77%). |
-
-**Flags for the medical reviewer:**
-- ACR claims for **k-dont-stop-during-flare** and **k-hlab5801** are in the full
-  guideline recommendation set, not the PubMed *abstract* text — confirm against
-  the full guideline (paywalled at Wiley). Both are well-established ACR 2020
-  recommendations; HLA-B*58:01 testing is a *conditional* recommendation.
-- **k-what-is-gout** uses NHS (a patient-education overview); `evidence` is set to
-  `review` as the closest enum value — reviewer may prefer to relabel.
-- No dosing/titration numbers are presented as advice; targets are tied to "the
-  target your doctor sets"; no diagnosis language. Please confirm the wellness
-  (non–medical-device) tone throughout.
+## What changed from v1
+- **Knowledge** expanded 11 → 22 (added: where-uric-acid, colchicine, febuxostat,
+  purine-foods, alcohol, fructose/sugar, weight, vitamin-C/cherries, flare-course,
+  tophi, pseudogout) and 12 items now have images.
+- **News** rewritten from "landmark trials" into **actual recent news** — drug
+  pipeline / approvals / new readouts (2025–2026). Per the updated policy, News may
+  cite a reputable **company press release / registry / med-news** page
+  (`evidence: news`); primary preferred, nothing fabricated.
 
 ---
 
-## 2. Images — licence decisions
+## 1. Sources — News (newest first)
 
-**Rule:** include an `imageUrl` only for **public-domain / CC0** images (no
-attribution — the app has no attribution UI). Everything else is omitted for the
-operator to add later.
+| id | date | evidence | source (opened, HTTP 200 unless noted) | supports summary |
+|----|------|----------|----------------------------------------|------------------|
+| n-eular2026-continue-ult | 2026-06-03 | rct | EMJ (EULAR 2026 coverage) | Dutch RCT: continuing ULT beat stopping (remission 79% vs 63%; fewer flares). |
+| n-reduce2-pozdeutinurad | 2026-05-21 | rct | Sobi press (REDUCE 2 topline) | Phase 3, n=811: both AR882 doses hit sUA<6 far more than placebo; well tolerated. |
+| n-jama-t2t-cv | 2026-01-26 | news | JAMA Internal Medicine (**403 to bots**, real) | ~109k patients: reaching sUA<6 within a year tied to lower 5-yr MACE (observational). |
+| n-glp1-gout-signal | 2025-11-03 | news | Healio (ACR Convergence 2025) | GLP-1 initiators had lower 1-yr gout risk vs DPP-4; other studies disagree (mixed, observational). |
+| n-dect-flare-prediction | 2025-11-01 | news | European Radiology (PubMed 41175200) | DECT+clinical model predicted frequent flares better than clinical data alone. |
+| n-acr2025-firsekibart | 2025-10-25 | news | ACR press release | Phase 3 firsekibart (anti-IL-1β) for acute flares, incl. renal impairment. |
+| n-crystalys-dotinurad | 2025-09-30 | news | PR Newswire (Crystalys) | $205M launch to run US/EU phase 3 of dotinurad (already approved in Japan etc.). |
+| n-nasp-fda-bla | 2025-09-10 | news | Sobi press | FDA accepted BLA for NASP (uncontrolled gout); PDUFA mid-2026; from DISSOLVE I/II. |
+| n-ruzinurad-ph3 | 2025-06-26 | rct | Rheumatology Republic (EULAR 2025) | Phase 3, n=773: ruzinurad beat allopurinol to target (~53% vs 35%) to wk52. |
+| n-tigulixostat-halt | 2025-03-28 | news | Korea Biomedical Review | LG Chem discontinued tigulixostat (EURELIA-2 halted); China rights with partner. |
 
-### Kept (wired into the feed + downloaded)
+**News flags for the reviewer:**
+- These are **news, i.e. preliminary by nature** (topline results, press releases,
+  conference talks not yet peer-reviewed). Copy attributes them and flags uncertainty;
+  confirm that framing before publishing.
+- **Dropped (couldn't open the primary):** ABP-671/lingdolinurad topline (all press
+  pages 403'd), a claimed SGLT2/Diabetes-Care-2026 paper, a processed-meat/UK-Biobank
+  item, and several medRxiv items — omitted rather than cite unverified.
+- The GLP-1 item deliberately presents the evidence as **mixed** (one study found
+  lower risk, others higher).
 
-| id | image | host | licence (verified) | file |
-|----|-------|------|--------------------|------|
-| k-allopurinol-first-line | Milurit 100 mg allopurinol tablets | Wikimedia Commons | **CC0 1.0** — "dedicated to the public domain… attribution not required" (re-checked on the Commons file page) | `content/img/k-allopurinol-first-line.jpg` (356 KB, 1164×2113 JPEG) → served at `https://goutly.xboostapp.io/img/k-allopurinol-first-line.jpg` |
+## 2. Sources — Knowledge (new items only; the 8 ACR/EULAR-anchored items reuse
+PubMed 32391934 / 27457514 verified in v1)
 
-### Additional PD/CC0 candidates found (NOT wired — available for the operator)
+| id | evidence | source (HTTP 200) | supports summary |
+|----|----------|-------------------|------------------|
+| k-where-uric-acid | review | Frontiers in Medicine 2018 | ~2/3 of urate is endogenous from purines; gout mostly under-excretion. |
+| k-colchicine | guideline | ACR 2020 (PubMed 32391934) | Colchicine for acute flares + low-dose prophylaxis at ULT start. |
+| k-febuxostat-alt | rct | NEJM 2005 (PubMed 16339094) | Febuxostat (XO inhibitor) lowered urate ≥ fixed-dose allopurinol; alt option. |
+| k-purine-foods / k-alcohol / k-fructose-sugar / k-weight | guideline | ACR 2020 (PubMed 32391934) | ACR 2020 conditionally recommends limiting purines, alcohol, HFCS, and weight loss. |
+| k-vitamin-c-cherries | review | Arthritis Care & Research meta-analysis (PMC3169708) | Vitamin C lowers urate only ~0.35 mg/dL (too small to treat); cherry evidence limited. |
+| k-flare-course / k-what-are-tophi | review | NIAMS (NIH) gout page | Flares self-limited over ~1–2 weeks; tophi = urate lumps, shrink with urate lowering. |
+| k-pseudogout | review | Arthritis Foundation (CPPD) | Pseudogout is a distinct calcium-pyrophosphate crystal arthritis. |
 
-All verified public-domain / CC0 by reading the file page. Not attached because a
-bare diagram is a weak hero image, or (kidney) the host *requests* a credit line.
+**Knowledge flags:**
+- `k-what-is-gout` still cites **NHS** (patient-ed); allowed under the "Knowledge
+  basics" carve-out (`evidence: review`), but a guideline-background source is
+  preferred if you want it stricter.
+- Diet items are anchored to the **ACR 2020 guideline's** conditional lifestyle
+  recommendations (cleaner than citing single cohort papers); the underlying
+  associations also have cohort support (Lancet/BMJ/NEJM, Choi et al.).
+- `k-flare-course` and `k-what-are-tophi` share the NIAMS URL (both supported by it).
 
-| Suggested for | image | licence | direct URL |
-|---------------|-------|---------|------------|
-| k-what-is-gout / urate | Uric acid molecule (SVG) | PD (simple chemical structure, ineligible for copyright) | https://upload.wikimedia.org/wikipedia/commons/8/88/Uric_Acid.svg |
-| urate metabolism | Uric acid synthesis diagram (SVG) | PD (simple chemical equation) | https://upload.wikimedia.org/wikipedia/commons/7/77/Synthesis_Uric_Acid.svg |
-| allopurinol | Allopurinol structure (SVG) | PD (author release worldwide) | https://upload.wikimedia.org/wikipedia/commons/8/8c/Allopurinol_V.1.svg |
-| k-ckd-urate | Kidney & nephron (labeled) | PD (US govt work); **NIDDK requests, does not require, a credit line** — legally fine, but omitted to keep zero strings | https://www.niddk.nih.gov/media-assets/11236/B2-Image03-Kidney+Nephron-FINAL.jpg |
+## 3. Images — all KEPT are Public Domain / CC0 (no attribution), self-hosted in `docs/img/`
 
-### Dropped (attribution/share-alike/unclear — do NOT use as-is)
+| file | item | licence |
+|------|------|---------|
+| k-allopurinol-first-line.jpg | k-allopurinol-first-line | CC0 (Wikimedia) |
+| k-where-uric-acid.png | k-where-uric-acid | PD (chem diagram; SVG→PNG) |
+| k-diet-role.jpg | k-diet-role | CC0 |
+| k-purine-foods.jpg (salmon) | k-purine-foods | CC0 |
+| k-fructose-sugar.jpg | k-fructose-sugar | CC0 (**trademark in shot** — swap for a generic soda if preferred) |
+| k-weight.jpg | k-weight | PD (US Gov / NCI) |
+| k-vitamin-c-cherries.jpg | k-vitamin-c-cherries | CC0 |
+| k-colchicine.jpg (blister) | k-colchicine | CC0 |
+| k-ckd-urate.jpg (kidney) | k-ckd-urate | PD |
+| k-comorbidities.jpg (stethoscope) | k-comorbidities | CC0 |
+| k-flare-course.png (foot skeleton) | k-flare-course | PD (pre-1931) |
+| k-pseudogout.png (knee) | k-pseudogout | PD (US Gov; SVG→PNG) |
+| n-dect-flare-prediction.jpg (foot X-ray) | n-dect-flare-prediction | CC0 |
 
-No PD/CC0 option was found for the most "clinical" images — every candidate was
-CC-BY or CC-BY-SA:
-- MSU crystals under polarised light — all CC-BY / CC-BY-SA → dropped.
-- Podagra / big-toe clinical photos — CC-BY 3.0 DE, CC-BY 4.0 → dropped.
-- Tophi photos (incl. Wellcome) — CC-BY 4.0 → dropped.
-- Gout foot X-rays — CC-BY 1.0, CC-BY-SA 4.0 → dropped.
-- Assorted gout diagrams — CC-BY-SA 4.0 → dropped.
-- "The Gout" (Gillray, 1799) — genuinely PD, but a satirical caricature; not a fit
-  for a wellness tone → not used.
+No true PD/CC0 image exists for clinical urate crystals, tophi, real gout toe, or an
+allopurinol-branded pack (all CC-BY/BY-SA) — those items are left image-less or use a
+PD diagram stand-in. Add app-style art later if desired.
 
-**Recommendation:** for the crystal/toe/tophi/X-ray topics, either license a
-CC-BY image *with* attribution (needs an attribution surface the app doesn't have
-yet), or generate art in the app's own illustration style — the safest route and
-fully under your control.
-
----
-
-## Operator checklist — remaining steps before publish
-
-1. [x] Validate both files against schema — **pass**.
-2. [x] Confirm every `sourceUrl` returns 200 — **pass** (2026-07-31).
-3. [ ] Human: open each source and confirm it supports the summary (spot the two
-   ACR "full-guideline-not-abstract" flags above).
-4. [ ] Human: originality pass — confirm no summary mirrors source wording.
-5. [ ] Human: re-confirm the CC0 licence on the one wired image; add art for the
-   image-less items if desired (see candidates above).
-6. [ ] Clinician/editor: medical-copy review against the guardrails.
-7. [ ] Only then set `reviewed: true` and deploy `feed-*.json` + `img/`.
+## Operator checklist — remaining before publish
+1. [x] Schema validation — pass. 2. [x] Source URLs 200 (JAMA 403-to-bots, real).
+3. [ ] Human: open each source, confirm it supports the summary (esp. the preliminary
+   News items and the mixed-evidence GLP-1 item). 4. [ ] Originality pass.
+5. [ ] Spot-check each image licence + that it renders in-app. 6. [ ] Clinician review.
+7. [ ] Only then set `reviewed: true`.

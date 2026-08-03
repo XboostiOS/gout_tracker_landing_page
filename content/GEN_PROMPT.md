@@ -23,22 +23,33 @@ report) is in git but never served.
 ## Source whitelist & evidence tiering (HARD)
 
 Trust is ranked, and the rank maps **directly** onto the schema's `evidence` field:
-`guideline` > `rct` / `review` > `news`. Every item MUST carry a `sourceUrl` that
-points to the **primary** source. Med-news and patient-ed pages are **never** the
-final `sourceUrl`.
+`guideline` > `rct` / `review` > `news`. Every item MUST carry a working `sourceUrl`.
+For **Knowledge** it MUST be a primary Tier-1/2 source. For **News** the rules relax
+(see the News carve-out below) — News is dated, often preliminary, and its source may
+be a press release, registry, or reputable med-news page.
 
 | Tier | `evidence` | Whitelisted sources | Role |
 |------|-----------|---------------------|------|
 | **1 — Specialty guidelines** | `guideline` | **ACR** (rheumatology.org, 2020 treat-to-target — still current), **EULAR** (eular.org, management 2016 + diagnosis 2020), **NICE** UK (2022) + **BSR** (2017), **APLAR** (2021) | Foundation of the Knowledge feed. Write once. **APLAR + EULAR matter for the Asian/EU locales.** |
 | **2 — Peer-reviewed journals** | `rct` or `review` | **Annals of the Rheumatic Diseases (ARD)**, **Arthritis & Rheumatology**, **Arthritis Care & Research**, **Rheumatology (Oxford)**, **The Lancet**, **NEJM**, **Journal of Rheumatology** | Where real papers appear. The **ideal `sourceUrl`** for News. |
-| **3 — Primary "news" objects** | `news` | **ACR Convergence** (Nov) & **EULAR Congress** (June) conference abstracts; **ClinicalTrials.gov** trial records | Earliest phase-3 data + trial-status changes. Cite the abstract/registry entry itself. |
-| **Discovery only — NOT a source** | — | **Rheumatology Advisor**, **Healio Rheumatology**, **MedPage Today**, **BioPharma Dive** | Use to *find* stories fast. **Always trace back to the Tier-1/2/3 primary** and cite that. |
+| **3 — Primary "news" objects** | `news` | **ACR Convergence** (Nov) & **EULAR Congress** (June) conference abstracts; **ClinicalTrials.gov** records; **company press releases** (e.g. Sobi, PR Newswire); **regulatory** notices (FDA/EMA) | Earliest phase-3 data, approvals, trial-status/business news. Cite the abstract/registry/press page itself. |
+| **Specialty med-news** | `news` (News only) | **Rheumatology Advisor**, **Healio Rheumatology**, **MedPage Today**, **BioPharma Dive**, congress-coverage outlets | Best for *discovery*. For **News** items, if no primary exists, one of these MAY be the `sourceUrl` (`evidence: news`). For **Knowledge**, never — trace to a Tier-1/2 primary. |
 | **Tone reference only — NOT a source** | — | **Gout Education Society**, **Arthritis Foundation**, **CreakyJoints** | Read to calibrate plain-language voice. Never a `sourceUrl`. |
 
-**Carve-out:** for an evergreen *basic* with no guideline/journal statement (e.g.
-"what is gout"), a major medical-reference org (**Mayo Clinic, NHS, CDC,
-MedlinePlus**) may serve as the source with `evidence: "review"` — but a
+**Carve-out (Knowledge basics):** for an evergreen *basic* with no guideline/journal
+statement (e.g. "what is gout"), a major medical-reference org (**Mayo Clinic, NHS,
+CDC, MedlinePlus, NIAMS**) may serve as the source with `evidence: "review"` — but a
 guideline's background section is preferred.
+
+**Carve-out (News):** News = genuinely recent, dated items (new trial readouts,
+approvals, pipeline/company developments — including things that are still uncertain
+or may not pan out). Find leads by searching "gout news / gout update" + specialty
+med-news, then **prefer** a primary source (journal, ClinicalTrials.gov, company
+press, regulator); a reputable med-news page is an acceptable `sourceUrl` when that is
+all that exists. Still: real, working URL you actually opened; **nothing fabricated**;
+frame preliminary findings neutrally and attributed ("a company reported…", "in a
+trial presented at…"). `evidence: news` for most; `rct` only for an actual trial with
+results.
 
 **Banned outright:** supplement sites, "home remedy / X foods to avoid" listicles,
 personal blogs, SEO content farms, anything selling a product.
@@ -124,7 +135,8 @@ support.
 >      (**kept** only for PD/CC0, **dropped** otherwise). List every image you
 >      considered and dropped, with the reason.
 >
-> **Counts.** ~8–12 knowledge, ~6–10 news.
+> **Counts.** ~15–25 knowledge (aim for a rich set with images where PD/CC0 art
+> exists), ~8–12 news.
 >
 > **Field spec (bind to this; also enforced by `feed.schema.json`):**
 > - Required: `id` (kebab), `type` (`knowledge`|`update`), `publishDate`
