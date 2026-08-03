@@ -7,10 +7,10 @@ web, then **validate + human-review** before publishing. Output is a **draft**;
 **Layout (fixed):** GitHub Pages serves `main` branch, path `/docs`. So the public
 site root == `docs/`. Everything outside `docs/` (this prompt, the schemas, the
 report) is in git but never served.
-- Published feeds live in `docs/` → served at `https://goutly.xboostapp.io/feed-knowledge.json` and `/feed-news.json`.
-- Published images live in `docs/img/<item-id>.<ext>` → served at `https://goutly.xboostapp.io/img/<item-id>.<ext>`.
-- So `imageUrl` is always `https://goutly.xboostapp.io/img/<item-id>.<ext>` (self-hosted, never a third-party hotlink).
-- Schemas + this prompt live in `content/` (internal, not served).
+- Published feeds live in `docs/content/` → served at `https://goutly.xboostapp.io/content/feed-knowledge.json` and `/content/feed-news.json` (the app fetches these `/content/…` URLs).
+- Published images live in `docs/content/img/<item-id>.<ext>` → served at `https://goutly.xboostapp.io/content/img/<item-id>.<ext>`.
+- So `imageUrl` is always `https://goutly.xboostapp.io/content/img/<item-id>.<ext>` (self-hosted, never a third-party hotlink).
+- Schemas + this prompt live in the **repo-root** `content/` (internal, not served) — distinct from the served `docs/content/`.
 
 **Two content types, two trust profiles:**
 - **Knowledge** = evergreen foundation, written once, rarely changes. Anchor to
@@ -201,10 +201,10 @@ APLAR + Japanese-approval angle.
    ```bash
    cd content
    npx --package=ajv-cli@5 --package=ajv-formats@2 ajv validate \
-     -s feed-knowledge.schema.json -d ../docs/feed-knowledge.json \
+     -s feed-knowledge.schema.json -d ../docs/content/feed-knowledge.json \
      --spec=draft2020 -r feed.schema.json -c ajv-formats --strict=false
    npx --package=ajv-cli@5 --package=ajv-formats@2 ajv validate \
-     -s feed-news.schema.json -d ../docs/feed-news.json \
+     -s feed-news.schema.json -d ../docs/content/feed-news.json \
      --spec=draft2020 -r feed.schema.json -c ajv-formats --strict=false
    ```
 2. **Verify every `sourceUrl`** opens (HTTP 200) and actually supports the summary —
@@ -213,7 +213,7 @@ APLAR + Japanese-approval angle.
 3. **Check originality** — the summary must not mirror the source's wording.
 4. **Images** — using the report's Images table, keep only **public-domain / CC0**
    ones. Spot-check the licence yourself (models can misread it), download each to
-   `docs/img/<id>.<ext>` (name = `id`), and remove `imageUrl` for anything
+   `docs/content/img/<id>.<ext>` (name = `id`), and remove `imageUrl` for anything
    not clearly PD/CC0. (Safest of all: use the app's own illustration style instead
    of source photos — you can regenerate these later.)
 5. **Medical review** — a clinician/editor reviews the copy against the guardrails

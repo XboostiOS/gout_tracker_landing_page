@@ -15,11 +15,12 @@ now only ignores `.DS_Store`; everything else is committed.)
   - Marketing: `index.html`, `privacy.html`, `terms.html`, `support.html`,
     `styles.css`, `script.js`, `assets/`
   - `CNAME` (custom domain must live in the served dir), `.nojekyll`
-  - Learn feed: `docs/feed-knowledge.json` → `/feed-knowledge.json`,
-    `docs/feed-news.json` → `/feed-news.json`,
-    `docs/img/<id>.<ext>` → `/img/<id>.<ext>`
-- **`content/` — internal (committed, NOT served):** `feed*.schema.json`,
-  `FEED_SCHEMA.md`, `GEN_PROMPT.md`, `VERIFICATION_REPORT.md`
+  - Learn feed (the app fetches these `/content/…` URLs): `docs/content/feed-knowledge.json` → `/content/feed-knowledge.json`,
+    `docs/content/feed-news.json` → `/content/feed-news.json`,
+    `docs/content/img/<id>.<ext>` → `/content/img/<id>.<ext>`
+- **repo-root `content/` — internal (committed, NOT served):** `feed*.schema.json`,
+  `FEED_SCHEMA.md`, `GEN_PROMPT.md`, `VERIFICATION_REPORT.md`. (Note: distinct from the
+  served `docs/content/` — same name, different dir.)
 - **`CLAUDE.md`** (this file) — internal, at repo root.
 
 To change the served set, move files in/out of `docs/`. Pages source is set via
@@ -67,15 +68,15 @@ tigulixostat, SEL-212, ABP-671, dotinurad-in-Japan).
    ```bash
    cd content
    npx --package=ajv-cli@5 --package=ajv-formats@2 ajv validate \
-     -s feed-knowledge.schema.json -d ../docs/feed-knowledge.json \
+     -s feed-knowledge.schema.json -d ../docs/content/feed-knowledge.json \
      --spec=draft2020 -r feed.schema.json -c ajv-formats --strict=false
    npx --package=ajv-cli@5 --package=ajv-formats@2 ajv validate \
-     -s feed-news.schema.json -d ../docs/feed-news.json \
+     -s feed-news.schema.json -d ../docs/content/feed-news.json \
      --spec=draft2020 -r feed.schema.json -c ajv-formats --strict=false
    ```
 2. **HTTP-check every `sourceUrl`** returns 200 and is the primary source.
 3. **Images:** only PD/CC0 (no attribution UI). Spot-check the licence, download to
-   `docs/img/<id>.<ext>`, drop `imageUrl` otherwise.
+   `docs/content/img/<id>.<ext>`, drop `imageUrl` otherwise.
 4. **`reviewed` stays `false`** until a clinician/editor reviews the medical copy.
    Only a human flips it to `true`.
 

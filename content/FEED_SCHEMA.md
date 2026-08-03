@@ -105,17 +105,18 @@ The host is configured in one place — `GoutHelper/App/AppConfig.swift`
 ## Validate before you serve
 
 Using [ajv](https://github.com/ajv-validator/ajv-cli) (Draft 2020-12). Schemas live
-here in `content/`; published feeds live in `docs/` — run from `content/` and point
-`-d` at `../docs/`. Add the formats plugin + `--strict=false` or ajv aborts on the
-`uri` format / strict-types before it checks the data:
+here in the repo-root `content/`; published feeds live in `docs/content/` — run from
+`content/` and point `-d` at `../docs/content/`. Add the formats plugin +
+`--strict=false` or ajv aborts on the `uri` format / strict-types before it checks the
+data:
 
 ```bash
 cd content
 npx --package=ajv-cli@5 --package=ajv-formats@2 ajv validate \
-  -s feed-knowledge.schema.json -d ../docs/feed-knowledge.json \
+  -s feed-knowledge.schema.json -d ../docs/content/feed-knowledge.json \
   --spec=draft2020 -r feed.schema.json -c ajv-formats --strict=false
 npx --package=ajv-cli@5 --package=ajv-formats@2 ajv validate \
-  -s feed-news.schema.json -d ../docs/feed-news.json \
+  -s feed-news.schema.json -d ../docs/content/feed-news.json \
   --spec=draft2020 -r feed.schema.json -c ajv-formats --strict=false
 ```
 

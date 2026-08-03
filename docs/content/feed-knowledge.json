@@ -53,7 +53,7 @@
       "reviewed": false,
       "category": "general",
       "readMinutes": 2,
-      "imageUrl": "https://goutly.xboostapp.io/img/k-where-uric-acid.png"
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-where-uric-acid.png"
     },
     {
       "id": "k-treat-to-target",
@@ -106,7 +106,7 @@
       "reviewed": false,
       "category": "therapy",
       "readMinutes": 1,
-      "imageUrl": "https://goutly.xboostapp.io/img/k-allopurinol-first-line.jpg"
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-allopurinol-first-line.jpg"
     },
     {
       "id": "k-start-low-go-slow",
@@ -171,7 +171,7 @@
       "reviewed": false,
       "category": "therapy",
       "readMinutes": 2,
-      "imageUrl": "https://goutly.xboostapp.io/img/k-colchicine.jpg"
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-colchicine.jpg"
     },
     {
       "id": "k-febuxostat-alt",
@@ -236,7 +236,7 @@
       "reviewed": false,
       "category": "lifestyle",
       "readMinutes": 2,
-      "imageUrl": "https://goutly.xboostapp.io/img/k-diet-role.jpg"
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-diet-role.jpg"
     },
     {
       "id": "k-purine-foods",
@@ -253,7 +253,7 @@
       "reviewed": false,
       "category": "lifestyle",
       "readMinutes": 2,
-      "imageUrl": "https://goutly.xboostapp.io/img/k-purine-foods.jpg"
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-purine-foods.jpg"
     },
     {
       "id": "k-alcohol",
@@ -286,7 +286,7 @@
       "reviewed": false,
       "category": "lifestyle",
       "readMinutes": 2,
-      "imageUrl": "https://goutly.xboostapp.io/img/k-fructose-sugar.jpg"
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-fructose-sugar.jpg"
     },
     {
       "id": "k-weight",
@@ -303,7 +303,7 @@
       "reviewed": false,
       "category": "lifestyle",
       "readMinutes": 2,
-      "imageUrl": "https://goutly.xboostapp.io/img/k-weight.jpg"
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-weight.jpg"
     },
     {
       "id": "k-vitamin-c-cherries",
@@ -320,7 +320,7 @@
       "reviewed": false,
       "category": "lifestyle",
       "readMinutes": 2,
-      "imageUrl": "https://goutly.xboostapp.io/img/k-vitamin-c-cherries.jpg"
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-vitamin-c-cherries.jpg"
     },
     {
       "id": "k-ckd-urate",
@@ -337,7 +337,7 @@
       "reviewed": false,
       "category": "guideline",
       "readMinutes": 1,
-      "imageUrl": "https://goutly.xboostapp.io/img/k-ckd-urate.jpg"
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-ckd-urate.jpg"
     },
     {
       "id": "k-comorbidities",
@@ -354,7 +354,7 @@
       "reviewed": false,
       "category": "guideline",
       "readMinutes": 2,
-      "imageUrl": "https://goutly.xboostapp.io/img/k-comorbidities.jpg"
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-comorbidities.jpg"
     },
     {
       "id": "k-flare-course",
@@ -371,7 +371,7 @@
       "reviewed": false,
       "category": "general",
       "readMinutes": 2,
-      "imageUrl": "https://goutly.xboostapp.io/img/k-flare-course.png"
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-flare-course.png"
     },
     {
       "id": "k-what-are-tophi",
@@ -404,7 +404,7 @@
       "reviewed": false,
       "category": "general",
       "readMinutes": 2,
-      "imageUrl": "https://goutly.xboostapp.io/img/k-pseudogout.png"
+      "imageUrl": "https://goutly.xboostapp.io/content/img/k-pseudogout.png"
     }
   ]
 }

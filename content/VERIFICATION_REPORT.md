@@ -7,7 +7,7 @@ clinician/editor must review the copy before flipping `reviewed: true`.
   carry a self-hosted PD/CC0 image**.
 - `feed-news.json` — **10 items** (all `type: update`, `locale: en`, newest first);
   genuinely recent (Mar 2025 → Jun 2026); 1 carries an image.
-- **13 images**, all downloaded to `docs/img/` and confirmed **public-domain or CC0
+- **13 images**, all downloaded to `docs/content/img/` and confirmed **public-domain or CC0
   (no attribution)**; SVG diagrams rasterized to PNG (iOS won't render SVG). The beer
   SVG failed to rasterize and was dropped (`k-alcohol` has no image).
 - Schema validation: **both files pass** ajv (Draft 2020-12,
@@ -73,7 +73,7 @@ PubMed 32391934 / 27457514 verified in v1)
   associations also have cohort support (Lancet/BMJ/NEJM, Choi et al.).
 - `k-flare-course` and `k-what-are-tophi` share the NIAMS URL (both supported by it).
 
-## 3. Images — all KEPT are Public Domain / CC0 (no attribution), self-hosted in `docs/img/`
+## 3. Images — all KEPT are Public Domain / CC0 (no attribution), self-hosted in `docs/content/img/`
 
 | file | item | licence |
 |------|------|---------|
