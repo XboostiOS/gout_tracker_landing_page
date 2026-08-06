@@ -24,6 +24,26 @@
       "imageUrl": "https://goutly.xboostapp.io/content/img/n-eular2026-continue-ult.png"
     },
     {
+      "id": "n-gout-awareness-day",
+      "type": "update",
+      "publishDate": "2026-05-22",
+      "locale": "en",
+      "title": "Gout Awareness Day shines a light on a common disease",
+      "summary": "May 22 is Gout Awareness Day, an annual campaign by the Alliance for Gout Awareness to build understanding of gout and reduce stigma. The alliance says gout is very common, affecting more than 12 million Americans, yet many people go undertreated. 2025 marked the campaign's 20th year.",
+      "whyItMatters": "It is a reminder that gout is widespread and manageable, and that staying in ongoing care is both common and worthwhile.",
+      "tags": [
+        "awareness",
+        "epidemiology"
+      ],
+      "evidence": "news",
+      "sourceName": "Alliance for Gout Awareness",
+      "sourceUrl": "https://goutalliance.org/gout-awareness-day/",
+      "reviewed": true,
+      "category": "general",
+      "readMinutes": 1,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/n-gout-awareness-day.png"
+    },
+    {
       "id": "n-reduce2-pozdeutinurad",
       "type": "update",
       "publishDate": "2026-05-21",
@@ -229,6 +249,26 @@
       "category": "research",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/n-eular2026-continue-ult.png"
+    },
+    {
+      "id": "n-gout-awareness-day-vi",
+      "type": "update",
+      "publishDate": "2026-05-22",
+      "locale": "vi",
+      "title": "Ngày Nhận thức về Gout tôn vinh một bệnh phổ biến",
+      "summary": "Ngày 22 tháng 5 là Ngày Nhận thức về Gout (Gout Awareness Day), chiến dịch thường niên của Alliance for Gout Awareness nhằm nâng cao hiểu biết về gút và giảm kỳ thị. Tổ chức này cho biết gút rất phổ biến, ảnh hưởng hơn 12 triệu người Mỹ, nhưng nhiều người vẫn chưa được điều trị đầy đủ. Năm 2025 đánh dấu năm thứ 20 của chiến dịch.",
+      "whyItMatters": "Đây là lời nhắc rằng gút rất phổ biến và có thể kiểm soát, và việc duy trì điều trị lâu dài là điều thường gặp và đáng làm.",
+      "tags": [
+        "awareness",
+        "epidemiology"
+      ],
+      "evidence": "news",
+      "sourceName": "Alliance for Gout Awareness",
+      "sourceUrl": "https://goutalliance.org/gout-awareness-day/",
+      "reviewed": true,
+      "category": "general",
+      "readMinutes": 1,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/n-gout-awareness-day.png"
     },
     {
       "id": "n-reduce2-pozdeutinurad-vi",
@@ -438,6 +478,26 @@
       "imageUrl": "https://goutly.xboostapp.io/content/img/n-eular2026-continue-ult.png"
     },
     {
+      "id": "n-gout-awareness-day-ja",
+      "type": "update",
+      "publishDate": "2026-05-22",
+      "locale": "ja",
+      "title": "痛風啓発デー、身近な病気に光を当てる",
+      "summary": "5月22日は痛風啓発デー（Gout Awareness Day）で、Alliance for Gout Awareness が痛風への理解を広げ、偏見を減らすために毎年行う取り組みです。同団体によると、痛風は非常に一般的で、アメリカでは1,200万人以上が抱えているとされますが、十分な治療を受けていない人も多いといいます。2025年で20年目を迎えました。",
+      "whyItMatters": "痛風は広く見られる一方で管理できる病気であり、治療を続けることはよくあることで意味があると気づかせてくれます。",
+      "tags": [
+        "awareness",
+        "epidemiology"
+      ],
+      "evidence": "news",
+      "sourceName": "Alliance for Gout Awareness",
+      "sourceUrl": "https://goutalliance.org/gout-awareness-day/",
+      "reviewed": true,
+      "category": "general",
+      "readMinutes": 1,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/n-gout-awareness-day.png"
+    },
+    {
       "id": "n-reduce2-pozdeutinurad-ja",
       "type": "update",
       "publishDate": "2026-05-21",
@@ -643,6 +703,26 @@
       "category": "research",
       "readMinutes": 2,
       "imageUrl": "https://goutly.xboostapp.io/content/img/n-eular2026-continue-ult.png"
+    },
+    {
+      "id": "n-gout-awareness-day-zh",
+      "type": "update",
+      "publishDate": "2026-05-22",
+      "locale": "zh-Hans",
+      "title": "痛风关注日：让一种常见病走进视野",
+      "summary": "5月22日是痛风关注日（Gout Awareness Day），由 Alliance for Gout Awareness 每年发起，旨在增进人们对痛风的了解并减少偏见。该组织表示，痛风很常见，影响超过1200万美国人，但许多人仍未得到充分治疗。2025年是该活动的第20年。",
+      "whyItMatters": "它提醒我们痛风虽常见但可以管理，持续接受治疗既普遍又值得。",
+      "tags": [
+        "awareness",
+        "epidemiology"
+      ],
+      "evidence": "news",
+      "sourceName": "Alliance for Gout Awareness",
+      "sourceUrl": "https://goutalliance.org/gout-awareness-day/",
+      "reviewed": true,
+      "category": "general",
+      "readMinutes": 1,
+      "imageUrl": "https://goutly.xboostapp.io/content/img/n-gout-awareness-day.png"
     },
     {
       "id": "n-reduce2-pozdeutinurad-zh",
