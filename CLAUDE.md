@@ -60,16 +60,24 @@ items. (Do the translation directly — no separate tool.)
 
 ## Non-negotiable source rules
 
-- **Trust tier maps to `evidence`:** guideline > `rct`/`review` > `news`.
-- **Every item cites the PRIMARY source** (guideline / peer-reviewed paper /
-  conference abstract / ClinicalTrials.gov). Prefer PubMed/PMC/DOI URLs — they
-  resolve for everyone (BMJ/NEJM/Wiley block bots).
-- **Med-news (Rheumatology Advisor, Healio, MedPage, BioPharma Dive) = discovery
-  only; patient-ed/advocacy (Gout Education Society, Arthritis Foundation,
-  CreakyJoints) = tone reference only. Neither is ever a `sourceUrl`.**
-- **Banned:** supplements, home-remedy listicles, blogs, SEO farms, product sellers.
-- **Never fabricate.** No invented URL/DOI/finding. Can't verify a primary source →
-  drop the item.
+- **Knowledge vs News is about verification, not topic.** Knowledge = *established,
+  verified* facts (this-is-true). News = *latest gout news*, which need not be proven
+  or peer-reviewed (this-is-being-reported).
+- **Knowledge sources (strict):** a primary/authoritative source per item — guideline
+  (ACR/EULAR/NICE/APLAR) or peer-reviewed journal; for evergreen basics a major
+  medical-reference org (NIAMS/NHS/Mayo/CDC/MedlinePlus, and patient-ed orgs like
+  Arthritis Foundation) with `evidence: review`. Prefer PubMed/PMC/DOI URLs (they
+  resolve for everyone; BMJ/NEJM/Wiley block bots). Trust tier → `evidence`:
+  guideline > `rct`/`review`.
+- **News sources (lenient):** a primary source is welcome but **not required**.
+  Reputable med-news (Rheumatology Advisor, Healio, MedPage, BioPharma Dive), a
+  company/registry/regulator page, or an org's own page for its own event/campaign
+  are all valid `sourceUrl`s. `evidence: news`. Frame as reported/preliminary, attribute
+  claims ("the group says…"), never assert as settled fact.
+- **Banned everywhere:** supplements, home-remedy listicles, blogs, SEO farms, product
+  sellers.
+- **Never fabricate.** No invented URL/DOI/finding, in either tab. Every item needs a
+  real, working URL you actually opened; if you can't find one, drop the item.
 - **Copy guardrails:** original wording (no close paraphrase); no dosing/diagnosis
   advice; targets tied to "the target your doctor sets"; `summary` 2–4 neutral
   sentences; `whyItMatters` one declarative sentence, never imperative.

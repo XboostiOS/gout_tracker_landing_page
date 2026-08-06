@@ -12,11 +12,19 @@ report) is in git but never served.
 - So `imageUrl` is always `https://goutly.xboostapp.io/content/img/<item-id>.<ext>` (self-hosted, never a third-party hotlink).
 - Schemas + this prompt live in the **repo-root** `content/` (internal, not served) — distinct from the served `docs/content/`.
 
-**Two content types, two trust profiles:**
-- **Knowledge** = evergreen foundation, written once, rarely changes. Anchor to
-  **guidelines**.
-- **News** = dated updates, must stay fresh. Anchor to the **primary paper /
-  guideline / trial registry** — specialty med-news is for *discovery only*.
+**Two content types — the key difference is verification, not topic:**
+- **Knowledge** = *established, verified* facts about gout — evergreen, written once,
+  rarely changes. Every claim must rest on a solid primary source (guideline / journal).
+  This is the "this is true" tab.
+- **News** = the *latest gout news* — and it does **not** have to be proven or
+  peer-reviewed. Drug pipelines, trial readouts, approvals, company research,
+  awareness days/events: "company A is trialling drug B", "a study reported X".
+  It is reporting on what's happening, not asserting settled fact. The bar is: a
+  **real, working source** you actually opened, framed neutrally as *reported /
+  preliminary* (never as established truth or advice), and **nothing fabricated**.
+  A peer-reviewed primary source is nice but not required — reputable med-news, a
+  company/registry/regulator page, or an advocacy org's page for its own event all
+  qualify.
 
 ---
 
@@ -34,21 +42,23 @@ be a press release, registry, or reputable med-news page.
 | **2 — Peer-reviewed journals** | `rct` or `review` | **Annals of the Rheumatic Diseases (ARD)**, **Arthritis & Rheumatology**, **Arthritis Care & Research**, **Rheumatology (Oxford)**, **The Lancet**, **NEJM**, **Journal of Rheumatology** | Where real papers appear. The **ideal `sourceUrl`** for News. |
 | **3 — Primary "news" objects** | `news` | **ACR Convergence** (Nov) & **EULAR Congress** (June) conference abstracts; **ClinicalTrials.gov** records; **company press releases** (e.g. Sobi, PR Newswire); **regulatory** notices (FDA/EMA) | Earliest phase-3 data, approvals, trial-status/business news. Cite the abstract/registry/press page itself. |
 | **Specialty med-news** | `news` (News only) | **Rheumatology Advisor**, **Healio Rheumatology**, **MedPage Today**, **BioPharma Dive**, congress-coverage outlets | Best for *discovery*. For **News** items, if no primary exists, one of these MAY be the `sourceUrl` (`evidence: news`). For **Knowledge**, never — trace to a Tier-1/2 primary. |
-| **Tone reference only — NOT a source** | — | **Gout Education Society**, **Arthritis Foundation**, **CreakyJoints** | Read to calibrate plain-language voice. Never a `sourceUrl`. |
+| **Advocacy / patient-ed** | — (News: `news`) | **Gout Education Society**, **Arthritis Foundation**, **CreakyJoints**, **Alliance for Gout Awareness** | Calibrate plain-language voice. **Not** a Knowledge medical-claim `sourceUrl`. For **News**, an org's own page for *its own* event/campaign MAY be the `sourceUrl` (e.g. Gout Awareness Day). |
 
 **Carve-out (Knowledge basics):** for an evergreen *basic* with no guideline/journal
 statement (e.g. "what is gout"), a major medical-reference org (**Mayo Clinic, NHS,
 CDC, MedlinePlus, NIAMS**) may serve as the source with `evidence: "review"` — but a
 guideline's background section is preferred.
 
-**Carve-out (News):** News = genuinely recent, dated items (new trial readouts,
-approvals, pipeline/company developments — including things that are still uncertain
-or may not pan out). Find leads by searching "gout news / gout update" + specialty
-med-news, then **prefer** a primary source (journal, ClinicalTrials.gov, company
-press, regulator); a reputable med-news page is an acceptable `sourceUrl` when that is
-all that exists. Still: real, working URL you actually opened; **nothing fabricated**;
-frame preliminary findings neutrally and attributed ("a company reported…", "in a
-trial presented at…"). `evidence: news` for most; `rct` only for an actual trial with
+**Carve-out (News):** News = the latest gout news — trial readouts, approvals,
+pipeline/company developments, awareness days/events — **and it does not need to be
+proven or peer-reviewed**. It is reporting what's happening, not asserting settled
+fact (that's Knowledge's job). Find leads by searching "gout news / gout update" +
+specialty med-news. A primary source (journal, ClinicalTrials.gov, company press,
+regulator) is welcome but **not required** — reputable med-news, or an org's own page
+for its own event, is a perfectly good `sourceUrl`. The only hard rules: a **real,
+working URL you actually opened**, **nothing fabricated**, no medical advice, and
+neutral *reported / preliminary* framing ("a company reported…", "in a trial presented
+at…", "the group says…"). `evidence: news` for most; `rct` only for an actual trial with
 results.
 
 **Banned outright:** supplement sites, "home remedy / X foods to avoid" listicles,
